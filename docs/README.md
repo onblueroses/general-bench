@@ -20,6 +20,7 @@ minute by minute; and a mechanical verdict decides the battle.
 | [staff-study-tables.md](staff-study-tables.md) | the full agreement report behind the staff study |
 | [kolin-test-pack.md](kolin-test-pack.md) | the sources and numbers of the Kolín test pack |
 | [results.md](results.md) | the standings, head to head, rounds, replays, noise floor, seats and styles of the published games |
+| [generals.md](generals.md) | how each model commands, in depth: rallies, silence, the opening, repeats, with a game told for each |
 
 Start with [battles/README.md](battles/README.md) for what is being measured and
 [engine.md](engine.md) for how. The code is in `src/kriegsspiel/`, the battle packs in `data/`,

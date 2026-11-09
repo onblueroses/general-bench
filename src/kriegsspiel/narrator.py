@@ -31,7 +31,17 @@ from .clock import clock
 from .command import Picture, place
 from .geometry import POINTS8, bearing_word, dist_words
 from .scenario import Meta, unwrap
-from .types import Arm, Cover, Feature, FeatureKind, Formation, GeometryKind, Message, Unit
+from .types import (
+    Arm,
+    Cover,
+    Feature,
+    FeatureKind,
+    Formation,
+    GeometryKind,
+    Message,
+    TaskKind,
+    Unit,
+)
 
 # ---------------------------------------------------------------------------
 # Constants (assumptions)
@@ -542,10 +552,14 @@ class Narrator:
             f = self.formations.get(f.parent)
         return out
 
-    def _task_words(self, m: Message, fid: str) -> str:
+    def _task_words(self, m: Message, fid: str, hq: bool = True) -> str:
+        """The staff's reading of `m` for formation `fid`; without the headquarters' moves
+        when `hq` is false."""
         bits = []
         for t in m.tasks:
             if t.formation != fid and fid not in self._descendants(t.formation):
+                continue
+            if not hq and t.kind == TaskKind.MOVE_HQ:
                 continue
             obj = ""
             if t.objective is not None:
@@ -592,8 +606,13 @@ class Narrator:
                 else "position unknown"
             )
             task = ""
+            # its own orders, and those to a higher formation that set it a task (not, say,
+            # the headquarters' move in an order to the army)
             mine = [
-                m for m in pic.orders if m.recipient == b.id or m.recipient in self._ancestors(b.id)
+                m
+                for m in pic.orders
+                if m.recipient == b.id
+                or (m.recipient in self._ancestors(b.id) and self._task_words(m, b.id, hq=False))
             ]
             if mine:
                 m = mine[-1]

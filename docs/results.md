@@ -137,7 +137,7 @@ DeepSeek's orders use most, and the generals' brief changed with it: in round 1 
 point given only as so far in such a direction from a village cannot be found", in round 2 that
 the staff can fix "a point set off from a named place by a measured distance and a point of the
 compass" (each record carries the prompt it was played with). Orders naming such a point went
-from 10% of DeepSeek's and none of the others' in round 1 to 11 to 74% of every model's in
+from 11% of DeepSeek's and none of the others' in round 1 to 11 to 74% of every model's in
 round 2. DeepSeek's 72 round-1 games were replayed under the fixed staff
 (`games/extra/deepseek-rerun`): its share went from 37% to 32%, inside its interval. Round 2 was
 played with the fixed staff throughout; the matrix keeps the original round-1 games.
@@ -146,27 +146,31 @@ played with the fixed staff throughout; the matrix keeps the original round-1 ga
 
 `uv run python scripts/styles.py`, per game unless noted.
 
-| model | briefs | silent | words | think s | orders | queried | attack | advance | hold | support | rally | withdraw | bold | reckless | battle length (min) | own army broken |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| deepseek | 32 | 2% | 284 | 15 | 328 | 11% | 6% | 14% | 44% | 7% | 6% | 2% | 20% | 15% | 148 | 52% |
-| fable | 35 | 34% | 66 | 15 | 105 | 7% | 7% | 25% | 19% | 16% | 7% | 9% | 15% | 10% | 218 | 37% |
-| astra | 32 | 31% | 36 | 46 | 77 | 5% | 7% | 34% | 17% | 10% | 12% | 10% | 14% | 1% | 179 | 18% |
-| sonnet | 30 | 46% | 50 | 10 | 77 | 6% | 9% | 26% | 15% | 24% | 3% | 5% | 20% | 1% | 198 | 54% |
-| luna | 23 | 28% | 27 | 37 | 66 | 5% | 20% | 16% | 15% | 13% | 10% | 10% | 32% | 2% | 133 | 42% |
-| opus | 29 | 40% | 42 | 11 | 66 | 6% | 6% | 28% | 19% | 14% | 6% | 8% | 14% | 16% | 152 | 39% |
-| sol | 28 | 39% | 22 | 44 | 52 | 6% | 6% | 28% | 13% | 17% | 8% | 11% | 17% | 5% | 144 | 40% |
+| model | briefs | silent | words | think s | orders | queried | attack | advance | hold | support | rally | withdraw | bold | reckless | standing | placed | battle length (min) | own army broken |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| deepseek | 32 | 2% | 284 | 15 | 328 | 11% | 6% | 14% | 44% | 7% | 6% | 2% | 20% | 15% | 5% | 9% | 148 | 52% |
+| fable | 35 | 34% | 66 | 15 | 105 | 7% | 7% | 25% | 19% | 16% | 7% | 9% | 15% | 10% | 13% | 19% | 218 | 37% |
+| astra | 32 | 31% | 36 | 46 | 77 | 5% | 7% | 34% | 17% | 10% | 12% | 10% | 14% | 1% | 5% | 3% | 179 | 18% |
+| sonnet | 30 | 46% | 50 | 10 | 77 | 6% | 9% | 26% | 15% | 24% | 3% | 5% | 20% | 1% | 4% | 11% | 198 | 54% |
+| luna | 23 | 28% | 27 | 37 | 66 | 5% | 20% | 16% | 15% | 13% | 10% | 10% | 32% | 2% | 1% | 0% | 133 | 42% |
+| opus | 29 | 40% | 42 | 11 | 66 | 6% | 6% | 28% | 19% | 14% | 6% | 8% | 14% | 16% | 8% | 13% | 152 | 39% |
+| sol | 28 | 39% | 22 | 44 | 52 | 6% | 6% | 28% | 13% | 17% | 8% | 11% | 17% | 5% | 0% | 1% | 144 | 40% |
 
 - **briefs**: times the general was consulted. **silent**: the share of briefs answered with
   no order. **words**: median words in a reply that gives orders. **think s**: median seconds
   per reply, which includes the harness. **orders**: orders the staff read. **queried**: the
   share of orders the staff answered with a question.
 - The task columns are the share of the staff's tasks of each kind; **bold** and
-  **reckless** ("at all costs") are the share given in that manner.
+  **reckless** ("at all costs") are the share given in that manner. **standing** is the share of
+  orders with a standing limit ("attacking nothing without a further order"), **placed** the
+  share that place a body by another ("behind the First brigade").
 - **battle length** and **own army broken** are medians at the verdict.
 
-Astra ends its battles with the least of its army broken (18%) and rallies more than any other
-model. Opus gives the most tasks to be pressed at all costs (16%), Luna the most bold ones
-(32%). DeepSeek writes thirteen times as many words a reply as Sol and sends three times as
-many orders as Fable; 44% of its tasks are "hold". Luna attacks two to three times as often as the
-others and fights the shortest battles. Sonnet is silent at almost half its briefs and gives
-the most support orders.
+Astra ends its battles with the least of its army broken (18%): its bodies break as often as
+anyone's, but it rallies them fastest. Opus gives the most tasks to be pressed at all costs
+(16%), nearly all of them to hold the village; Luna the most bold ones (32%). DeepSeek writes
+thirteen times as many words a reply as Sol and sends three times as many orders as Fable; 44%
+of its tasks are "hold". Fable fences and places its brigades more than any other model. Luna
+attacks two to three times as often as the others and fights the shortest battles. Sonnet is
+silent at almost half its briefs and gives the most support orders. Each model in depth:
+[generals.md](generals.md).

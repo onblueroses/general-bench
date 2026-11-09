@@ -9,7 +9,7 @@ from __future__ import annotations
 import hashlib
 import itertools
 import math
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from typing import TYPE_CHECKING, Protocol
 
 import numpy as np
@@ -857,6 +857,18 @@ def passable_near(sim: Sim, u: Unit, q: geo.Point) -> geo.Point:
     return q
 
 
+def same_orders(a: Task | None, b: Task | None) -> bool:
+    """Whether two tasks order the same thing, the wording and the times aside: the same
+    order sent again."""
+    if a is None or b is None:
+        return a is b
+
+    def bare(t: Task) -> Task:
+        return replace(t, source_text="", issued_at=None, received_at=None, then=None)
+
+    return bare(a) == bare(b) and same_orders(a.then, b.then)
+
+
 def apply_task(sim: Sim, task: Task) -> None:
     f = sim.forces
     side = (
@@ -900,7 +912,7 @@ def apply_task(sim: Sim, task: Task) -> None:
     # nearest to the body (as start_body heads an arriving body for its objective), queueing
     # on the route behind its neighbours instead of spreading a line across the exit
     leave_by = exit_objective(sim, task) if p is not None else None
-    if p is not None and task.kind != TaskKind.RALLY and leave_by is None:
+    if p is not None and leave_by is None:  # a rally at a place forms there too
         theta = geo.bearing(cen, p) if geo.dist(cen, p) > 1.0 else bodies[0].facing_deg
         # order by brigade lateral position, then own lateral position (no crossing)
         blat: dict[str, float] = {}
@@ -944,8 +956,11 @@ def apply_task(sim: Sim, task: Task) -> None:
     )
     for u in bodies:
         rt = sim.rt[u.id]
+        again = same_orders(u.task, task)
         u.task = task
         u.order_log.append({"at": sim.now, "kind": task.kind.value, "text": task.source_text})
+        if again:  # the order it is carrying out, sent again: it carries on as it was
+            continue
         rt.offset = offsets.get(u.id, (0.0, 0.0))
         rt.slot = (p[0] + rt.offset[0], p[1] + rt.offset[1]) if p is not None else (u.x, u.y)
         if hold_on is not None and sim.world.feature_distance(u.x, u.y, hold_on) <= HOLD_ON_M:

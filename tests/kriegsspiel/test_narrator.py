@@ -244,3 +244,55 @@ def test_own_troops_show_the_reported_strength_against_the_start(kolin):
         x for x in nar.own_prose(pic, "prussia", "13:00").splitlines() if x.startswith("- Hülsen")
     )
     assert "4,100 men" in line and "of 4,480" not in line
+
+
+def test_an_order_to_the_army_shows_on_a_brigade_only_with_a_task_for_it(kolin):
+    """The headquarters' move in an order to the army is not each brigade's last order; an
+    army order that sets the brigades a task is."""
+    from kriegsspiel.types import Ref, RefKind, Task, TaskKind
+
+    nar = _narrator(kolin)
+
+    def hulsen(orders):
+        pic = Picture(side="prussia", now=30, clock="13:30", hq=(6641.0, 4961.0), orders=orders)
+        return next(
+            x
+            for x in nar.own_prose(pic, "prussia", "13:00").splitlines()
+            if x.startswith("- Hülsen")
+        )
+
+    own = Message(
+        "m1",
+        "prussia",
+        MessageKind.ORDER,
+        "army",
+        "P-HUL",
+        "Hülsen, hold the Krzeczhorz.",
+        sent_at=5.0,
+        received_at=9.0,
+        tasks=[Task(TaskKind.HOLD, "P-HUL")],
+    )
+    ride = Message(
+        "m2",
+        "prussia",
+        MessageKind.ORDER,
+        "army",
+        "P",
+        "Headquarters will ride to the mill.",
+        sent_at=20.0,
+        received_at=20.0,
+        tasks=[Task(TaskKind.MOVE_HQ, "P", Ref(RefKind.POINT, point=(7000.0, 5000.0)))],
+    )
+    halt = Message(
+        "m3",
+        "prussia",
+        MessageKind.ORDER,
+        "army",
+        "P",
+        "The whole army will halt.",
+        sent_at=25.0,
+        received_at=27.0,
+        tasks=[Task(TaskKind.HOLD, "P")],
+    )
+    assert "hold the Krzeczhorz" in hulsen([own, ride])
+    assert "The whole army will halt" in hulsen([own, ride, halt])

@@ -271,8 +271,10 @@ Tasks are executed by fixed, deterministic drills, not a planner:
   bombard.
 - Hold deploys facing the nearest threat; screen keeps 600 to 1,000 m from the enemy and falls
   back when pressed; support follows a friendly formation at 300 m; withdraw moves away from the
-  nearest enemy, 1 km if no objective is given; rally halts a formation and lets its routed
-  bodies recover.
+  nearest enemy, 1 km if no objective is given; rally lets a formation's routed bodies recover
+  and halts it where it stands, or, when the order names a place, marches it there and halts.
+- An order the formation is already carrying out, sent again in other words or at another time,
+  changes nothing: a line keeps its fire before the bayonet and horse keeps re-forming.
 - An advance told to leave by an exit, engaging or pressing, fights only what stands within
   200 m of its line of march and goes round what it will not fight. Any other advance halts at
   what it meets.
@@ -361,7 +363,8 @@ The first brief of a side opens with the persona ([player prompt](player-prompt.
 5. older dispatches in brief, one line per sender;
 6. the general's own orders: addressees, when each aide left, whether it has arrived;
 7. his own troops as last reported: place, distance and bearing from headquarters, men, report
-   time, the last order and the staff's reading of it;
+   time, the last order and the staff's reading of it (an order to the army counts as a
+   brigade's last order only when it sets that brigade a task);
 8. the enemy as known at headquarters, grouped: count, arm, estimated strength, place, distance
    and bearing, when last seen;
 9. the ground around headquarters: the cover underfoot, and on eight bearings the cover at 1, 2
@@ -406,6 +409,19 @@ chose not to order. If the decisions model fails for good mid-game, the game als
 the half-run tick is not logged and a `stopped` record says why.
 
 The loop ends when the verdict rules the battle over, or at the end of the play-on.
+
+## Changes since the matrix
+
+The 504 matrix games and the records in `games/` were played before three faults were fixed; the
+game study found them (`docs/generals.md`). The code at the tag `matrix` is the code round 2 was
+played with, and its games replay there bit for bit.
+
+- An order sent again reset the body to the start of its task: a line's fire before the bayonet
+  began again and horse cut its re-form short. A general who repeated his orders every few
+  minutes gained by it; DeepSeek did most.
+- An order to the army, such as moving headquarters, showed in the brief as every brigade's last
+  order until the brigade had a new one, hiding the task it was carrying out.
+- A rally halted the formation where it stood, whatever place the order named.
 
 ## Determinism and replay
 

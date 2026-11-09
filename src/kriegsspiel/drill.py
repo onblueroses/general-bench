@@ -272,8 +272,10 @@ def plan_infantry(sim: Sim, u: Unit, rt: BodyRT, t: Task, known) -> Plan:
     slot = _slot(sim, u, rt)
     deploy = DEPLOY_M[t.manner]
     final = t.state or UnitState.LINE
-    if t.kind == TaskKind.RALLY:
-        return Plan(goal=None, state=None)
+    if t.kind == TaskKind.RALLY:  # at its place, if the order names one; else where it stands
+        if t.objective is None:
+            return Plan(goal=None, state=None)
+        return _arrive_or_march(u, rt, slot, known, UnitState.COLUMN, UnitState.LINE)
     if t.kind == TaskKind.HOLD:
         return _arrive_or_march(u, rt, slot, known, UnitState.COLUMN, final)
     if t.kind == TaskKind.WITHDRAW or rt.phase == "fallback":
@@ -386,7 +388,9 @@ def plan_cavalry(sim: Sim, u: Unit, rt: BodyRT, t: Task, known) -> Plan:
         rt.phase = "march"
         rt.blown = False
     if t.kind == TaskKind.RALLY:
-        return Plan(goal=None)
+        if t.objective is None:
+            return Plan(goal=None)
+        return _arrive_or_march(u, rt, slot, known, UnitState.COLUMN, UnitState.LINE)
     if t.kind == TaskKind.HOLD:
         return _arrive_or_march(u, rt, slot, known, UnitState.COLUMN, t.state or UnitState.LINE)
     if t.kind == TaskKind.WITHDRAW or rt.phase == "fallback":
@@ -481,7 +485,11 @@ def _screen_square(u: Unit, e: Sighting, d: float) -> Plan:
 def plan_artillery(sim: Sim, u: Unit, rt: BodyRT, t: Task, known) -> Plan:
     slot = _slot(sim, u, rt)
     if t.kind == TaskKind.RALLY:
-        return Plan(goal=None)
+        if t.objective is None:
+            return Plan(goal=None)
+        return _arrive_or_march(
+            u, rt, slot, known, UnitState.LIMBERED, UnitState.UNLIMBERED, gait="walk"
+        )
     e, d = _objective_target(u, rt, known)
     face = _facing_to(u, e) if e is not None else None
     if t.kind == TaskKind.WITHDRAW or rt.phase == "fallback":
@@ -504,7 +512,7 @@ def plan_train(sim: Sim, u: Unit, rt: BodyRT, t: Task, known) -> Plan:
     with an enemy (an ATTACK or CHARGE moves it to the objective like an ADVANCE) and holds
     nothing but its place."""
     slot = _slot(sim, u, rt)
-    if t.kind == TaskKind.RALLY:
+    if t.kind == TaskKind.RALLY and t.objective is None:
         return Plan(goal=None)
     return _arrive_or_march(u, rt, slot, known, UnitState.COLUMN, UnitState.COLUMN)
 

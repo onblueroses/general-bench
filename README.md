@@ -45,34 +45,41 @@ Head to head, rounds, replays, the noise floor and the seat balance: [`docs/resu
 
 ## Each model commands in its own way
 
-The same brief, 144 games, and each model keeps a recognisable style. Measured from the staff's
-reading of every order (`scripts/styles.py`); the orders below are quoted from the games.
+The same brief, 144 games, and each model keeps a recognisable style. Measured from the reports
+in each general's briefs, the staff's reading of every order and the orders' own words
+(`scripts/generals.py`, `scripts/styles.py`); the orders below are quoted from the games. Each
+model in depth, with a game told for each: [`docs/generals.md`](docs/generals.md).
 
-- **Astra advances and rallies.** It rallies broken units more than any other model and ends
-  its battles with the least of its army broken: 18%, against 37 to 54% for the others.
-  > Pettifer, advance boldly in column by High road to Plover Village, seize the crossroads, and
-  > hold within 200 m of them; do not pursue beyond the village.
-- **Sol is laconic.** Its replies run to a median of 22 words, it is silent at two briefs in
-  five, and it sends the fewest orders, 52 a game.
-  > Royle attack Plover Village boldly, then hold Plover Village.
-- **Fable builds a line and fences it.** One order in eight carries a standing limit
-  ("attacking nothing without a further order"), and one in five places a brigade by another;
-  no other model does either as often. It writes to its brigades most often among the Claude
-  and GPT models and fights the longest battles.
+- **Astra rallies at once and gets its men back.** Its bodies break as often as anyone's, but 85%
+  of its breaks get a rally order within a quarter hour (the others 38 to 72%), and it recovers
+  52% of the men that broke (15 to 34%). It ends with 18% of its army broken, against 37 to 54%.
+  > Pellow, withdraw to 1500 m west of Teasel Village, then rally the Fourth brigade there.
+- **Fable fences its line and waits.** One order in eight carries a standing limit and one in
+  five places a brigade by another; no other model passes 8% and 13%. It takes 61% on Plain and
+  Mirror and 46% on Arms, where the armies differ.
   > Sixth brigade: advance to Bullace Farm and hold there in column behind the First brigade,
   > attacking nothing without further orders.
-- **Opus is quiet and direct.** It is silent at 40% of its briefs and, when it speaks, it is
-  the model most ready to spend a brigade: 16% of its tasks are to be carried out at all costs.
-  > Second brigade, Pashley, will attack Medlar Village in column at all costs, then hold it.
-- **Luna attacks.** A fifth of its tasks are attacks, two to three times any other model's
-  share, and it fights the shortest battles.
-  > Grenadier brigade advance in column to Plover Village, then support the Second brigade.
-- **DeepSeek over-controls.** It answers almost every brief, with a median of 284 words, and
-  sends 328 orders a game, 44% of them "hold". It places brigades by measured distances.
-  > Second brigade (Quayle): march by the High road to a point 400 m east of Plover Village;
-  > halt there and form line facing west.
-- **Sonnet is passive.** It is silent at 46% of its briefs and gives the most support orders.
-  > Fourth brigade: advance to Osier road and support the Grenadier brigade.
+- **Sol plans once and lets it run.** 29% of its orders are written by 09:05 (the others 5 to
+  27%), and an order to a formation stands a median 30 minutes before the next (the others 5 to
+  25).
+  > Royle attack Plover Village boldly, then hold Plover Village.
+- **Opus garrisons the village.** At 09:00 it puts 2.3 brigades a game under orders "at all costs"
+  (the others at most 1.4), and in 97% of its at-all-costs orders the phrase goes with "hold".
+  > Second brigade will march at once in column by the High road, with all speed, to Teasel
+  > Village, occupy it and hold it at all costs.
+- **Luna attacks at once.** It opens with an attack in 56% of its games (the others 5 to 33%) and
+  pays for it: 38% in those games, 58% in the rest. For the other six the opening makes no
+  difference.
+  > Sixth brigade advance in column to Teasel Village, deploy and attack any enemy there boldly.
+- **DeepSeek re-sends everything.** An order to a brigade stands a median 5 minutes before the
+  next (the others 18 to 30), and 57% repeat the task before (18 to 25%). A quarter of its orders
+  hand a brigade a side or quarter of the village; no other model reaches 6%.
+  > Fourth brigade (Bunce): hold the north side of Plover Village at all costs.
+- **Sonnet goes quiet when it is hurt.** It gives no order at 40% of the briefs that report one
+  of its bodies broken (the others 1 to 21%), and only 43% of its breaks get a rally order within
+  half an hour (68 to 87%).
+  > Mawhood, the Second brigade will fall back to Heron Ridge in good order and form in line on
+  > the right of the Third brigade.
 
 ## The battles
 
@@ -133,6 +140,10 @@ The engine, the staff, the brief and the play loop: [`docs/engine.md`](docs/engi
   so the seat cancels in the standings.
 - **Built with a contestant.** The engine and the harness were written with the help of Claude
   Fable 5.1 and Codex models. Fable also plays.
+- **Three faults were fixed after the matrix.** An order sent again restarted the task (which
+  favoured a general who repeats himself), an order to the army hid the brigades' tasks in the
+  brief, and a rally ignored the place it named. The games were played with them and replay on
+  the tag `matrix` ([`docs/engine.md`](docs/engine.md#changes-since-the-matrix)).
 - **One engine, one era.** The results describe command in this game.
 
 ## Running it
@@ -151,7 +162,8 @@ uv run python -m kriegsspiel.run --scenario data/plain-crossroads \
   --players red=opus,blue=sol --mode record
 
 # replay a game from its full run log and the staff's recorded answers beside it, bit for bit,
-# with no model or network call (the records in games/ are slimmed and do not replay)
+# with no model or network call, on the code it was played with (the matrix's round 2: the tag
+# `matrix`); the records in games/ are slimmed and do not replay
 uv run python -m kriegsspiel.run replay runs/<game>/run.jsonl
 
 # a round robin on one battle (the matrix ran this on all three, seeds 1 to 4),
@@ -174,12 +186,21 @@ staff read it, every melee the umpire weighed, and the verdict. The format is de
 [`scripts/slim_games.py`](scripts/slim_games.py). `games/extra/` holds the noise-floor replays,
 the DeepSeek rerun and the GPT-6 replays.
 
+The full run logs (every minute of the engine, every staff request and answer) are attached to
+the release [`matrix`](https://github.com/onblueroses/general-bench/releases/tag/matrix) as three
+archives laid out as `games/` is (`tar --zstd -xf general-bench-logs-round-2.tar.zst`).
+`MANIFEST.tsv` names the development commit each game was played on and whether it replays bit
+for bit on the tag `matrix`: round 2, the DeepSeek rerun, the noise floor and the GPT-6 replays on
+current code do (456 games); round 1 and the replays on its code were played before the staff
+fix and the brief change, on code that is not published.
+
 | script | what it prints |
 |---|---|
 | `scripts/standings.py` | standings, ratings, intervals, likely ranks, head to head, by round |
-| `scripts/styles.py` | how each model commands |
+| `scripts/styles.py` | how each model commands: briefs, words, tasks, manners |
+| `scripts/generals.py` | each model's command in depth, the numbers of [`docs/generals.md`](docs/generals.md) |
 | `scripts/checks.py` | how battles end, seats, the noise floor, the replays, the DeepSeek rerun |
-| `scripts/figures.py` | the figures above (`uv run --group figures`); the map replays a full run log |
+| `scripts/figures.py` | the figures above (`uv run --group figures`); the map replays a full run log, on the tag `matrix` |
 
 ## Repository
 
