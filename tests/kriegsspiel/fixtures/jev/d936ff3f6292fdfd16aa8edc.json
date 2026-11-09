@@ -1,0 +1,113 @@
+{
+ "key": "d936ff3f6292fdfd16aa8edc6476df50f1f9dae6e481df8fe102976c090e5a18",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T16:15:47Z",
+ "state": {
+  "document": "An umpire's account of the state of a battle.",
+  "sides": "Prussia and Austria; the attacker is Prussia.",
+  "account": "Evening, near sunset. The Austrian army still holds the Křečhoř heights, the village of Křečhoř and the Kaiserstrasse. The Prussian infantry of Hülsen, Tresckow and Manstein has been broken on the slopes and is falling back west towards Planian; the Prussian cavalry was routed by a counter-charge of Austrian and Saxon horse. Prussian losses are very heavy, Austrian losses moderate. Daun's army is intact and in good order on its position; the Prussians are no longer attacking anywhere.",
+  "objectives": "Frederick (Prussia): dislodge Daun from the Křečhoř heights and reopen the Kaiserstrasse to Kolín before nightfall. Daun (Austria): hold the heights and the road, preserve the army."
+ },
+ "questions": {
+  "winner": {
+   "type": "choice",
+   "instructions": "Judged against each side's objectives, who won the day? A side won only if it achieved more of its own objective than the other side did of its own.",
+   "criteria": {
+    "side_0": "Prussia won",
+    "side_1": "Austria won",
+    "undecided": "neither side won; the day is undecided"
+   }
+  },
+  "achieved_0": {
+   "type": "choice",
+   "instructions": "Judged against Prussia's own objective only, how much of it has Prussia achieved?",
+   "criteria": {
+    "wholly": "wholly: every part of the objective achieved",
+    "in_the_main": "in the main: the essentials achieved, something lost or left undone",
+    "in_part": "in part: some of it achieved, the essentials not",
+    "not_at_all": "not at all: nothing of the objective achieved"
+   }
+  },
+  "achieved_1": {
+   "type": "choice",
+   "instructions": "Judged against Austria's own objective only, how much of it has Austria achieved?",
+   "criteria": {
+    "wholly": "wholly: every part of the objective achieved",
+    "in_the_main": "in the main: the essentials achieved, something lost or left undone",
+    "in_part": "in part: some of it achieved, the essentials not",
+    "not_at_all": "not at all: nothing of the objective achieved"
+   }
+  },
+  "decisive": {
+   "type": "score",
+   "instructions": "How decisive was the result?",
+   "criteria": [
+    "indecisive: no real result, both armies intact",
+    "marginal: a narrow result, the loser retires in order",
+    "clear: a clear defeat, the loser driven from the field",
+    "crushing: the loser's army broken and in flight"
+   ]
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "winner": {
+    "type": "choice",
+    "choice": "side_1",
+    "probabilities": {
+     "side_0": 0,
+     "side_1": 1,
+     "undecided": 0
+    },
+    "confidence": 1
+   },
+   "achieved_0": {
+    "type": "choice",
+    "choice": "not_at_all",
+    "probabilities": {
+     "wholly": 0,
+     "in_the_main": 0,
+     "in_part": 0,
+     "not_at_all": 1
+    },
+    "confidence": 1
+   },
+   "achieved_1": {
+    "type": "choice",
+    "choice": "wholly",
+    "probabilities": {
+     "wholly": 0.99,
+     "in_the_main": 0.01,
+     "in_part": 0,
+     "not_at_all": 0
+    },
+    "confidence": 0.99
+   },
+   "decisive": {
+    "type": "score",
+    "score": 2.58,
+    "legend": {
+     "0": "indecisive: no real result, both armies intact",
+     "1": "marginal: a narrow result, the loser retires in order",
+     "2": "clear: a clear defeat, the loser driven from the field",
+     "3": "crushing: the loser's army broken and in flight"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.01,
+     "2": 0.4,
+     "3": 0.59
+    },
+    "confidence": 0.58
+   }
+  },
+  "usage": {
+   "input_tokens": 935,
+   "output_tokens": 167,
+   "cost": 3.927e-05
+  },
+  "id": "gen-dec-1792167346-NH6NCrjIdIUVacxfrqzk",
+  "provider": "TypeSafe"
+ }
+}

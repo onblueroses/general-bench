@@ -1,0 +1,35 @@
+{
+ "key": "d3c9912f5658fff0b4af0bef49b30c4852fb06447314214d184e2243b59a7a59",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:39:14Z",
+ "state": {
+  "order": "The whole army stands fast where it is on the heights;",
+  "task given to Köbel's brigade": "hold Křečhoř heights, carefully, halting when it meets the enemy"
+ },
+ "questions": {
+  "k10": {
+   "type": "noul",
+   "instructions": "Does the task given to Köbel's brigade go against the order: a different action or objective than the order gives Köbel's brigade, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k10": {
+    "type": "noul",
+    "noul": 0.11
+   }
+  },
+  "usage": {
+   "input_tokens": 405,
+   "output_tokens": 22,
+   "cost": 1.701e-05
+  },
+  "id": "gen-dec-1792161554-22DrKuXMzSxiF4PndM1w",
+  "provider": "TypeSafe"
+ }
+}

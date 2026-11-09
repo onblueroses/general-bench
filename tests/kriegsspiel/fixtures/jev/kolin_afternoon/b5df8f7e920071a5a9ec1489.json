@@ -1,0 +1,35 @@
+{
+ "key": "b5df8f7e920071a5a9ec14890dce4237122237592d741a83bb277f64666b01e9",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:39:15Z",
+ "state": {
+  "order": "The whole army stands fast where it is on the heights;",
+  "task given to Saxon chevaux-légers": "hold Křečhoř heights, carefully, halting when it meets the enemy"
+ },
+ "questions": {
+  "k12": {
+   "type": "noul",
+   "instructions": "Does the task given to Saxon chevaux-légers go against the order: a different action or objective than the order gives Saxon chevaux-légers, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k12": {
+    "type": "noul",
+    "noul": 0.14
+   }
+  },
+  "usage": {
+   "input_tokens": 408,
+   "output_tokens": 22,
+   "cost": 1.7136e-05
+  },
+  "id": "gen-dec-1792161555-ViHdY8eHNk5ML9JtRH9u",
+  "provider": "TypeSafe"
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "sides": [
+  "blue",
+  "red"
+ ],
+ "formations": [
+  {
+   "id": "B-army",
+   "name": "Blue Army",
+   "side": "blue",
+   "commander": "General Blau",
+   "parent": null,
+   "level": "army",
+   "aliases": [
+    "the army"
+   ]
+  },
+  {
+   "id": "B-inf1",
+   "name": "Blue 1. Brigade",
+   "side": "blue",
+   "commander": "Oberst B1",
+   "parent": "B-army",
+   "level": "brigade",
+   "aliases": [
+    "1. Brigade"
+   ]
+  },
+  {
+   "id": "B-inf2",
+   "name": "Blue 2. Brigade",
+   "side": "blue",
+   "commander": "Major B2",
+   "parent": "B-army",
+   "level": "brigade",
+   "aliases": [
+    "2. Brigade"
+   ]
+  },
+  {
+   "id": "B-cav",
+   "name": "Blue Cavalry",
+   "side": "blue",
+   "commander": "Rittmeister B",
+   "parent": "B-army",
+   "level": "brigade",
+   "aliases": [
+    "the cavalry"
+   ]
+  },
+  {
+   "id": "B-art",
+   "name": "Blue Artillery",
+   "side": "blue",
+   "commander": "Hauptmann B",
+   "parent": "B-army",
+   "level": "brigade",
+   "aliases": [
+    "the guns"
+   ]
+  },
+  {
+   "id": "R-army",
+   "name": "Red Army",
+   "side": "red",
+   "commander": "General Roth",
+   "parent": null,
+   "level": "army",
+   "aliases": [
+    "the army"
+   ]
+  },
+  {
+   "id": "R-inf1",
+   "name": "Red 1. Brigade",
+   "side": "red",
+   "commander": "Oberst R1",
+   "parent": "R-army",
+   "level": "brigade",
+   "aliases": [
+    "1. Brigade"
+   ]
+  },
+  {
+   "id": "R-inf2",
+   "name": "Red 2. Brigade",
+   "side": "red",
+   "commander": "Major R2",
+   "parent": "R-army",
+   "level": "brigade",
+   "aliases": [
+    "2. Brigade"
+   ]
+  },
+  {
+   "id": "R-cav",
+   "name": "Red Cavalry",
+   "side": "red",
+   "commander": "Rittmeister R",
+   "parent": "R-army",
+   "level": "brigade",
+   "aliases": [
+    "the cavalry"
+   ]
+  },
+  {
+   "id": "R-art",
+   "name": "Red Artillery",
+   "side": "red",
+   "commander": "Hauptmann R",
+   "parent": "R-army",
+   "level": "brigade",
+   "aliases": [
+    "the guns"
+   ]
+  }
+ ],
+ "units": [
+  {
+   "id": "B-inf1-1",
+   "name": "B IR 1/1",
+   "side": "blue",
+   "parent": "B-inf1",
+   "kind": "line",
+   "men": 600,
+   "quality": 3
+  },
+  {
+   "id": "B-inf1-2",
+   "name": "B IR 1/2",
+   "side": "blue",
+   "parent": "B-inf1",
+   "kind": "line",
+   "men": 600,
+   "quality": 3
+  },
+  {
+   "id": "B-inf1-3",
+   "name": "B IR 1/3",
+   "side": "blue",
+   "parent": "B-inf1",
+   "kind": "line",
+   "men": 600,
+   "quality": 3
+  },
+  {
+   "id": "B-inf1-4",
+   "name": "B IR 1/4",
+   "side": "blue",
+   "parent": "B-inf1",
+   "kind": "line",
+   "men": 600,
+   "quality": 3
+  },
+  {
+   "id": "B-inf2-1",
+   "name": "B IR 2/1",
+   "side": "blue",
+   "parent": "B-inf2",
+   "kind": "grenadier",
+   "men": 600,
+   "quality": 4
+  },
+  {
+   "id": "B-inf2-2",
+   "name": "B IR 2/2",
+   "side": "blue",
+   "parent": "B-inf2",
+   "kind": "grenadier",
+   "men": 600,
+   "quality": 4
+  },
+  {
+   "id": "B-inf2-3",
+   "name": "B IR 2/3",
+   "side": "blue",
+   "parent": "B-inf2",
+   "kind": "grenadier",
+   "men": 600,
+   "quality": 4
+  },
+  {
+   "id": "B-inf2-4",
+   "name": "B IR 2/4",
+   "side": "blue",
+   "parent": "B-inf2",
+   "kind": "grenadier",
+   "men": 600,
+   "quality": 4
+  },
+  {
+   "id": "B-cav-1",
+   "name": "B CR 1",
+   "side": "blue",
+   "parent": "B-cav",
+   "kind": "cuirassier",
+   "men": 450,
+   "quality": 4
+  },
+  {
+   "id": "B-cav-2",
+   "name": "B CR 2",
+   "side": "blue",
+   "parent": "B-cav",
+   "kind": "cuirassier",
+   "men": 450,
+   "quality": 4
+  },
+  {
+   "id": "B-cav-3",
+   "name": "B CR 3",
+   "side": "blue",
+   "parent": "B-cav",
+   "kind": "hussar",
+   "men": 400,
+   "quality": 3
+  },
+  {
+   "id": "B-art-1",
+   "name": "B Bty 1",
+   "side": "blue",
+   "parent": "B-art",
+   "kind": "foot_battery",
+   "guns": 8,
+   "crew": 80,
+   "calibre_lb": 6,
+   "quality": 3
+  },
+  {
+   "id": "B-art-2",
+   "name": "B Bty 2",
+   "side": "blue",
+   "parent": "B-art",
+   "kind": "foot_battery",
+   "guns": 8,
+   "crew": 80,
+   "calibre_lb": 6,
+   "quality": 3
+  },
+  {
+   "id": "B-art-3",
+   "name": "B Bty 3",
+   "side": "blue",
+   "parent": "B-art",
+   "kind": "foot_battery",
+   "guns": 6,
+   "crew": 60,
+   "calibre_lb": 12,
+   "quality": 3
+  },
+  {
+   "id": "R-inf1-1",
+   "name": "R IR 1/1",
+   "side": "red",
+   "parent": "R-inf1",
+   "kind": "fusilier",
+   "men": 600,
+   "quality": 3
+  },
+  {
+   "id": "R-inf1-2",
+   "name": "R IR 1/2",
+   "side": "red",
+   "parent": "R-inf1",
+   "kind": "fusilier",
+   "men": 600,
+   "quality": 3
+  },
+  {
+   "id": "R-inf1-3",
+   "name": "R IR 1/3",
+   "side": "red",
+   "parent": "R-inf1",
+   "kind": "fusilier",
+   "men": 600,
+   "quality": 3
+  },
+  {
+   "id": "R-inf1-4",
+   "name": "R IR 1/4",
+   "side": "red",
+   "parent": "R-inf1",
+   "kind": "fusilier",
+   "men": 600,
+   "quality": 3
+  },
+  {
+   "id": "R-inf2-1",
+   "name": "R IR 2/1",
+   "side": "red",
+   "parent": "R-inf2",
+   "kind": "grenzer",
+   "men": 600,
+   "quality": 4
+  },
+  {
+   "id": "R-inf2-2",
+   "name": "R IR 2/2",
+   "side": "red",
+   "parent": "R-inf2",
+   "kind": "grenzer",
+   "men": 600,
+   "quality": 4
+  },
+  {
+   "id": "R-inf2-3",
+   "name": "R IR 2/3",
+   "side": "red",
+   "parent": "R-inf2",
+   "kind": "grenzer",
+   "men": 600,
+   "quality": 4
+  },
+  {
+   "id": "R-inf2-4",
+   "name": "R IR 2/4",
+   "side": "red",
+   "parent": "R-inf2",
+   "kind": "grenzer",
+   "men": 600,
+   "quality": 4
+  },
+  {
+   "id": "R-cav-1",
+   "name": "R CR 1",
+   "side": "red",
+   "parent": "R-cav",
+   "kind": "cuirassier",
+   "men": 450,
+   "quality": 4
+  },
+  {
+   "id": "R-cav-2",
+   "name": "R CR 2",
+   "side": "red",
+   "parent": "R-cav",
+   "kind": "cuirassier",
+   "men": 450,
+   "quality": 4
+  },
+  {
+   "id": "R-cav-3",
+   "name": "R CR 3",
+   "side": "red",
+   "parent": "R-cav",
+   "kind": "hussar",
+   "men": 400,
+   "quality": 3
+  },
+  {
+   "id": "R-art-1",
+   "name": "R Bty 1",
+   "side": "red",
+   "parent": "R-art",
+   "kind": "foot_battery",
+   "guns": 8,
+   "crew": 80,
+   "calibre_lb": 6,
+   "quality": 3
+  },
+  {
+   "id": "R-art-2",
+   "name": "R Bty 2",
+   "side": "red",
+   "parent": "R-art",
+   "kind": "foot_battery",
+   "guns": 8,
+   "crew": 80,
+   "calibre_lb": 6,
+   "quality": 3
+  },
+  {
+   "id": "R-art-3",
+   "name": "R Bty 3",
+   "side": "red",
+   "parent": "R-art",
+   "kind": "foot_battery",
+   "guns": 6,
+   "crew": 60,
+   "calibre_lb": 12,
+   "quality": 3
+  }
+ ]
+}

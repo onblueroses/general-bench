@@ -1,0 +1,35 @@
+{
+ "key": "d5cc9eb7c3c6da5c8e05c7133a97094ffe3b9df0c6a4b204c322e4eec9fa26c7",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:37:32Z",
+ "state": {
+  "order": "Hülsen's corps will march past Bříství, wheel to the right and take Křečhoř in flank.",
+  "task given to Hülsen's corps": "attack Křečhoř, by way of Bříství, boldly"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Hülsen's corps go against the order: a different action or objective than the order gives Hülsen's corps, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.11
+   }
+  },
+  "usage": {
+   "input_tokens": 421,
+   "output_tokens": 21,
+   "cost": 1.7682e-05
+  },
+  "id": "gen-dec-1792161452-xpuQXU0exlpBzSijmsv7",
+  "provider": "TypeSafe"
+ }
+}

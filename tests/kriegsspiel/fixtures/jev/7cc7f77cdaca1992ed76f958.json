@@ -1,0 +1,35 @@
+{
+ "key": "7cc7f77cdaca1992ed76f958231274331060b1736416d9576597c5fb4c309a14",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:22Z",
+ "state": {
+  "order": "Krockow, at Bříství charge any enemy cavalry that follows the hussars off the heights.",
+  "task given to Penavaire's cuirassiers": "charge Bříství, boldly"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Penavaire's cuirassiers go against the order: a different action or objective than the order gives Penavaire's cuirassiers, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.73
+   }
+  },
+  "usage": {
+   "input_tokens": 417,
+   "output_tokens": 21,
+   "cost": 1.7514e-05
+  },
+  "id": "gen-dec-1792161501-AnFc1rYT3GfvGnWojw50",
+  "provider": "TypeSafe"
+ }
+}

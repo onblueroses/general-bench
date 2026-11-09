@@ -1,0 +1,35 @@
+{
+ "key": "1257a411e70148ee99ed20bb5d2068fe19babc043ea9489f4d9d23996a4bb4f6",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T17:53:17Z",
+ "state": {
+  "order": "Manstein, drive off the enemy infantry on the Kaiserstrasse west of Zlaté Slunce, then return to Zlaté Slunce; go no farther south than the road.",
+  "task given to Manstein's brigade": "attack Zlaté Slunce, boldly, never going beyond Kaiserstrasse; then fall back on Zlaté Slunce, boldly, never going beyond Kaiserstrasse"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Manstein's brigade go against the order: a different action or objective than the order gives Manstein's brigade, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.68
+   }
+  },
+  "usage": {
+   "input_tokens": 452,
+   "output_tokens": 21,
+   "cost": 1.8984e-05
+  },
+  "id": "gen-dec-1792173197-ZBYL1JpEOIae7xaxHUsQ",
+  "provider": "TypeSafe"
+ }
+}

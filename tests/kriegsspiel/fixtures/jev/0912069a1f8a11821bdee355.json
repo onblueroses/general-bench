@@ -1,0 +1,35 @@
+{
+ "key": "0912069a1f8a11821bdee3558f0bd4b277dc3fbbe251cd0a4b1a3cd8df5b72ea",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:37:43Z",
+ "state": {
+  "order": "Let Katte hold Zieten's hussars upon Hülsen's left whilst that general falls upon Křečhoř.",
+  "task given to Zieten's hussars": "follow Hülsen's corps, carefully"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Zieten's hussars go against the order: a different action or objective than the order gives Zieten's hussars, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.82
+   }
+  },
+  "usage": {
+   "input_tokens": 414,
+   "output_tokens": 21,
+   "cost": 1.7388e-05
+  },
+  "id": "gen-dec-1792161463-UgAOKmMxwNtnUCnNSh4T",
+  "provider": "TypeSafe"
+ }
+}

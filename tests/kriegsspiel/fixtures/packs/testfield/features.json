@@ -1,0 +1,263 @@
+[
+ {
+  "name": "Hoher Ruecken",
+  "kind": "ridge",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     300.0,
+     2050.0
+    ],
+    [
+     1000.0,
+     2120.0
+    ],
+    [
+     2000.0,
+     2150.0
+    ],
+    [
+     2800.0,
+     2100.0
+    ],
+    [
+     3250.0,
+     2000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the ridge",
+   "Hoher Rücken"
+  ]
+ },
+ {
+  "name": "Kapellenberg",
+  "kind": "height",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     2000.0,
+     2150.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the chapel hill"
+  ]
+ },
+ {
+  "name": "Eichwald",
+  "kind": "wood",
+  "geometry": {
+   "type": "polygon",
+   "coords": [
+    [
+     600.0,
+     2150.0
+    ],
+    [
+     1200.0,
+     2120.0
+    ],
+    [
+     1250.0,
+     2550.0
+    ],
+    [
+     650.0,
+     2600.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the oak wood"
+  ]
+ },
+ {
+  "name": "Neudorf",
+  "kind": "village",
+  "geometry": {
+   "type": "polygon",
+   "coords": [
+    [
+     2250.0,
+     880.0
+    ],
+    [
+     2560.0,
+     880.0
+    ],
+    [
+     2580.0,
+     1130.0
+    ],
+    [
+     2240.0,
+     1140.0
+    ]
+   ]
+  },
+  "aliases": []
+ },
+ {
+  "name": "Neudorf church",
+  "kind": "church",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     2400.0,
+     1050.0
+    ]
+   ]
+  },
+  "aliases": []
+ },
+ {
+  "name": "Muehlbach",
+  "kind": "stream",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     3300.0,
+     3000.0
+    ],
+    [
+     3350.0,
+     2300.0
+    ],
+    [
+     3420.0,
+     1600.0
+    ],
+    [
+     3450.0,
+     1050.0
+    ],
+    [
+     3500.0,
+     500.0
+    ],
+    [
+     3550.0,
+     0.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Mühlbach",
+   "the stream"
+  ]
+ },
+ {
+  "name": "Muehlbach bridge",
+  "kind": "bridge",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     3450.0,
+     1050.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the bridge"
+  ]
+ },
+ {
+  "name": "Landstrasse",
+  "kind": "road",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     0.0,
+     900.0
+    ],
+    [
+     1200.0,
+     950.0
+    ],
+    [
+     2400.0,
+     1000.0
+    ],
+    [
+     3450.0,
+     1050.0
+    ],
+    [
+     4000.0,
+     1150.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the high road"
+  ]
+ },
+ {
+  "name": "Kirchweg",
+  "kind": "road",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     2400.0,
+     1000.0
+    ],
+    [
+     2200.0,
+     1600.0
+    ],
+    [
+     2000.0,
+     2150.0
+    ],
+    [
+     2000.0,
+     3000.0
+    ]
+   ]
+  },
+  "aliases": []
+ },
+ {
+  "name": "Hof Lindenau",
+  "kind": "farm",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     1200.0,
+     1300.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the farm"
+  ]
+ },
+ {
+  "name": "Muehle",
+  "kind": "mill",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     3480.0,
+     1700.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the mill",
+   "Mühle"
+  ]
+ }
+]

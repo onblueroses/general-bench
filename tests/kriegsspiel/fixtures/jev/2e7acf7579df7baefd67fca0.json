@@ -1,0 +1,35 @@
+{
+ "key": "2e7acf7579df7baefd67fca00a58e365335734f200775ac1ec8f161c20fd0bad",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:36:55Z",
+ "state": {
+  "order": "Hülsen will follow once you are engaged.",
+  "task given to Hülsen's advance guard": "follow Zieten's hussars, starting once Zieten's hussars is engaged"
+ },
+ "questions": {
+  "k1": {
+   "type": "noul",
+   "instructions": "Does the task given to Hülsen's advance guard go against the order: a different action or objective than the order gives Hülsen's advance guard, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k1": {
+    "type": "noul",
+    "noul": 0.16
+   }
+  },
+  "usage": {
+   "input_tokens": 407,
+   "output_tokens": 21,
+   "cost": 1.7094e-05
+  },
+  "id": "gen-dec-1792161415-nqJQfilfW0hn95KTaQ3D",
+  "provider": "TypeSafe"
+ }
+}

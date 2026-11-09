@@ -1,0 +1,35 @@
+{
+ "key": "995c90f42a2b13bdc34e87a703b0f91bdc7db4895b9db5d26c29263be62318b6",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:13Z",
+ "state": {
+  "order": "Tresckow, march the left wing infantry east along the Kaiserstrasse with all speed to Zlaté Slunce, then follow and support Hülsen's corps in its attack on Křečhoř village, forming on his right.",
+  "task given to Left wing infantry": "follow Hülsen's corps, by way of Zlaté Slunce, boldly"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Left wing infantry go against the order: a different action or objective than the order gives Left wing infantry, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.13
+   }
+  },
+  "usage": {
+   "input_tokens": 438,
+   "output_tokens": 21,
+   "cost": 1.8396e-05
+  },
+  "id": "gen-dec-1792161493-oBopJ2cmYRCdlmZJDaZq",
+  "provider": "TypeSafe"
+ }
+}

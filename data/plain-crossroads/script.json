@@ -1,0 +1,135 @@
+{
+ "note": "One plan for both sides, names swapped (tools/build_pack.py SCRIPT): the centre brigade advances on the village by the high road and holds it, the brigades either side and the second line follow it up, the horse covers the flanks, the grenadiers and the reserve guns stay behind; at noon the grenadiers go up to the village. For `script` players, whose orders Jev translates: stub-mode Jev reads every order as its first option, so a stub game of scripts checks plumbing only; stub self-play uses the doctrine bot (design-notes.md).",
+ "orders": [
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Fenwick, advance by the high road to Teasel Village, then hold it."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Brandreth, advance to Teasel Village on the left of the second brigade, then hold."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Haddow, advance to Teasel Village on the right of the second brigade, then hold."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Pellow, follow the second brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Quarrie, follow the first brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Stannard, follow the third brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Vowell, cover our left flank."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Lattimer, cover our right flank."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Ormerod, stand behind Lattimer's brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Calloway, stay in reserve behind the fourth brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Kitto, support the second brigade."
+  },
+  {
+   "at": "12:00",
+   "side": "red",
+   "text": "Calloway, advance to Teasel Village and support the second brigade."
+  },
+  {
+   "at": "12:00",
+   "side": "red",
+   "text": "Fenwick, hold Teasel Village to the last."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Garside, advance by the high road to Teasel Village, then hold it."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Ellerby, advance to Teasel Village on the left of the second brigade, then hold."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Hesketh, advance to Teasel Village on the right of the second brigade, then hold."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Jessop, follow the second brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Nuttall, follow the first brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Upjohn, follow the third brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Rudge, cover our left flank."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Ibbotson, cover our right flank."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Whitlock, stand behind Ibbotson's brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Dewhurst, stay in reserve behind the fourth brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Tranter, support the second brigade."
+  },
+  {
+   "at": "12:00",
+   "side": "blue",
+   "text": "Dewhurst, advance to Teasel Village and support the second brigade."
+  },
+  {
+   "at": "12:00",
+   "side": "blue",
+   "text": "Garside, hold Teasel Village to the last."
+  }
+ ]
+}

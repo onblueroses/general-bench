@@ -1,0 +1,35 @@
+{
+ "key": "d4ffb42bb7b185224d2ea053178af817d0656a24d6bc11b4fefda756a342371f",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:39:11Z",
+ "state": {
+  "order": "The whole army stands fast where it is on the heights;",
+  "task given to Kommandierte cavalry": "hold Křečhoř heights, carefully, halting when it meets the enemy"
+ },
+ "questions": {
+  "k6": {
+   "type": "noul",
+   "instructions": "Does the task given to Kommandierte cavalry go against the order: a different action or objective than the order gives Kommandierte cavalry, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k6": {
+    "type": "noul",
+    "noul": 0.15
+   }
+  },
+  "usage": {
+   "input_tokens": 402,
+   "output_tokens": 21,
+   "cost": 1.6884e-05
+  },
+  "id": "gen-dec-1792161550-zfkIxbBJqXtcKuzHjMDD",
+  "provider": "TypeSafe"
+ }
+}

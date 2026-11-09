@@ -1,0 +1,35 @@
+{
+ "key": "f77fd0efa636623a8ab0f001ab207794cb778aa51a03dc2c626b51b73927b45e",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:55Z",
+ "state": {
+  "order": "Tresckow, follow Hülsen with the left wing infantry along the road and support his attack on Křečhoř.",
+  "task given to Left wing infantry": "follow Hülsen's corps"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Left wing infantry go against the order: a different action or objective than the order gives Left wing infantry, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.06
+   }
+  },
+  "usage": {
+   "input_tokens": 403,
+   "output_tokens": 21,
+   "cost": 1.6926e-05
+  },
+  "id": "gen-dec-1792161535-dl6hhQnoa4X5QRuH7tyA",
+  "provider": "TypeSafe"
+ }
+}

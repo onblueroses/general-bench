@@ -1,0 +1,35 @@
+{
+ "key": "a9dce946000c3a88f2ba2e273dadfab8a63d135bbb8f35f0b124ffbe19e790fd",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:42Z",
+ "state": {
+  "order": "Everything forward! Bevern and Tresckow storm the heights at Křečhoř, cavalry to cover the left.",
+  "task given to Bevern's wing": "attack the Křečhoř heights, at all costs"
+ },
+ "questions": {
+  "k2": {
+   "type": "noul",
+   "instructions": "Does the task given to Bevern's wing go against the order: a different action or objective than the order gives Bevern's wing, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k2": {
+    "type": "noul",
+    "noul": 0.04
+   }
+  },
+  "usage": {
+   "input_tokens": 410,
+   "output_tokens": 21,
+   "cost": 1.722e-05
+  },
+  "id": "gen-dec-1792161522-n9b2cIFkO6dx2JU7wqfL",
+  "provider": "TypeSafe"
+ }
+}

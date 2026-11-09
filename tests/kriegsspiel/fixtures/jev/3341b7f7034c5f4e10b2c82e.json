@@ -1,0 +1,35 @@
+{
+ "key": "3341b7f7034c5f4e10b2c82e58e187c5e7229181e526bddec1cd5b45d84a4dce",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:37:05Z",
+ "state": {
+  "order": "Krosigk's reserve waits at Nove Mesto for orders.",
+  "task given to Krosigk's cavalry reserve": "hold Nové Město, carefully"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Krosigk's cavalry reserve go against the order: a different action or objective than the order gives Krosigk's cavalry reserve, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.13
+   }
+  },
+  "usage": {
+   "input_tokens": 405,
+   "output_tokens": 21,
+   "cost": 1.701e-05
+  },
+  "id": "gen-dec-1792161425-fP1sJvhjMMRNlPa0fpc2",
+  "provider": "TypeSafe"
+ }
+}

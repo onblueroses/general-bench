@@ -1,0 +1,166 @@
+{
+ "source": "runs/kolin-opus-1/run.jsonl (first LLM game, 2026-10-16): the 23 Prussian orders of 75 that drew a staff question",
+ "orders": [
+  {
+   "minute": 1.0,
+   "text": "Hülsen, march your corps at once east along the high road past Bříství, keeping north of the road until your head is well beyond Křečhoř, then wheel to the right and attack Křečhoř village and the oak wood from the east, taking the enemy's right in flank; carry the heights behind it and hold them until the infantry of the army comes up on your right.",
+   "game_clarifications": [
+    "Hülsen: the order «Hülsen, march your corps at once east along the high road past Bříství, keeping north of the road until your head is well beyond Křečhoř, then wheel to the right and attack Křečhoř village and the oak wood from the east, taking the enemy's right in flank; carry the heights behind it and hold them until the infantry of the army comes up on your right.» names an objective I cannot identify; which place or body is meant?"
+   ]
+  },
+  {
+   "minute": 1.0,
+   "text": "Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen. Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged. Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before. Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.",
+   "game_clarifications": [
+    "Bevern: the order «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen. Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.» is unclear; what am I to do?"
+   ]
+  },
+  {
+   "minute": 1.0,
+   "text": "The artillery commander, bring the heavy guns east along the high road with all haste behind Hülsen and come into battery to support his attack on Křečhoř and the oak wood.",
+   "game_clarifications": [
+    "Prussian artillery commander (unrecorded): after «The artillery commander, bring the heavy guns east along the high road with all haste behind Hülsen and come into battery to support his attack on Křečhoř and the oak wood.», where am I to go or whom am I to follow?"
+   ]
+  },
+  {
+   "minute": 1.0,
+   "text": "Penavaire, march the cavalry of the army east behind the infantry, north of the high road. Keep it ready to support the attack of the left, and keep it well out of the enemy's cannon shot until it is called upon.",
+   "game_clarifications": [
+    "Penavaire: the order «Penavaire, march the cavalry of the army east behind the infantry, north of the high road. Keep it ready to support the attack of the left, and keep it well out of the enemy's cannon shot until it is called upon.» names an objective I cannot identify; which place or body is meant?"
+   ]
+  },
+  {
+   "minute": 1.0,
+   "text": "Krosigk, bring your reserve south-east to stand behind Hülsen's left, ready to charge whatever comes against his flank as he attacks Křečhoř.",
+   "game_clarifications": [
+    "Krosigk: after «Krosigk, bring your reserve south-east to stand behind Hülsen's left, ready to charge whatever comes against his flank as he attacks Křečhoř.», where am I to go or whom am I to follow?"
+   ]
+  },
+  {
+   "minute": 1.0,
+   "text": "The headquarters will ride east along the high road to near Bříství, behind Hülsen's wheel.",
+   "game_clarifications": [
+    "The order «The headquarters will ride east along the high road to near Bříství, behind Hülsen's wheel.» names no formation I can identify; to whom is it given?"
+   ]
+  },
+  {
+   "minute": 9.0,
+   "text": "The artillery commander, march the heavy artillery east along the Kaiserstrasse, follow Hülsen's corps, and come into battery to fire on Křečhoř.",
+   "game_clarifications": [
+    "Prussian artillery commander (unrecorded): the order «The artillery commander, march the heavy artillery east along the Kaiserstrasse, follow Hülsen's corps, and come into battery to fire on Křečhoř.» names an objective I cannot identify; which place or body is meant?"
+   ]
+  },
+  {
+   "minute": 9.0,
+   "text": "The headquarters will ride to Bříství.",
+   "game_clarifications": [
+    "The order «The headquarters will ride to Bříství.» names no formation I can identify; to whom is it given?"
+   ]
+  },
+  {
+   "minute": 14.0,
+   "text": "Headquarters, ride to Bříství.",
+   "game_clarifications": [
+    "The order «Headquarters, ride to Bříství.» names no formation I can identify; to whom is it given?"
+   ]
+  },
+  {
+   "minute": 26.0,
+   "text": "Tresckow, march the left wing infantry east along the Kaiserstrasse with all speed to Zlaté Slunce, then follow Hülsen's corps and form on his right, facing the enemy infantry north-east of Chocenice; hold them off Hülsen's flank but do not attack up the heights until I order it.",
+   "game_clarifications": [
+    "Tresckow: the order «Tresckow, march the left wing infantry east along the Kaiserstrasse with all speed to Zlaté Slunce, then follow Hülsen's corps and form on his right, facing the enemy infantry north-east of Chocenice; hold them off Hülsen's flank but do not attack up the heights until I order it.» names an objective I cannot identify; which place or body is meant?"
+   ]
+  },
+  {
+   "minute": 26.0,
+   "text": "Katte, keep Zieten's hussars on Hülsen's left as he attacks Křečhoř village.",
+   "game_clarifications": [
+    "Generalmajor von Katte: the order «Katte, keep Zieten's hussars on Hülsen's left as he attacks Křečhoř village.» is unclear; what am I to do?"
+   ]
+  },
+  {
+   "minute": 27.0,
+   "text": "Tresckow, march the left wing infantry east along the Kaiserstrasse with all speed to Zlaté Slunce, then follow and support Hülsen's corps in its attack on Křečhoř village, forming on his right.",
+   "game_clarifications": [
+    "Tresckow: the order «Tresckow, march the left wing infantry east along the Kaiserstrasse with all speed to Zlaté Slunce, then follow and support Hülsen's corps in its attack on Křečhoř village, forming on his right.» names an objective I cannot identify; which place or body is meant?"
+   ]
+  },
+  {
+   "minute": 27.0,
+   "text": "Katte, keep Zieten's hussars on Hülsen's left as he attacks Křečhoř village.",
+   "game_clarifications": [
+    "Generalmajor von Katte: the order «Katte, keep Zieten's hussars on Hülsen's left as he attacks Křečhoř village.» is unclear; what am I to do?"
+   ]
+  },
+  {
+   "minute": 53.0,
+   "text": "Normann, march your dragoons to Bříství and support Hülsen's corps.",
+   "game_clarifications": [
+    "Normann: whom am I to support or follow?"
+   ]
+  },
+  {
+   "minute": 53.0,
+   "text": "Pannwitz, march your brigade with all speed to Bříství and support Hülsen's corps.",
+   "game_clarifications": [
+    "Pannwitz: whom am I to support or follow?"
+   ]
+  },
+  {
+   "minute": 76.0,
+   "text": "Manstein, hold the Kaiserstrasse at Nové Město with your brigade to cover the rear of the army while Schönaich withdraws, then follow him to Zlaté Slunce; do not attack Břežany or the heights.",
+   "game_clarifications": [
+    "Manstein: after «Manstein, hold the Kaiserstrasse at Nové Město with your brigade to cover the rear of the army while Schönaich withdraws, then follow him to Zlaté Slunce; do not attack Břežany or the heights.», where am I to go or whom am I to follow?"
+   ]
+  },
+  {
+   "minute": 94.0,
+   "text": "Krockow, march the cuirassiers to Bříství and stand there in reserve behind Hülsen.",
+   "game_clarifications": [
+    "Krockow: whom am I to support or follow?"
+   ]
+  },
+  {
+   "minute": 109.0,
+   "text": "Katte, break off and bring the hussars back to Bříství, rally them there on Hülsen's left.",
+   "game_clarifications": [
+    "Generalmajor von Katte: the order «Katte, break off and bring the hussars back to Bříství, rally them there on Hülsen's left.» is unclear; what am I to do?"
+   ]
+  },
+  {
+   "minute": 109.0,
+   "text": "Krockow, at Bříství charge any enemy cavalry that follows the hussars off the heights.",
+   "game_clarifications": [
+    "Krockow: the order «Krockow, at Bříství charge any enemy cavalry that follows the hussars off the heights.» names an objective I cannot identify; which place or body is meant?"
+   ]
+  },
+  {
+   "minute": 118.0,
+   "text": "Krockow, march the cuirassiers to Bříství and support Hülsen.",
+   "game_clarifications": [
+    "Krockow: whom am I to support or follow?"
+   ]
+  },
+  {
+   "minute": 183.0,
+   "text": "Krosigk, charge the enemy infantry 400 m north of the Kaiserstrasse by Zlaté Slunce and drive it off.",
+   "game_clarifications": [
+    "Krosigk: the order «Krosigk, charge the enemy infantry 400 m north of the Kaiserstrasse by Zlaté Slunce and drive it off.» names an objective I cannot identify; which place or body is meant?"
+   ]
+  },
+  {
+   "minute": 202.0,
+   "text": "Ingersleben, march your brigade up Křečhoř heights and support Hülsen.",
+   "game_clarifications": [
+    "Ingersleben: whom am I to support or follow?"
+   ]
+  },
+  {
+   "minute": 228.0,
+   "text": "Manstein, drive off the enemy infantry on the Kaiserstrasse west of Zlaté Slunce, then return to Zlaté Slunce; go no farther south than the road.",
+   "game_clarifications": [
+    "Manstein: the order «Manstein, drive off the enemy infantry on the Kaiserstrasse west of Zlaté Slunce, then return to Zlaté Slunce; go no farther south than the road.» names an objective I cannot identify; which place or body is meant?"
+   ]
+  }
+ ]
+}

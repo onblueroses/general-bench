@@ -1,0 +1,35 @@
+{
+ "key": "8c11846586895f87111afab872d6f319c191f376b029efe45d915731d97a84c5",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:39:14Z",
+ "state": {
+  "order": "The whole army stands fast where it is on the heights;",
+  "task given to Castiglione's brigade": "hold Křečhoř heights, carefully, halting when it meets the enemy"
+ },
+ "questions": {
+  "k9": {
+   "type": "noul",
+   "instructions": "Does the task given to Castiglione's brigade go against the order: a different action or objective than the order gives Castiglione's brigade, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k9": {
+    "type": "noul",
+    "noul": 0.11
+   }
+  },
+  "usage": {
+   "input_tokens": 405,
+   "output_tokens": 21,
+   "cost": 1.701e-05
+  },
+  "id": "gen-dec-1792161553-iWAruIwdKYK9EpQQqGAf",
+  "provider": "TypeSafe"
+ }
+}

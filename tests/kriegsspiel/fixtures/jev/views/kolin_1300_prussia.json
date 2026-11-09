@@ -1,0 +1,579 @@
+{
+ "side": "prussia",
+ "formations": [
+  {
+   "id": "P",
+   "name": "Prussian Army",
+   "commander": "Frederick II",
+   "aliases": [
+    "the army",
+    "the King's army"
+   ],
+   "level": "army",
+   "parent": null,
+   "arm": null
+  },
+  {
+   "id": "P-ART",
+   "name": "Heavy artillery",
+   "commander": "Prussian artillery commander (unrecorded)",
+   "aliases": [
+    "the artillery",
+    "the heavy guns",
+    "the batteries",
+    "the Prussian guns"
+   ],
+   "level": "brigade",
+   "parent": "P",
+   "arm": "artillery"
+  },
+  {
+   "id": "P-BEV",
+   "name": "Right wing infantry",
+   "commander": "Bevern",
+   "aliases": [
+    "the right wing",
+    "Bevern's division",
+    "the second column"
+   ],
+   "level": "column",
+   "parent": "P-INF",
+   "arm": "infantry"
+  },
+  {
+   "id": "P-CAV",
+   "name": "Cavalry",
+   "commander": "Penavaire",
+   "aliases": [
+    "the cavalry",
+    "the horse",
+    "Penavaire's cavalry"
+   ],
+   "level": "wing",
+   "parent": "P",
+   "arm": "cavalry"
+  },
+  {
+   "id": "P-FLG",
+   "name": "Flank-guard grenadiers",
+   "commander": "Major von Kahlden (senior battalion commander, EST)",
+   "aliases": [
+    "the flank guard",
+    "the three grenadier battalions",
+    "the grenadiers of the flank guard"
+   ],
+   "level": "brigade",
+   "parent": "P-TRE",
+   "arm": "infantry"
+  },
+  {
+   "id": "P-FRA",
+   "name": "Prince Franz's brigade",
+   "commander": "Prince Franz of Brunswick",
+   "aliases": [
+    "Braunschweig's brigade",
+    "Prince Franz"
+   ],
+   "level": "brigade",
+   "parent": "P-TRE",
+   "arm": "infantry"
+  },
+  {
+   "id": "P-HUL",
+   "name": "Hülsen's corps",
+   "commander": "Hülsen",
+   "aliases": [
+    "Hülsen's brigade",
+    "Hulsen's corps",
+    "Hülsen's infantry"
+   ],
+   "level": "brigade",
+   "parent": "P-VAN",
+   "arm": null
+  },
+  {
+   "id": "P-INF",
+   "name": "Infantry",
+   "commander": "Moritz of Anhalt-Dessau",
+   "aliases": [
+    "the infantry",
+    "the centre",
+    "Prince Moritz's infantry",
+    "Moritz"
+   ],
+   "level": "wing",
+   "parent": "P",
+   "arm": "infantry"
+  },
+  {
+   "id": "P-ING",
+   "name": "Ingersleben's brigade",
+   "commander": "Ingersleben",
+   "aliases": [
+    "Ingersleben"
+   ],
+   "level": "brigade",
+   "parent": "P-BEV",
+   "arm": "infantry"
+  },
+  {
+   "id": "P-KRK",
+   "name": "Penavaire's cuirassiers",
+   "commander": "Krockow",
+   "aliases": [
+    "the cuirassiers",
+    "Krockow's brigade",
+    "the twenty squadrons"
+   ],
+   "level": "brigade",
+   "parent": "P-CAV",
+   "arm": "cavalry"
+  },
+  {
+   "id": "P-KRO",
+   "name": "Krosigk's cavalry reserve",
+   "commander": "Krosigk",
+   "aliases": [
+    "the cavalry reserve",
+    "Krosigk's brigade",
+    "Krosigk's reserve",
+    "the third column"
+   ],
+   "level": "brigade",
+   "parent": "P-CAV",
+   "arm": "cavalry"
+  },
+  {
+   "id": "P-MAN",
+   "name": "Manstein's brigade",
+   "commander": "Manstein",
+   "aliases": [
+    "Manstein"
+   ],
+   "level": "brigade",
+   "parent": "P-BEV",
+   "arm": "infantry"
+  },
+  {
+   "id": "P-MEI",
+   "name": "Meinicke's dragoons",
+   "commander": "Meinicke",
+   "aliases": [
+    "Meinicke's brigade"
+   ],
+   "level": "brigade",
+   "parent": "P-CAV",
+   "arm": "cavalry"
+  },
+  {
+   "id": "P-NOR",
+   "name": "Normann's dragoons",
+   "commander": "Normann",
+   "aliases": [
+    "Normann's brigade",
+    "the dragoons"
+   ],
+   "level": "brigade",
+   "parent": "P-CAV",
+   "arm": "cavalry"
+  },
+  {
+   "id": "P-PAN",
+   "name": "Pannwitz's brigade",
+   "commander": "Pannwitz",
+   "aliases": [
+    "Pannwitz"
+   ],
+   "level": "brigade",
+   "parent": "P-TRE",
+   "arm": "infantry"
+  },
+  {
+   "id": "P-PUT",
+   "name": "Puttkamer's brigade",
+   "commander": "Puttkamer",
+   "aliases": [
+    "the Guard brigade",
+    "Tauentzien's guard battalion"
+   ],
+   "level": "brigade",
+   "parent": "P-BEV",
+   "arm": "infantry"
+  },
+  {
+   "id": "P-SCH",
+   "name": "Schönaich's brigade",
+   "commander": "Schönaich",
+   "aliases": [
+    "Schönaich",
+    "the right-wing cuirassiers",
+    "the Garde du Corps brigade"
+   ],
+   "level": "brigade",
+   "parent": "P-CAV",
+   "arm": "cavalry"
+  },
+  {
+   "id": "P-TRE",
+   "name": "Left wing infantry",
+   "commander": "Tresckow",
+   "aliases": [
+    "the left wing",
+    "Tresckow's division",
+    "the first column"
+   ],
+   "level": "column",
+   "parent": "P-INF",
+   "arm": "infantry"
+  },
+  {
+   "id": "P-VAN",
+   "name": "Vanguard",
+   "commander": "Zieten",
+   "aliases": [
+    "the vanguard",
+    "the advance guard",
+    "Zieten's corps"
+   ],
+   "level": "wing",
+   "parent": "P",
+   "arm": null
+  },
+  {
+   "id": "P-ZIE",
+   "name": "Zieten's hussars",
+   "commander": "Generalmajor von Katte",
+   "aliases": [
+    "the hussars",
+    "Zieten's hussars",
+    "the Prussian hussars"
+   ],
+   "level": "brigade",
+   "parent": "P-VAN",
+   "arm": "cavalry"
+  }
+ ],
+ "feature_names": [
+  "Blinka",
+  "Blinka brook",
+  "Bošice",
+  "Břežany",
+  "Bříství",
+  "Chocenice",
+  "Elbe",
+  "Friedrichsberg",
+  "Hluboký brook",
+  "Hořejší rybník",
+  "Hořešák",
+  "Hradenín",
+  "Hradišťko",
+  "Kaiserstrasse",
+  "Karasák",
+  "Kolín",
+  "Kolín church",
+  "Krychnov",
+  "Kutlíře",
+  "Křečhoř",
+  "Křečhoř church",
+  "Křečhoř crest",
+  "Křečhoř heights",
+  "Křečhoř hill",
+  "Libodřice",
+  "Lošany",
+  "Miletín brook",
+  "Nouzov brook",
+  "Nouzov pond",
+  "Nouzáček",
+  "Nová Ves",
+  "Nové Město",
+  "Oak wood",
+  "Obecňák",
+  "Peklo brook",
+  "Peklo pond",
+  "Plaňany",
+  "Plaňany church",
+  "Poboří",
+  "Polepka brook",
+  "Przerovsky height",
+  "Radovesnice",
+  "Rozkoš",
+  "Svojšice",
+  "Svojšický rybník",
+  "Velim",
+  "Zibohlavy",
+  "Zlaté Slunce",
+  "Žabonosy",
+  "our left flank",
+  "our right flank",
+  "our centre",
+  "our rear"
+ ],
+ "enemies": [
+  {
+   "name": "the enemy troops near Křečhoř heights",
+   "arm": null,
+   "est_men": null,
+   "x": 5097.5,
+   "y": 3191.8,
+   "last_seen": 0.0,
+   "key": "A-AREN-II"
+  },
+  {
+   "name": "the enemy troops near Křečhoř heights (2)",
+   "arm": null,
+   "est_men": null,
+   "x": 4922.5,
+   "y": 3147.0,
+   "last_seen": 0.0,
+   "key": "A-AREN-III"
+  }
+ ],
+ "now": 0.0,
+ "feature_aliases": {
+  "Blinka": [
+   "Blinka village"
+  ],
+  "Blinka brook": [
+   "Blinka stream",
+   "Blinka-Bach"
+  ],
+  "Bošice": [
+   "Boschitz",
+   "Bosice"
+  ],
+  "Břežany": [
+   "Brzezan",
+   "Brezany"
+  ],
+  "Bříství": [
+   "Brzistwi",
+   "Bristvi"
+  ],
+  "Chocenice": [
+   "Chotzemitz",
+   "Chozenitz",
+   "Chotzenitz",
+   "Cotzemitz"
+  ],
+  "Elbe": [
+   "Labe",
+   "the Elbe",
+   "Elbe river"
+  ],
+  "Friedrichsberg": [
+   "Bedřichov",
+   "Bedrichov",
+   "Frederick's hill",
+   "the King's hill"
+  ],
+  "Hluboký brook": [
+   "Hluboký potok"
+  ],
+  "Hořejší rybník": [
+   "Horejsi rybnik"
+  ],
+  "Hořešák": [
+   "Horesak"
+  ],
+  "Hradenín": [
+   "Hradenin"
+  ],
+  "Hradišťko": [
+   "Hradistko pond"
+  ],
+  "Kaiserstrasse": [
+   "the Kaiserstrasse",
+   "the high road",
+   "the highway",
+   "the road",
+   "the road to Kolín",
+   "the road to Kolin",
+   "Císařská silnice",
+   "Prague road"
+  ],
+  "Karasák": [
+   "Karasak"
+  ],
+  "Kolín": [
+   "Kolin",
+   "Collin",
+   "Kolin town"
+  ],
+  "Kolín church": [
+   "St. Bartholomew",
+   "Kostel svatého Bartoloměje",
+   "Kolin church"
+  ],
+  "Krychnov": [
+   "Krichnow"
+  ],
+  "Kutlíře": [
+   "Kutlirz",
+   "Kutlire"
+  ],
+  "Křečhoř": [
+   "Krzeczhorz",
+   "Krzeczor",
+   "Kretschor",
+   "Krechor"
+  ],
+  "Křečhoř church": [
+   "Krzeczhorz church",
+   "Krechor church"
+  ],
+  "Křečhoř crest": [
+   "the crest",
+   "the ridge",
+   "Krechor crest",
+   "crest of the heights"
+  ],
+  "Křečhoř heights": [
+   "Krzeczhorzer Höhen",
+   "Krechor heights",
+   "the heights",
+   "Kamhajek-Berg",
+   "Kamhajek Berg",
+   "the Austrian heights"
+  ],
+  "Křečhoř hill": [
+   "Krzeczhorzer Berg",
+   "Krzeczhorz hill",
+   "Krechor hill",
+   "Height of Krzeczhorz"
+  ],
+  "Libodřice": [
+   "Libodritz",
+   "Libodrice"
+  ],
+  "Lošany": [
+   "Gross Loschan",
+   "Losany"
+  ],
+  "Miletín brook": [
+   "Miletínský potok"
+  ],
+  "Nouzov brook": [
+   "Nouzovský potok"
+  ],
+  "Nouzáček": [
+   "Nouzacek"
+  ],
+  "Nová Ves": [
+   "Neudorf",
+   "Nova Ves"
+  ],
+  "Nové Město": [
+   "Novomiesto",
+   "Nove Mesto"
+  ],
+  "Oak wood": [
+   "Eichbusch",
+   "Eichwald",
+   "the oak-wood",
+   "Dubina",
+   "Dubový háj"
+  ],
+  "Obecňák": [
+   "Obecnak"
+  ],
+  "Peklo brook": [
+   "Pekelský potok",
+   "Peklo",
+   "Peklo-Bach",
+   "Peklo stream"
+  ],
+  "Peklo pond": [
+   "Peklo rybník"
+  ],
+  "Plaňany": [
+   "Planian",
+   "Planjan",
+   "Planany"
+  ],
+  "Plaňany church": [
+   "Planian church",
+   "Planjan church tower",
+   "Planany church"
+  ],
+  "Poboří": [
+   "Pobor",
+   "Pobori"
+  ],
+  "Polepka brook": [
+   "Polepka",
+   "Polepka stream"
+  ],
+  "Przerovsky height": [
+   "Przerovsky",
+   "Przerovsky Hill",
+   "Height of Przerovsky",
+   "Přerovský vrch"
+  ],
+  "Radovesnice": [
+   "Radowesnitz"
+  ],
+  "Rozkoš": [
+   "Rozkos"
+  ],
+  "Svojšice": [
+   "Swojschitz",
+   "Svojsice"
+  ],
+  "Svojšický rybník": [
+   "Svojsicky rybnik"
+  ],
+  "Velim": [
+   "Welim"
+  ],
+  "Zibohlavy": [
+   "Zibohlaw"
+  ],
+  "Zlaté Slunce": [
+   "Slatislunz",
+   "Zur goldenen Sonne",
+   "Goldene Sonne",
+   "the Golden Sun inn",
+   "Zlate Slunce"
+  ],
+  "Žabonosy": [
+   "Zabonos",
+   "Zabanos",
+   "Zabonosy"
+  ]
+ },
+ "places": {
+  "our left flank": [
+   5421.2,
+   6630.2
+  ],
+  "our right flank": [
+   4880.7,
+   4561.9
+  ],
+  "our centre": [
+   5130.8,
+   5519.0
+  ],
+  "our rear": [
+   1043.6,
+   6587.0
+  ]
+ },
+ "march_order": [
+  "P-ZIE",
+  "P-HUL",
+  "P-NOR",
+  "P-KRO",
+  "P-ING",
+  "P-KRK",
+  "P-PUT",
+  "P-FLG",
+  "P-ART",
+  "P-MEI",
+  "P-PAN",
+  "P-FRA",
+  "P-MAN",
+  "P-SCH"
+ ],
+ "clock_start": "13:00"
+}

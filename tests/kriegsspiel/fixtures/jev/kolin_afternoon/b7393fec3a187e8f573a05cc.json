@@ -1,0 +1,35 @@
+{
+ "key": "b7393fec3a187e8f573a05cc59f0aae7f33523f225ab55280c19087d3eb32183",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:39:21Z",
+ "state": {
+  "order": "Zieten, ride with the hussars to Kutlíře and charge the Austrian hussars you find there.",
+  "task given to Zieten's hussars": "charge the enemy in front, by way of Kutlíře, boldly"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Zieten's hussars go against the order: a different action or objective than the order gives Zieten's hussars, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.1
+   }
+  },
+  "usage": {
+   "input_tokens": 419,
+   "output_tokens": 21,
+   "cost": 1.7598e-05
+  },
+  "id": "gen-dec-1792161561-NVMqvPKmJ86Qbj2p5DRa",
+  "provider": "TypeSafe"
+ }
+}

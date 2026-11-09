@@ -1,0 +1,35 @@
+{
+ "key": "2c1080c91300b44b23cd4cca7d27801be04aeb5bcb8fc8d38b1c4c0824874201",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:37:13Z",
+ "state": {
+  "order": "Artillery: bombard the enemy troops on Křečhoř heights.",
+  "task given to Heavy artillery": "bombard the enemy troops near Křečhoř heights, boldly"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Heavy artillery go against the order: a different action or objective than the order gives Heavy artillery, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.09
+   }
+  },
+  "usage": {
+   "input_tokens": 397,
+   "output_tokens": 21,
+   "cost": 1.6674e-05
+  },
+  "id": "gen-dec-1792161432-MoodGy6vFpoyiYdpNmd0",
+  "provider": "TypeSafe"
+ }
+}

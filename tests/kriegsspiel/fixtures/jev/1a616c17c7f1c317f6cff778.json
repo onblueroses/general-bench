@@ -1,0 +1,35 @@
+{
+ "key": "1a616c17c7f1c317f6cff7785a7291863003b5d140fbb3bcb7a61b35afac96bd",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:43Z",
+ "state": {
+  "order": "Hülsen, march your corps at once east along the high road past Bříství, keeping north of the road until your head is well beyond Křečhoř, then wheel to the right and attack Křečhoř village and the oak wood from the east, taking the enemy's right in flank; carry the heights behind it and hold them until the infantry of the army comes up on your right.",
+  "task given to Hülsen's corps": "attack the enemy troops near Křečhoř heights, by way of Bříství, boldly, until Infantry (Moritz of Anhalt-Dessau) holds Křečhoř heights; then hold Křečhoř heights, boldly"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Hülsen's corps go against the order: a different action or objective than the order gives Hülsen's corps, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.41
+   }
+  },
+  "usage": {
+   "input_tokens": 516,
+   "output_tokens": 21,
+   "cost": 2.1672e-05
+  },
+  "id": "gen-dec-1792161523-W1k17opxeeT3HZGoaqeh",
+  "provider": "TypeSafe"
+ }
+}

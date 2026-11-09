@@ -1,0 +1,35 @@
+{
+ "key": "4ec5b000c5e7de27f22400ab04eee2ef8e8b0d9a26f86db7cb84e86cf430c450",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:36:55Z",
+ "state": {
+  "order": "Zieten, take the hussars round the oak wood and strike their right;",
+  "task given to Zieten's hussars": "charge Austrian line on the heights, by way of the oak wood, boldly"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Zieten's hussars go against the order: a different action or objective than the order gives Zieten's hussars, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.55
+   }
+  },
+  "usage": {
+   "input_tokens": 411,
+   "output_tokens": 21,
+   "cost": 1.7262e-05
+  },
+  "id": "gen-dec-1792161414-NS36e4oqp6cXYuxFV3AN",
+  "provider": "TypeSafe"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "key": "bf5ae82c22e7ca05ea882c7602ede66f7ca8463f8b79287881ff1e8df94ea220",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:03Z",
+ "state": {
+  "order": "The artillery commander, bring the heavy guns east along the high road with all haste behind Hülsen and come into battery to support his attack on Křečhoř and the oak wood.",
+  "task given to Heavy artillery": "follow Hülsen's corps, by way of Kaiserstrasse, boldly"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Heavy artillery go against the order: a different action or objective than the order gives Heavy artillery, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.33
+   }
+  },
+  "usage": {
+   "input_tokens": 422,
+   "output_tokens": 21,
+   "cost": 1.7724e-05
+  },
+  "id": "gen-dec-1792161483-cqGLrbUJXELVz7y0ycQL",
+  "provider": "TypeSafe"
+ }
+}

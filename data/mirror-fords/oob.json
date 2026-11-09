@@ -1,0 +1,796 @@
+{
+ "sides": [
+  "red",
+  "blue"
+ ],
+ "formations": [
+  {
+   "id": "R",
+   "name": "Red army",
+   "side": "red",
+   "commander": "General Gorringe",
+   "parent": null,
+   "level": "army",
+   "aliases": [
+    "the army",
+    "the Red army",
+    "Gorringe's army"
+   ]
+  },
+  {
+   "id": "R-G",
+   "name": "Grenadier brigade",
+   "side": "red",
+   "commander": "General Pettifer",
+   "parent": "R",
+   "level": "brigade",
+   "aliases": [
+    "the grenadiers",
+    "the grenadier brigade",
+    "Pettifer's brigade"
+   ]
+  },
+  {
+   "id": "R-L1",
+   "name": "First brigade",
+   "side": "red",
+   "commander": "General Ackroyd",
+   "parent": "R",
+   "level": "brigade",
+   "aliases": [
+    "the first brigade",
+    "Ackroyd's brigade"
+   ]
+  },
+  {
+   "id": "R-L2",
+   "name": "Second brigade",
+   "side": "red",
+   "commander": "General Mawhood",
+   "parent": "R",
+   "level": "brigade",
+   "aliases": [
+    "the second brigade",
+    "Mawhood's brigade"
+   ]
+  },
+  {
+   "id": "R-L3",
+   "name": "Third brigade",
+   "side": "red",
+   "commander": "General Treloar",
+   "parent": "R",
+   "level": "brigade",
+   "aliases": [
+    "the third brigade",
+    "Treloar's brigade"
+   ]
+  },
+  {
+   "id": "R-L4",
+   "name": "Fourth brigade",
+   "side": "red",
+   "commander": "General Bunce",
+   "parent": "R",
+   "level": "brigade",
+   "aliases": [
+    "the fourth brigade",
+    "Bunce's brigade"
+   ]
+  },
+  {
+   "id": "R-N1",
+   "name": "Fifth brigade",
+   "side": "red",
+   "commander": "General Pinnock",
+   "parent": "R",
+   "level": "brigade",
+   "aliases": [
+    "the fifth brigade",
+    "Pinnock's brigade"
+   ]
+  },
+  {
+   "id": "R-N2",
+   "name": "Sixth brigade",
+   "side": "red",
+   "commander": "General Snelling",
+   "parent": "R",
+   "level": "brigade",
+   "aliases": [
+    "the sixth brigade",
+    "Snelling's brigade"
+   ]
+  },
+  {
+   "id": "R-CU",
+   "name": "Cuirassier brigade",
+   "side": "red",
+   "commander": "General Hebditch",
+   "parent": "R",
+   "level": "brigade",
+   "aliases": [
+    "the cuirassiers",
+    "the cuirassier brigade",
+    "the heavy horse",
+    "Hebditch's brigade"
+   ]
+  },
+  {
+   "id": "R-DR",
+   "name": "Dragoon brigade",
+   "side": "red",
+   "commander": "General Cundall",
+   "parent": "R",
+   "level": "brigade",
+   "aliases": [
+    "the dragoons",
+    "the dragoon brigade",
+    "Cundall's brigade"
+   ]
+  },
+  {
+   "id": "R-HU",
+   "name": "Hussar brigade",
+   "side": "red",
+   "commander": "General Lorimer",
+   "parent": "R",
+   "level": "brigade",
+   "aliases": [
+    "the hussars",
+    "the hussar brigade",
+    "the light horse",
+    "Lorimer's brigade"
+   ]
+  },
+  {
+   "id": "R-AR",
+   "name": "Reserve artillery",
+   "side": "red",
+   "commander": "General Venables",
+   "parent": "R",
+   "level": "brigade",
+   "aliases": [
+    "the reserve artillery",
+    "the reserve guns",
+    "the twelve-pounders",
+    "Venables's guns"
+   ]
+  },
+  {
+   "id": "B",
+   "name": "Blue army",
+   "side": "blue",
+   "commander": "General Fairclough",
+   "parent": null,
+   "level": "army",
+   "aliases": [
+    "the army",
+    "the Blue army",
+    "Fairclough's army"
+   ]
+  },
+  {
+   "id": "B-G",
+   "name": "Grenadier brigade",
+   "side": "blue",
+   "commander": "General Royle",
+   "parent": "B",
+   "level": "brigade",
+   "aliases": [
+    "the grenadiers",
+    "the grenadier brigade",
+    "Royle's brigade"
+   ]
+  },
+  {
+   "id": "B-L1",
+   "name": "First brigade",
+   "side": "blue",
+   "commander": "General Tasker",
+   "parent": "B",
+   "level": "brigade",
+   "aliases": [
+    "the first brigade",
+    "Tasker's brigade"
+   ]
+  },
+  {
+   "id": "B-L2",
+   "name": "Second brigade",
+   "side": "blue",
+   "commander": "General Quayle",
+   "parent": "B",
+   "level": "brigade",
+   "aliases": [
+    "the second brigade",
+    "Quayle's brigade"
+   ]
+  },
+  {
+   "id": "B-L3",
+   "name": "Third brigade",
+   "side": "blue",
+   "commander": "General Pargeter",
+   "parent": "B",
+   "level": "brigade",
+   "aliases": [
+    "the third brigade",
+    "Pargeter's brigade"
+   ]
+  },
+  {
+   "id": "B-L4",
+   "name": "Fourth brigade",
+   "side": "blue",
+   "commander": "General Kemble",
+   "parent": "B",
+   "level": "brigade",
+   "aliases": [
+    "the fourth brigade",
+    "Kemble's brigade"
+   ]
+  },
+  {
+   "id": "B-N1",
+   "name": "Fifth brigade",
+   "side": "blue",
+   "commander": "General Gubbins",
+   "parent": "B",
+   "level": "brigade",
+   "aliases": [
+    "the fifth brigade",
+    "Gubbins's brigade"
+   ]
+  },
+  {
+   "id": "B-N2",
+   "name": "Sixth brigade",
+   "side": "blue",
+   "commander": "General Shillito",
+   "parent": "B",
+   "level": "brigade",
+   "aliases": [
+    "the sixth brigade",
+    "Shillito's brigade"
+   ]
+  },
+  {
+   "id": "B-CU",
+   "name": "Cuirassier brigade",
+   "side": "blue",
+   "commander": "General Etheridge",
+   "parent": "B",
+   "level": "brigade",
+   "aliases": [
+    "the cuirassiers",
+    "the cuirassier brigade",
+    "the heavy horse",
+    "Etheridge's brigade"
+   ]
+  },
+  {
+   "id": "B-DR",
+   "name": "Dragoon brigade",
+   "side": "blue",
+   "commander": "General Hammick",
+   "parent": "B",
+   "level": "brigade",
+   "aliases": [
+    "the dragoons",
+    "the dragoon brigade",
+    "Hammick's brigade"
+   ]
+  },
+  {
+   "id": "B-HU",
+   "name": "Hussar brigade",
+   "side": "blue",
+   "commander": "General Mallinson",
+   "parent": "B",
+   "level": "brigade",
+   "aliases": [
+    "the hussars",
+    "the hussar brigade",
+    "the light horse",
+    "Mallinson's brigade"
+   ]
+  },
+  {
+   "id": "B-AR",
+   "name": "Reserve artillery",
+   "side": "blue",
+   "commander": "General Jupe",
+   "parent": "B",
+   "level": "brigade",
+   "aliases": [
+    "the reserve artillery",
+    "the reserve guns",
+    "the twelve-pounders",
+    "Jupe's guns"
+   ]
+  }
+ ],
+ "units": [
+  {
+   "id": "R-G-1",
+   "name": "Red Grenadiers 01",
+   "side": "red",
+   "parent": "R-G",
+   "kind": "grenadier",
+   "quality": 5,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-G-2",
+   "name": "Red Grenadiers 02",
+   "side": "red",
+   "parent": "R-G",
+   "kind": "grenadier",
+   "quality": 5,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-L1-1",
+   "name": "Red Foot 01",
+   "side": "red",
+   "parent": "R-L1",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-L1-2",
+   "name": "Red Foot 02",
+   "side": "red",
+   "parent": "R-L1",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-L2-1",
+   "name": "Red Foot 03",
+   "side": "red",
+   "parent": "R-L2",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-L2-2",
+   "name": "Red Foot 04",
+   "side": "red",
+   "parent": "R-L2",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-L3-1",
+   "name": "Red Foot 05",
+   "side": "red",
+   "parent": "R-L3",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-L3-2",
+   "name": "Red Foot 06",
+   "side": "red",
+   "parent": "R-L3",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-L4-1",
+   "name": "Red Foot 07",
+   "side": "red",
+   "parent": "R-L4",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-L4-2",
+   "name": "Red Foot 08",
+   "side": "red",
+   "parent": "R-L4",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-N1-1",
+   "name": "Red Foot 09",
+   "side": "red",
+   "parent": "R-N1",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-N1-2",
+   "name": "Red Foot 10",
+   "side": "red",
+   "parent": "R-N1",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-N2-1",
+   "name": "Red Foot 11",
+   "side": "red",
+   "parent": "R-N2",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-N2-2",
+   "name": "Red Foot 12",
+   "side": "red",
+   "parent": "R-N2",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "R-CU-1",
+   "name": "Red Heavy Horse 01",
+   "side": "red",
+   "parent": "R-CU",
+   "kind": "cuirassier",
+   "quality": 4,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 400
+  },
+  {
+   "id": "R-CU-2",
+   "name": "Red Heavy Horse 02",
+   "side": "red",
+   "parent": "R-CU",
+   "kind": "cuirassier",
+   "quality": 4,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 400
+  },
+  {
+   "id": "R-DR-1",
+   "name": "Red Dragoons 01",
+   "side": "red",
+   "parent": "R-DR",
+   "kind": "dragoon",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 400
+  },
+  {
+   "id": "R-DR-2",
+   "name": "Red Dragoons 02",
+   "side": "red",
+   "parent": "R-DR",
+   "kind": "dragoon",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 400
+  },
+  {
+   "id": "R-HU-1",
+   "name": "Red Light Horse 01",
+   "side": "red",
+   "parent": "R-HU",
+   "kind": "hussar",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 400
+  },
+  {
+   "id": "R-HU-2",
+   "name": "Red Light Horse 02",
+   "side": "red",
+   "parent": "R-HU",
+   "kind": "hussar",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 400
+  },
+  {
+   "id": "R-AR-1",
+   "name": "Red Heavy Battery 01",
+   "side": "red",
+   "parent": "R-AR",
+   "kind": "foot_battery",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES); crew EST (15 a gun)",
+   "men": 120,
+   "guns": 8,
+   "crew": 120,
+   "calibre_lb": 12
+  },
+  {
+   "id": "R-AR-2",
+   "name": "Red Heavy Battery 02",
+   "side": "red",
+   "parent": "R-AR",
+   "kind": "foot_battery",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES); crew EST (15 a gun)",
+   "men": 120,
+   "guns": 8,
+   "crew": 120,
+   "calibre_lb": 12
+  },
+  {
+   "id": "B-G-1",
+   "name": "Blue Grenadiers 01",
+   "side": "blue",
+   "parent": "B-G",
+   "kind": "grenadier",
+   "quality": 5,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-G-2",
+   "name": "Blue Grenadiers 02",
+   "side": "blue",
+   "parent": "B-G",
+   "kind": "grenadier",
+   "quality": 5,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-L1-1",
+   "name": "Blue Foot 01",
+   "side": "blue",
+   "parent": "B-L1",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-L1-2",
+   "name": "Blue Foot 02",
+   "side": "blue",
+   "parent": "B-L1",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-L2-1",
+   "name": "Blue Foot 03",
+   "side": "blue",
+   "parent": "B-L2",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-L2-2",
+   "name": "Blue Foot 04",
+   "side": "blue",
+   "parent": "B-L2",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-L3-1",
+   "name": "Blue Foot 05",
+   "side": "blue",
+   "parent": "B-L3",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-L3-2",
+   "name": "Blue Foot 06",
+   "side": "blue",
+   "parent": "B-L3",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-L4-1",
+   "name": "Blue Foot 07",
+   "side": "blue",
+   "parent": "B-L4",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-L4-2",
+   "name": "Blue Foot 08",
+   "side": "blue",
+   "parent": "B-L4",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-N1-1",
+   "name": "Blue Foot 09",
+   "side": "blue",
+   "parent": "B-N1",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-N1-2",
+   "name": "Blue Foot 10",
+   "side": "blue",
+   "parent": "B-N1",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-N2-1",
+   "name": "Blue Foot 11",
+   "side": "blue",
+   "parent": "B-N2",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-N2-2",
+   "name": "Blue Foot 12",
+   "side": "blue",
+   "parent": "B-N2",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "B-CU-1",
+   "name": "Blue Heavy Horse 01",
+   "side": "blue",
+   "parent": "B-CU",
+   "kind": "cuirassier",
+   "quality": 4,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 400
+  },
+  {
+   "id": "B-CU-2",
+   "name": "Blue Heavy Horse 02",
+   "side": "blue",
+   "parent": "B-CU",
+   "kind": "cuirassier",
+   "quality": 4,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 400
+  },
+  {
+   "id": "B-DR-1",
+   "name": "Blue Dragoons 01",
+   "side": "blue",
+   "parent": "B-DR",
+   "kind": "dragoon",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 400
+  },
+  {
+   "id": "B-DR-2",
+   "name": "Blue Dragoons 02",
+   "side": "blue",
+   "parent": "B-DR",
+   "kind": "dragoon",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 400
+  },
+  {
+   "id": "B-HU-1",
+   "name": "Blue Light Horse 01",
+   "side": "blue",
+   "parent": "B-HU",
+   "kind": "hussar",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 400
+  },
+  {
+   "id": "B-HU-2",
+   "name": "Blue Light Horse 02",
+   "side": "blue",
+   "parent": "B-HU",
+   "kind": "hussar",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES)",
+   "men": 400
+  },
+  {
+   "id": "B-AR-1",
+   "name": "Blue Heavy Battery 01",
+   "side": "blue",
+   "parent": "B-AR",
+   "kind": "foot_battery",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES); crew EST (15 a gun)",
+   "men": 120,
+   "guns": 8,
+   "crew": 120,
+   "calibre_lb": 12
+  },
+  {
+   "id": "B-AR-2",
+   "name": "Blue Heavy Battery 02",
+   "side": "blue",
+   "parent": "B-AR",
+   "kind": "foot_battery",
+   "quality": 3,
+   "source": "docs/battles/README.md, Plain's armies, Mirror's ground (DES); crew EST (15 a gun)",
+   "men": 120,
+   "guns": 8,
+   "crew": 120,
+   "calibre_lb": 12
+  }
+ ]
+}

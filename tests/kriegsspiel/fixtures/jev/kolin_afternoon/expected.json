@@ -1,0 +1,18 @@
+{
+ "note": "re-recorded 2026-10-23 after the 2026-10-17 Kolin tuning (OpenRouter route); values from the fixture replay",
+ "seed": 1757,
+ "hash0": "684f8e2a46730cc2757a15aad8b1fea177ef76a3da148c26625b3236785d0880",
+ "ticks": 390,
+ "final_hash": "b919b640d44a4306f03b9bfd74feed27e00eca6c2d173f79f3c26c0175558852",
+ "jev_calls": 100,
+ "verdict": {
+  "achieved": {
+   "austria": "in the main",
+   "prussia": "in part"
+  },
+  "attacker_achieved": false,
+  "decisiveness": 0.1267,
+  "rationale": "winner austria (p=0.54); prussia achieved in part (p=0.78); austria achieved in the main (p=0.66); attacker achieved p=0.14; decisiveness level 0.38",
+  "winner": "austria"
+ }
+}

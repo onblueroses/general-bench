@@ -1,0 +1,35 @@
+{
+ "key": "8c5803a8a27858f5dae9b1aa0458388551d8b9e50773430e1cc64baa355f230f",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:37:01Z",
+ "state": {
+  "order": "Manstein, you are not to engage; keep your grenadiers in column behind Hülsen.",
+  "task given to Manstein's brigade": "follow Hülsen's advance guard, in column, carefully, halting when it meets the enemy, never engaging"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Manstein's brigade go against the order: a different action or objective than the order gives Manstein's brigade, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.05
+   }
+  },
+  "usage": {
+   "input_tokens": 421,
+   "output_tokens": 21,
+   "cost": 1.7682e-05
+  },
+  "id": "gen-dec-1792161421-OKLEmnJkXn1ZvU4kLRf1",
+  "provider": "TypeSafe"
+ }
+}

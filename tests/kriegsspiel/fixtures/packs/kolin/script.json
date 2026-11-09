@@ -1,0 +1,60 @@
+{
+ "note": "The scripted Kolín afternoon (historical orders at historical times), exported from KOLIN_ORDERS in tests/kriegsspiel/kolin_afternoon.py; sources for the plan in docs/kolin-test-pack.md (KRO, Duffy). Manstein's early wheel into the Croats of Chocenice at about 14:30 is the historical departure from the King's plan; the 13:15 order is the King's answer to Zieten's request for a clearer objective.",
+ "orders": [
+  {
+   "at": "13:00",
+   "side": "prussia",
+   "text": "Hülsen, march east along the Kaiserstrasse past Chocenice and storm Křečhoř, then hold the village."
+  },
+  {
+   "at": "13:00",
+   "side": "prussia",
+   "text": "Tresckow, follow Hülsen with the left wing infantry along the road and support his attack on Křečhoř."
+  },
+  {
+   "at": "13:00",
+   "side": "prussia",
+   "text": "Zieten, take the hussars against Nádasdy's horse beyond Kutlíře and drive them off the flank of the advance."
+  },
+  {
+   "at": "13:00",
+   "side": "prussia",
+   "text": "Bevern, keep the right wing in column on the Kaiserstrasse behind Tresckow and do not engage the Austrian front."
+  },
+  {
+   "at": "13:00",
+   "side": "prussia",
+   "text": "The heavy artillery will unlimber by the Zlaté Slunce inn and bombard the Křečhoř heights."
+  },
+  {
+   "at": "13:15",
+   "side": "prussia",
+   "text": "Zieten, ride with the hussars to Kutlíře and charge the Austrian hussars you find there."
+  },
+  {
+   "at": "14:30",
+   "side": "prussia",
+   "text": "Manstein, wheel right at once and clear the Croats out of Chocenice."
+  },
+  {
+   "at": "13:00",
+   "side": "austria",
+   "text": "The whole army stands fast where it is on the heights; nobody is to descend to pursue."
+  },
+  {
+   "at": "13:00",
+   "side": "austria",
+   "text": "Nádasdy, take your cavalry against the Prussian hussars beyond Kutlíře and keep them off our right at Křečhoř."
+  },
+  {
+   "at": "13:00",
+   "side": "austria",
+   "text": "Feuerstein, the artillery will bombard the Prussian columns on the Kaiserstrasse."
+  },
+  {
+   "at": "15:00",
+   "side": "austria",
+   "text": "Colloredo, march the reserve at once to Křečhoř and hold the village and the oak wood."
+  }
+ ]
+}

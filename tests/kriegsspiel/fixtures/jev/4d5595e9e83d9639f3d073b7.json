@@ -1,0 +1,35 @@
+{
+ "key": "4d5595e9e83d9639f3d073b763912696bb8e2a7d7cc1757ee750a4312775b6bf",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:01Z",
+ "state": {
+  "order": "Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.",
+  "task given to Right wing infantry": "hold Kaiserstrasse, carefully, halting when it meets the enemy, never attacking"
+ },
+ "questions": {
+  "k1": {
+   "type": "noul",
+   "instructions": "Does the task given to Right wing infantry go against the order: a different action or objective than the order gives Right wing infantry, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k1": {
+    "type": "noul",
+    "noul": 0.16
+   }
+  },
+  "usage": {
+   "input_tokens": 428,
+   "output_tokens": 21,
+   "cost": 1.7976e-05
+  },
+  "id": "gen-dec-1792161481-ig4TXRVuiJ5iSNVYxlI0",
+  "provider": "TypeSafe"
+ }
+}

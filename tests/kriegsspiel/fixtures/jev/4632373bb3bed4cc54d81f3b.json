@@ -1,0 +1,35 @@
+{
+ "key": "4632373bb3bed4cc54d81f3bd3fe8adc40f1ace06b4470b7f415517a20da9fa4",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:09Z",
+ "state": {
+  "order": "Krosigk, bring your reserve south-east to stand behind Hülsen's left, ready to charge whatever comes against his flank as he attacks Křečhoř.",
+  "task given to Krosigk's cavalry reserve": "follow Hülsen's corps"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Krosigk's cavalry reserve go against the order: a different action or objective than the order gives Krosigk's cavalry reserve, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.28
+   }
+  },
+  "usage": {
+   "input_tokens": 424,
+   "output_tokens": 21,
+   "cost": 1.7808e-05
+  },
+  "id": "gen-dec-1792161489-IqxB2vYr6sCVCFRVcBbB",
+  "provider": "TypeSafe"
+ }
+}

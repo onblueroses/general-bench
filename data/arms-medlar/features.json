@@ -1,0 +1,216 @@
+[
+ {
+  "name": "Medlar Village",
+  "kind": "village",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     4000.0,
+     3000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the village",
+   "the crossroads",
+   "Medlare Village",
+   "Medlar crossroads"
+  ],
+  "radius_m": 200.0,
+  "note": "a point at the crossroads: possession is judged within musket range of it (docs/battles/README.md, the verdict); the houses are the VILLAGE disc of terrain.npz"
+ },
+ {
+  "name": "Post road",
+  "kind": "road",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     0.0,
+     3000.0
+    ],
+    [
+     4000.0,
+     3000.0
+    ],
+    [
+     8000.0,
+     3000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the post road",
+   "the main road"
+  ]
+ },
+ {
+  "name": "Salt road",
+  "kind": "road",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     4000.0,
+     0.0
+    ],
+    [
+     4000.0,
+     3000.0
+    ],
+    [
+     4000.0,
+     6000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the salt road"
+  ]
+ },
+ {
+  "name": "Quince Farm",
+  "kind": "farm",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     2585.8,
+     4414.2
+    ]
+   ]
+  },
+  "aliases": [
+   "Quincee Farm",
+   "the quince farm"
+  ]
+ },
+ {
+  "name": "Damson Farm",
+  "kind": "farm",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     5414.2,
+     4414.2
+    ]
+   ]
+  },
+  "aliases": [
+   "Damsone Farm",
+   "the damson farm"
+  ]
+ },
+ {
+  "name": "Bullace Farm",
+  "kind": "farm",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     5414.2,
+     1585.8
+    ]
+   ]
+  },
+  "aliases": [
+   "Bullacee Farm",
+   "the bullace farm"
+  ]
+ },
+ {
+  "name": "Pippin Farm",
+  "kind": "farm",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     2585.8,
+     1585.8
+    ]
+   ]
+  },
+  "aliases": [
+   "Pippine Farm",
+   "the pippin farm"
+  ]
+ },
+ {
+  "name": "West exit",
+  "kind": "exit",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     10.0,
+     3000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the west exit",
+   "the post road west exit"
+  ],
+  "radius_m": 100.0,
+  "road": "Post road"
+ },
+ {
+  "name": "East exit",
+  "kind": "exit",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     7990.0,
+     3000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the east exit",
+   "the post road east exit"
+  ],
+  "radius_m": 100.0,
+  "road": "Post road"
+ },
+ {
+  "name": "South exit",
+  "kind": "exit",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     4000.0,
+     10.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the south exit",
+   "the salt road south exit"
+  ],
+  "radius_m": 100.0,
+  "road": "Salt road"
+ },
+ {
+  "name": "North exit",
+  "kind": "exit",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     4000.0,
+     5990.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the north exit",
+   "the salt road north exit"
+  ],
+  "radius_m": 100.0,
+  "road": "Salt road"
+ }
+]

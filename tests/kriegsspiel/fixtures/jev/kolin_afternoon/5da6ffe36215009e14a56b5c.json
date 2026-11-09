@@ -1,0 +1,35 @@
+{
+ "key": "5da6ffe36215009e14a56b5cfc6bd31cb1acb957f5aace268d5cc0d1f3eb76d1",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:39:16Z",
+ "state": {
+  "order": "The whole army stands fast where it is on the heights;",
+  "task given to Széchényi's hussars": "hold Křečhoř heights, carefully, halting when it meets the enemy"
+ },
+ "questions": {
+  "k13": {
+   "type": "noul",
+   "instructions": "Does the task given to Széchényi's hussars go against the order: a different action or objective than the order gives Széchényi's hussars, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k13": {
+    "type": "noul",
+    "noul": 0.13
+   }
+  },
+  "usage": {
+   "input_tokens": 417,
+   "output_tokens": 22,
+   "cost": 1.7514e-05
+  },
+  "id": "gen-dec-1792161556-LIS8DcnY92KidjViojaz",
+  "provider": "TypeSafe"
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "key": "1f67af161e07e8167f67d0ca43bb8f89227d0fb48d752ed1df5bcf194d78e7d6",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T12:11:41Z",
+ "state": {
+  "document": "A written order from the army commander to the generals of his army.",
+  "order": "Everything forward! Bevern and Tresckow storm the heights at Křečhoř, cavalry to cover the left.",
+  "formations of this army": [
+   "the Prussian army (General Frederick); also called the King's army, the whole army, the headquarters, my headquarters, the King, the Feldmarschall",
+   "Hülsen's advance guard; also called the advance guard",
+   "Tresckow's brigade; also called Tresckow's infantry",
+   "Manstein's brigade; also called Manstein's grenadiers",
+   "Bevern's wing; also called the left wing infantry",
+   "Zieten's hussars; also called the hussars",
+   "Krosigk's cuirassiers; also called the cuirassiers",
+   "Normann's dragoons; also called the dragoons",
+   "Tauentzien's brigade",
+   "Frederick's artillery; also called the artillery, the guns"
+  ]
+ },
+ "questions": {
+  "o0": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Tresckow's brigade; also called Tresckow's infantry an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  },
+  "o1": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Bevern's wing; also called the left wing infantry an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  },
+  "o2": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Zieten's hussars; also called the hussars an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  },
+  "o3": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Krosigk's cuirassiers; also called the cuirassiers an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  },
+  "o4": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Normann's dragoons; also called the dragoons an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "o0": {
+    "type": "noul",
+    "noul": 0.94
+   },
+   "o1": {
+    "type": "noul",
+    "noul": 0.95
+   },
+   "o2": {
+    "type": "noul",
+    "noul": 0.55
+   },
+   "o3": {
+    "type": "noul",
+    "noul": 0.61
+   },
+   "o4": {
+    "type": "noul",
+    "noul": 0.5
+   }
+  },
+  "usage": {
+   "input_tokens": 1043,
+   "output_tokens": 89,
+   "cost": 4.3806e-05
+  },
+  "id": "gen-dec-1792152701-R78epXHjBz6VcsuSwndu",
+  "provider": "TypeSafe"
+ }
+}

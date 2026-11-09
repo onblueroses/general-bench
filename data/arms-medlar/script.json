@@ -1,0 +1,135 @@
+{
+ "note": "Plain's plan fitted to each army (tools/build_pack.py SCRIPT): the centre brigade advances on the village by the post road and holds it, the brigades beside it and the second line follow it up, the horse covers the flanks, the reserve stays behind and the grenadiers go up to the village at noon. For `script` players, whose orders Jev translates: stub-mode Jev reads every order as its first option, so a stub game of scripts checks plumbing only; stub self-play uses the doctrine bot (design-notes.md).",
+ "orders": [
+  {
+   "at": "09:00",
+   "side": "horse",
+   "text": "Dimmock, advance by the post road to Medlar Village, then hold it."
+  },
+  {
+   "at": "09:00",
+   "side": "horse",
+   "text": "Cradock, advance to Medlar Village left of the second brigade, then hold."
+  },
+  {
+   "at": "09:00",
+   "side": "horse",
+   "text": "Elphick, advance to Medlar Village right of the second brigade, then hold."
+  },
+  {
+   "at": "09:00",
+   "side": "horse",
+   "text": "Fothergill, follow the first brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "horse",
+   "text": "Jowett, cover our left flank."
+  },
+  {
+   "at": "09:00",
+   "side": "horse",
+   "text": "Kershaw, cover our right flank."
+  },
+  {
+   "at": "09:00",
+   "side": "horse",
+   "text": "Hollins, follow Jowett's brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "horse",
+   "text": "Ingleby, follow Kershaw's brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "horse",
+   "text": "Grimshaw, stand in reserve behind the second brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "horse",
+   "text": "Birtwistle, stay in reserve behind the third brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "horse",
+   "text": "Lumb, support the second brigade."
+  },
+  {
+   "at": "12:00",
+   "side": "horse",
+   "text": "Birtwistle, advance to Medlar Village and support the second brigade."
+  },
+  {
+   "at": "12:00",
+   "side": "horse",
+   "text": "Dimmock, hold Medlar Village to the last."
+  },
+  {
+   "at": "09:00",
+   "side": "foot",
+   "text": "Pashley, advance by the post road to Medlar Village, then hold it."
+  },
+  {
+   "at": "09:00",
+   "side": "foot",
+   "text": "Rockliffe, advance to Medlar Village right of the second brigade, then hold."
+  },
+  {
+   "at": "09:00",
+   "side": "foot",
+   "text": "Oxenham, advance on the left of the second brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "foot",
+   "text": "Scattergood, advance on the right of the third brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "foot",
+   "text": "Uttley, follow the first brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "foot",
+   "text": "Tunnicliffe, follow the second brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "foot",
+   "text": "Vardy, follow the third brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "foot",
+   "text": "Yeadon, cover our left flank."
+  },
+  {
+   "at": "09:00",
+   "side": "foot",
+   "text": "Wolstenholme, cover our right flank."
+  },
+  {
+   "at": "09:00",
+   "side": "foot",
+   "text": "Nettleship, stay in reserve behind the fourth brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "foot",
+   "text": "Brocklehurst, support the second brigade."
+  },
+  {
+   "at": "12:00",
+   "side": "foot",
+   "text": "Nettleship, advance to Medlar Village and support the second brigade."
+  },
+  {
+   "at": "12:00",
+   "side": "foot",
+   "text": "Pashley, hold Medlar Village to the last."
+  }
+ ]
+}

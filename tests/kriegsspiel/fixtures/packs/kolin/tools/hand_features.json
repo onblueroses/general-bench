@@ -1,0 +1,355 @@
+{
+ "_note": "Hand-placed 1757 features. Village cores are discs around the OSM place node (20-30 houses each per kronoskaf; radii are guesses). The oak wood is placed from kronoskaf's distances (1 km behind Krzeczhorz, Radowesnitz 1 km farther south); its outline is a guess. Coordinates of woods are local metres (UTM 33N minus origin).",
+ "peklo_marsh_from_latlon": [
+  50.0104,
+  15.1509
+ ],
+ "villages": [
+  {
+   "name": "Plaňany",
+   "latlon": [
+    50.0497,
+    15.0297
+   ],
+   "radius_m": 250,
+   "aliases": [
+    "Planian",
+    "Planjan",
+    "Planany"
+   ]
+  },
+  {
+   "name": "Žabonosy",
+   "latlon": [
+    50.0355,
+    15.0271
+   ],
+   "radius_m": 150,
+   "aliases": [
+    "Zabonos",
+    "Zabanos",
+    "Zabonosy"
+   ]
+  },
+  {
+   "name": "Hradenín",
+   "latlon": [
+    50.0303,
+    15.0424
+   ],
+   "radius_m": 150,
+   "aliases": [
+    "Hradenin"
+   ]
+  },
+  {
+   "name": "Poboří",
+   "latlon": [
+    50.0242,
+    15.0492
+   ],
+   "radius_m": 120,
+   "aliases": [
+    "Pobor",
+    "Pobori"
+   ]
+  },
+  {
+   "name": "Blinka",
+   "latlon": [
+    50.0386,
+    15.0606
+   ],
+   "radius_m": 120,
+   "aliases": [
+    "Blinka village"
+   ]
+  },
+  {
+   "name": "Nové Město",
+   "latlon": [
+    50.0451,
+    15.0753
+   ],
+   "radius_m": 100,
+   "aliases": [
+    "Novomiesto",
+    "Nove Mesto"
+   ]
+  },
+  {
+   "name": "Břežany",
+   "latlon": [
+    50.0349,
+    15.0788
+   ],
+   "radius_m": 170,
+   "aliases": [
+    "Brzezan",
+    "Brezany"
+   ]
+  },
+  {
+   "name": "Chocenice",
+   "latlon": [
+    50.0294,
+    15.0978
+   ],
+   "radius_m": 170,
+   "aliases": [
+    "Chotzemitz",
+    "Chozenitz",
+    "Chotzenitz",
+    "Cotzemitz"
+   ]
+  },
+  {
+   "name": "Bříství",
+   "latlon": [
+    50.0296,
+    15.1141
+   ],
+   "radius_m": 150,
+   "aliases": [
+    "Brzistwi",
+    "Bristvi"
+   ]
+  },
+  {
+   "name": "Zlaté Slunce",
+   "latlon": [
+    50.0398,
+    15.1067
+   ],
+   "radius_m": 60,
+   "aliases": [
+    "Slatislunz",
+    "Zur goldenen Sonne",
+    "Goldene Sonne",
+    "the Golden Sun inn",
+    "Zlate Slunce"
+   ]
+  },
+  {
+   "name": "Křečhoř",
+   "latlon": [
+    50.0255,
+    15.1268
+   ],
+   "radius_m": 170,
+   "aliases": [
+    "Krzeczhorz",
+    "Krzeczor",
+    "Kretschor",
+    "Krechor"
+   ]
+  },
+  {
+   "name": "Kutlíře",
+   "latlon": [
+    50.0288,
+    15.1418
+   ],
+   "radius_m": 120,
+   "aliases": [
+    "Kutlirz",
+    "Kutlire"
+   ]
+  },
+  {
+   "name": "Nová Ves",
+   "latlon": [
+    50.0521,
+    15.1444
+   ],
+   "radius_m": 150,
+   "aliases": [
+    "Neudorf",
+    "Nova Ves"
+   ]
+  },
+  {
+   "name": "Radovesnice",
+   "latlon": [
+    50.0104,
+    15.1509
+   ],
+   "radius_m": 150,
+   "aliases": [
+    "Radowesnitz"
+   ]
+  },
+  {
+   "name": "Libodřice",
+   "latlon": [
+    50.0045,
+    15.0882
+   ],
+   "radius_m": 150,
+   "aliases": [
+    "Libodritz",
+    "Libodrice"
+   ]
+  },
+  {
+   "name": "Krychnov",
+   "latlon": [
+    50.0061,
+    15.0577
+   ],
+   "radius_m": 120,
+   "aliases": [
+    "Krichnow"
+   ]
+  },
+  {
+   "name": "Svojšice",
+   "latlon": [
+    50.0027,
+    15.0417
+   ],
+   "radius_m": 150,
+   "aliases": [
+    "Swojschitz",
+    "Svojsice"
+   ]
+  },
+  {
+   "name": "Bošice",
+   "latlon": [
+    50.0156,
+    15.0325
+   ],
+   "radius_m": 120,
+   "aliases": [
+    "Boschitz",
+    "Bosice"
+   ]
+  },
+  {
+   "name": "Lošany",
+   "latlon": [
+    49.9976,
+    15.126
+   ],
+   "radius_m": 150,
+   "aliases": [
+    "Gross Loschan",
+    "Losany"
+   ]
+  },
+  {
+   "name": "Velim",
+   "latlon": [
+    50.0597,
+    15.1071
+   ],
+   "radius_m": 200,
+   "aliases": [
+    "Welim"
+   ]
+  },
+  {
+   "name": "Zibohlavy",
+   "latlon": [
+    50.0016,
+    15.1585
+   ],
+   "radius_m": 120,
+   "aliases": [
+    "Zibohlaw"
+   ]
+  },
+  {
+   "name": "Kolín",
+   "latlon": [
+    50.0281,
+    15.2014
+   ],
+   "radius_m": 380,
+   "aliases": [
+    "Kolin",
+    "Collin",
+    "Kolin town"
+   ]
+  }
+ ],
+ "woods": [
+  {
+   "name": "Oak wood",
+   "aliases": [
+    "Eichbusch",
+    "Eichwald",
+    "the oak-wood",
+    "Dubina",
+    "Dubový háj"
+   ],
+   "xy": [
+    [
+     9005.4,
+     2511.2
+    ],
+    [
+     8962.5,
+     2556.6
+    ],
+    [
+     8879.7,
+     2578.3
+    ],
+    [
+     8769.5,
+     2572.8
+    ],
+    [
+     8648.7,
+     2541.0
+    ],
+    [
+     8535.7,
+     2487.7
+    ],
+    [
+     8447.8,
+     2421.1
+    ],
+    [
+     8398.2,
+     2351.2
+    ],
+    [
+     8394.6,
+     2288.8
+    ],
+    [
+     8437.5,
+     2243.4
+    ],
+    [
+     8520.3,
+     2221.7
+    ],
+    [
+     8630.5,
+     2227.2
+    ],
+    [
+     8751.3,
+     2259.0
+    ],
+    [
+     8864.3,
+     2312.3
+    ],
+    [
+     8952.2,
+     2378.9
+    ],
+    [
+     9001.8,
+     2448.8
+    ]
+   ]
+  }
+ ]
+}

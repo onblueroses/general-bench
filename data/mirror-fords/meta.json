@@ -1,0 +1,38 @@
+{
+ "battle": "Plover Village",
+ "designed": true,
+ "rules_sheet": true,
+ "season": "high summer",
+ "daylight_date": "07-05",
+ "start": "09:00",
+ "end": "16:00",
+ "time_basis": "local apparent solar time",
+ "sunrise": "03:53",
+ "sunset": "20:07",
+ "civil_dusk": "20:50",
+ "weather": "dry, clear and warm; the ground firm",
+ "sides": {
+  "red": {
+   "commander": "General Gorringe",
+   "army": "R",
+   "role": "meeting engagement"
+  },
+  "blue": {
+   "commander": "General Fairclough",
+   "army": "B",
+   "role": "meeting engagement"
+  }
+ },
+ "strength_documented": {
+  "red": 12440,
+  "blue": 12440
+ },
+ "bodies": {
+  "red": 22,
+  "blue": 22
+ },
+ "par": {
+  "source": "none: designed battle; the baseline is self-play (docs/battles/README.md, calibration)"
+ },
+ "doc": "docs/battles/mirror.md"
+}

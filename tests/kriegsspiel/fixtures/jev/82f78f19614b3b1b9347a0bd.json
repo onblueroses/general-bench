@@ -1,0 +1,1245 @@
+{
+ "key": "82f78f19614b3b1b9347a0bd8fa0f7abec1f46413df01931a31b1d662212b2a2",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T12:13:39Z",
+ "state": {
+  "document": "A written order from the army commander to the generals of his army.",
+  "order": "Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen. Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged. Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before. Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.",
+  "formations of this army": [
+   "Prussian Army (General Frederick II); also called the army, the King's army, the headquarters, my headquarters, the King, the Feldmarschall",
+   "Heavy artillery (artillery, General Prussian artillery commander (unrecorded)); also called the artillery, the heavy guns, the batteries, the Prussian guns",
+   "Right wing infantry (infantry, General Bevern); also called the right wing, Bevern's division, the second column",
+   "Cavalry (cavalry, General Penavaire); also called the cavalry, the horse, Penavaire's cavalry",
+   "Flank-guard grenadiers (infantry, General Major von Kahlden (senior battalion commander, EST)); also called the flank guard, the three grenadier battalions, the grenadiers of the flank guard",
+   "Prince Franz's brigade (infantry, General Prince Franz of Brunswick); also called Braunschweig's brigade, Prince Franz",
+   "Hülsen's corps; also called Hülsen's brigade, Hulsen's corps, Hülsen's infantry",
+   "Infantry (infantry, General Moritz of Anhalt-Dessau); also called the infantry, the centre, Prince Moritz's infantry, Moritz",
+   "Ingersleben's brigade (infantry); also called Ingersleben",
+   "Penavaire's cuirassiers (cavalry, General Krockow); also called the cuirassiers, Krockow's brigade, the twenty squadrons",
+   "Krosigk's cavalry reserve (cavalry); also called the cavalry reserve, Krosigk's brigade, Krosigk's reserve, the third column",
+   "Manstein's brigade (infantry); also called Manstein",
+   "Meinicke's dragoons (cavalry); also called Meinicke's brigade",
+   "Normann's dragoons (cavalry); also called Normann's brigade, the dragoons",
+   "Pannwitz's brigade (infantry); also called Pannwitz",
+   "Puttkamer's brigade (infantry); also called the Guard brigade, Tauentzien's guard battalion",
+   "Schönaich's brigade (cavalry); also called Schönaich, the right-wing cuirassiers, the Garde du Corps brigade",
+   "Left wing infantry (infantry, General Tresckow); also called the left wing, Tresckow's division, the first column",
+   "Vanguard (General Zieten); also called the vanguard, the advance guard, Zieten's corps",
+   "Zieten's hussars (cavalry, General Generalmajor von Katte); also called the hussars, Zieten's hussars, the Prussian hussars"
+  ]
+ },
+ "questions": {
+  "a0": {
+   "type": "noul",
+   "instructions": "Read the order. Is the whole army (Prussian Army (General Frederick II); also called the army, the King's army, the headquarters, my headquarters, the King, the Feldmarschall) told to do something as one body, for example 'everything forward' or 'the army will retire'? An instruction to particular generals or formations alone does not count.",
+   "criteria": {
+    "true": "yes, an instruction to the whole army at once",
+    "false": "no, only particular formations are instructed, or none"
+   }
+  },
+  "a0_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Is the whole army (Prussian Army (General Frederick II); also called the army, the King's army, the headquarters, my headquarters, the King, the Feldmarschall) told to do something as one body, for example 'everything forward' or 'the army will retire'? An instruction to particular generals or formations alone does not count.",
+   "criteria": {
+    "true": "yes, an instruction to the whole army at once",
+    "false": "no, only particular formations are instructed, or none"
+   }
+  },
+  "a0_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Is the whole army (Prussian Army (General Frederick II); also called the army, the King's army, the headquarters, my headquarters, the King, the Feldmarschall) told to do something as one body, for example 'everything forward' or 'the army will retire'? An instruction to particular generals or formations alone does not count.",
+   "criteria": {
+    "true": "yes, an instruction to the whole army at once",
+    "false": "no, only particular formations are instructed, or none"
+   }
+  },
+  "a0_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Is the whole army (Prussian Army (General Frederick II); also called the army, the King's army, the headquarters, my headquarters, the King, the Feldmarschall) told to do something as one body, for example 'everything forward' or 'the army will retire'? An instruction to particular generals or formations alone does not count.",
+   "criteria": {
+    "true": "yes, an instruction to the whole army at once",
+    "false": "no, only particular formations are instructed, or none"
+   }
+  },
+  "a0_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Is the whole army (Prussian Army (General Frederick II); also called the army, the King's army, the headquarters, my headquarters, the King, the Feldmarschall) told to do something as one body, for example 'everything forward' or 'the army will retire'? An instruction to particular generals or formations alone does not count.",
+   "criteria": {
+    "true": "yes, an instruction to the whole army at once",
+    "false": "no, only particular formations are instructed, or none"
+   }
+  },
+  "a1": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Heavy artillery (artillery, General Prussian artillery commander (unrecorded)); also called the artillery, the heavy guns, the batteries, the Prussian guns an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a1_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Heavy artillery (artillery, General Prussian artillery commander (unrecorded)); also called the artillery, the heavy guns, the batteries, the Prussian guns an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a1_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Heavy artillery (artillery, General Prussian artillery commander (unrecorded)); also called the artillery, the heavy guns, the batteries, the Prussian guns an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a1_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Heavy artillery (artillery, General Prussian artillery commander (unrecorded)); also called the artillery, the heavy guns, the batteries, the Prussian guns an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a1_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Heavy artillery (artillery, General Prussian artillery commander (unrecorded)); also called the artillery, the heavy guns, the batteries, the Prussian guns an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a2": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Right wing infantry (infantry, General Bevern); also called the right wing, Bevern's division, the second column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a2_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Right wing infantry (infantry, General Bevern); also called the right wing, Bevern's division, the second column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a2_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Right wing infantry (infantry, General Bevern); also called the right wing, Bevern's division, the second column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a2_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Right wing infantry (infantry, General Bevern); also called the right wing, Bevern's division, the second column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a2_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Right wing infantry (infantry, General Bevern); also called the right wing, Bevern's division, the second column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a3": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Cavalry (cavalry, General Penavaire); also called the cavalry, the horse, Penavaire's cavalry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a3_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Cavalry (cavalry, General Penavaire); also called the cavalry, the horse, Penavaire's cavalry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a3_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Cavalry (cavalry, General Penavaire); also called the cavalry, the horse, Penavaire's cavalry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a3_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Cavalry (cavalry, General Penavaire); also called the cavalry, the horse, Penavaire's cavalry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a3_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Cavalry (cavalry, General Penavaire); also called the cavalry, the horse, Penavaire's cavalry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a4": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Flank-guard grenadiers (infantry, General Major von Kahlden (senior battalion commander, EST)); also called the flank guard, the three grenadier battalions, the grenadiers of the flank guard an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a4_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Flank-guard grenadiers (infantry, General Major von Kahlden (senior battalion commander, EST)); also called the flank guard, the three grenadier battalions, the grenadiers of the flank guard an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a4_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Flank-guard grenadiers (infantry, General Major von Kahlden (senior battalion commander, EST)); also called the flank guard, the three grenadier battalions, the grenadiers of the flank guard an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a4_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Flank-guard grenadiers (infantry, General Major von Kahlden (senior battalion commander, EST)); also called the flank guard, the three grenadier battalions, the grenadiers of the flank guard an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a4_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Flank-guard grenadiers (infantry, General Major von Kahlden (senior battalion commander, EST)); also called the flank guard, the three grenadier battalions, the grenadiers of the flank guard an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a5": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Prince Franz's brigade (infantry, General Prince Franz of Brunswick); also called Braunschweig's brigade, Prince Franz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a5_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Prince Franz's brigade (infantry, General Prince Franz of Brunswick); also called Braunschweig's brigade, Prince Franz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a5_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Prince Franz's brigade (infantry, General Prince Franz of Brunswick); also called Braunschweig's brigade, Prince Franz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a5_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Prince Franz's brigade (infantry, General Prince Franz of Brunswick); also called Braunschweig's brigade, Prince Franz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a5_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Prince Franz's brigade (infantry, General Prince Franz of Brunswick); also called Braunschweig's brigade, Prince Franz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a6": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Hülsen's corps; also called Hülsen's brigade, Hulsen's corps, Hülsen's infantry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a6_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Hülsen's corps; also called Hülsen's brigade, Hulsen's corps, Hülsen's infantry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a6_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Hülsen's corps; also called Hülsen's brigade, Hulsen's corps, Hülsen's infantry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a6_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Hülsen's corps; also called Hülsen's brigade, Hulsen's corps, Hülsen's infantry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a6_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Hülsen's corps; also called Hülsen's brigade, Hulsen's corps, Hülsen's infantry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a7": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Infantry (infantry, General Moritz of Anhalt-Dessau); also called the infantry, the centre, Prince Moritz's infantry, Moritz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a7_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Infantry (infantry, General Moritz of Anhalt-Dessau); also called the infantry, the centre, Prince Moritz's infantry, Moritz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a7_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Infantry (infantry, General Moritz of Anhalt-Dessau); also called the infantry, the centre, Prince Moritz's infantry, Moritz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a7_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Infantry (infantry, General Moritz of Anhalt-Dessau); also called the infantry, the centre, Prince Moritz's infantry, Moritz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a7_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Infantry (infantry, General Moritz of Anhalt-Dessau); also called the infantry, the centre, Prince Moritz's infantry, Moritz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a8": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Ingersleben's brigade (infantry); also called Ingersleben an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a8_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Ingersleben's brigade (infantry); also called Ingersleben an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a8_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Ingersleben's brigade (infantry); also called Ingersleben an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a8_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Ingersleben's brigade (infantry); also called Ingersleben an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a8_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Ingersleben's brigade (infantry); also called Ingersleben an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a9": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Penavaire's cuirassiers (cavalry, General Krockow); also called the cuirassiers, Krockow's brigade, the twenty squadrons an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a9_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Penavaire's cuirassiers (cavalry, General Krockow); also called the cuirassiers, Krockow's brigade, the twenty squadrons an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a9_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Penavaire's cuirassiers (cavalry, General Krockow); also called the cuirassiers, Krockow's brigade, the twenty squadrons an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a9_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Penavaire's cuirassiers (cavalry, General Krockow); also called the cuirassiers, Krockow's brigade, the twenty squadrons an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a9_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Penavaire's cuirassiers (cavalry, General Krockow); also called the cuirassiers, Krockow's brigade, the twenty squadrons an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a10": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Krosigk's cavalry reserve (cavalry); also called the cavalry reserve, Krosigk's brigade, Krosigk's reserve, the third column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a10_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Krosigk's cavalry reserve (cavalry); also called the cavalry reserve, Krosigk's brigade, Krosigk's reserve, the third column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a10_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Krosigk's cavalry reserve (cavalry); also called the cavalry reserve, Krosigk's brigade, Krosigk's reserve, the third column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a10_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Krosigk's cavalry reserve (cavalry); also called the cavalry reserve, Krosigk's brigade, Krosigk's reserve, the third column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a10_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Krosigk's cavalry reserve (cavalry); also called the cavalry reserve, Krosigk's brigade, Krosigk's reserve, the third column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a11": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Manstein's brigade (infantry); also called Manstein an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a11_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Manstein's brigade (infantry); also called Manstein an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a11_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Manstein's brigade (infantry); also called Manstein an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a11_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Manstein's brigade (infantry); also called Manstein an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a11_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Manstein's brigade (infantry); also called Manstein an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a12": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Meinicke's dragoons (cavalry); also called Meinicke's brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a12_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Meinicke's dragoons (cavalry); also called Meinicke's brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a12_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Meinicke's dragoons (cavalry); also called Meinicke's brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a12_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Meinicke's dragoons (cavalry); also called Meinicke's brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a12_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Meinicke's dragoons (cavalry); also called Meinicke's brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a13": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Normann's dragoons (cavalry); also called Normann's brigade, the dragoons an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a13_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Normann's dragoons (cavalry); also called Normann's brigade, the dragoons an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a13_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Normann's dragoons (cavalry); also called Normann's brigade, the dragoons an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a13_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Normann's dragoons (cavalry); also called Normann's brigade, the dragoons an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a13_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Normann's dragoons (cavalry); also called Normann's brigade, the dragoons an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a14": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Pannwitz's brigade (infantry); also called Pannwitz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a14_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Pannwitz's brigade (infantry); also called Pannwitz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a14_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Pannwitz's brigade (infantry); also called Pannwitz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a14_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Pannwitz's brigade (infantry); also called Pannwitz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a14_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Pannwitz's brigade (infantry); also called Pannwitz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a15": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Puttkamer's brigade (infantry); also called the Guard brigade, Tauentzien's guard battalion an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a15_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Puttkamer's brigade (infantry); also called the Guard brigade, Tauentzien's guard battalion an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a15_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Puttkamer's brigade (infantry); also called the Guard brigade, Tauentzien's guard battalion an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a15_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Puttkamer's brigade (infantry); also called the Guard brigade, Tauentzien's guard battalion an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a15_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Puttkamer's brigade (infantry); also called the Guard brigade, Tauentzien's guard battalion an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a16": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Schönaich's brigade (cavalry); also called Schönaich, the right-wing cuirassiers, the Garde du Corps brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a16_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Schönaich's brigade (cavalry); also called Schönaich, the right-wing cuirassiers, the Garde du Corps brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a16_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Schönaich's brigade (cavalry); also called Schönaich, the right-wing cuirassiers, the Garde du Corps brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a16_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Schönaich's brigade (cavalry); also called Schönaich, the right-wing cuirassiers, the Garde du Corps brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a16_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Schönaich's brigade (cavalry); also called Schönaich, the right-wing cuirassiers, the Garde du Corps brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a17": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Left wing infantry (infantry, General Tresckow); also called the left wing, Tresckow's division, the first column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a17_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Left wing infantry (infantry, General Tresckow); also called the left wing, Tresckow's division, the first column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a17_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Left wing infantry (infantry, General Tresckow); also called the left wing, Tresckow's division, the first column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a17_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Left wing infantry (infantry, General Tresckow); also called the left wing, Tresckow's division, the first column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a17_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Left wing infantry (infantry, General Tresckow); also called the left wing, Tresckow's division, the first column an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a18": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Vanguard (General Zieten); also called the vanguard, the advance guard, Zieten's corps an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a18_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Vanguard (General Zieten); also called the vanguard, the advance guard, Zieten's corps an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a18_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Vanguard (General Zieten); also called the vanguard, the advance guard, Zieten's corps an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a18_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Vanguard (General Zieten); also called the vanguard, the advance guard, Zieten's corps an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a18_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Vanguard (General Zieten); also called the vanguard, the advance guard, Zieten's corps an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a19": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Zieten's hussars (cavalry, General Generalmajor von Katte); also called the hussars, Zieten's hussars, the Prussian hussars an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a19_c0": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.». Does it give Zieten's hussars (cavalry, General Generalmajor von Katte); also called the hussars, Zieten's hussars, the Prussian hussars an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a19_c1": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Do not turn the head of the column to the right until it has passed Křečhoř and Hülsen is engaged.». Does it give Zieten's hussars (cavalry, General Generalmajor von Katte); also called the hussars, Zieten's hussars, the Prussian hussars an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a19_c2": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Then form to the right and attack in echelon from the left, Tresckow's wing first in close support of Hülsen, each brigade going in on the left of the one before.». Does it give Zieten's hussars (cavalry, General Generalmajor von Katte); also called the hussars, Zieten's hussars, the Prussian hussars an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a19_c3": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Bevern's wing is refused, to keep to the north of the high road out of range of the enemy batteries, and is not to be drawn into any attack on the enemy's front.». Does it give Zieten's hussars (cavalry, General Generalmajor von Katte); also called the hussars, Zieten's hussars, the Prussian hussars an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "a0": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "a0_c0": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a0_c1": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "a0_c2": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a0_c3": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "a1": {
+    "type": "noul",
+    "noul": 0.1
+   },
+   "a1_c0": {
+    "type": "noul",
+    "noul": 0.15
+   },
+   "a1_c1": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a1_c2": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a1_c3": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a2": {
+    "type": "noul",
+    "noul": 0.96
+   },
+   "a2_c0": {
+    "type": "noul",
+    "noul": 0.36
+   },
+   "a2_c1": {
+    "type": "noul",
+    "noul": 0.25
+   },
+   "a2_c2": {
+    "type": "noul",
+    "noul": 0.28
+   },
+   "a2_c3": {
+    "type": "noul",
+    "noul": 0.96
+   },
+   "a3": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a3_c0": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a3_c1": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a3_c2": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a3_c3": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a4": {
+    "type": "noul",
+    "noul": 0.09
+   },
+   "a4_c0": {
+    "type": "noul",
+    "noul": 0.28
+   },
+   "a4_c1": {
+    "type": "noul",
+    "noul": 0.09
+   },
+   "a4_c2": {
+    "type": "noul",
+    "noul": 0.13
+   },
+   "a4_c3": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a5": {
+    "type": "noul",
+    "noul": 0.13
+   },
+   "a5_c0": {
+    "type": "noul",
+    "noul": 0.57
+   },
+   "a5_c1": {
+    "type": "noul",
+    "noul": 0.09
+   },
+   "a5_c2": {
+    "type": "noul",
+    "noul": 0.19
+   },
+   "a5_c3": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a6": {
+    "type": "noul",
+    "noul": 0.23
+   },
+   "a6_c0": {
+    "type": "noul",
+    "noul": 0.11
+   },
+   "a6_c1": {
+    "type": "noul",
+    "noul": 0.13
+   },
+   "a6_c2": {
+    "type": "noul",
+    "noul": 0.21
+   },
+   "a6_c3": {
+    "type": "noul",
+    "noul": 0.12
+   },
+   "a7": {
+    "type": "noul",
+    "noul": 0.97
+   },
+   "a7_c0": {
+    "type": "noul",
+    "noul": 0.97
+   },
+   "a7_c1": {
+    "type": "noul",
+    "noul": 0.91
+   },
+   "a7_c2": {
+    "type": "noul",
+    "noul": 0.88
+   },
+   "a7_c3": {
+    "type": "noul",
+    "noul": 0.16
+   },
+   "a8": {
+    "type": "noul",
+    "noul": 0.12
+   },
+   "a8_c0": {
+    "type": "noul",
+    "noul": 0.59
+   },
+   "a8_c1": {
+    "type": "noul",
+    "noul": 0.12
+   },
+   "a8_c2": {
+    "type": "noul",
+    "noul": 0.18
+   },
+   "a8_c3": {
+    "type": "noul",
+    "noul": 0.13
+   },
+   "a9": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a9_c0": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "a9_c1": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "a9_c2": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a9_c3": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a10": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a10_c0": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a10_c1": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a10_c2": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a10_c3": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a11": {
+    "type": "noul",
+    "noul": 0.13
+   },
+   "a11_c0": {
+    "type": "noul",
+    "noul": 0.69
+   },
+   "a11_c1": {
+    "type": "noul",
+    "noul": 0.17
+   },
+   "a11_c2": {
+    "type": "noul",
+    "noul": 0.21
+   },
+   "a11_c3": {
+    "type": "noul",
+    "noul": 0.11
+   },
+   "a12": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a12_c0": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a12_c1": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a12_c2": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a12_c3": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a13": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a13_c0": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a13_c1": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a13_c2": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a13_c3": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a14": {
+    "type": "noul",
+    "noul": 0.17
+   },
+   "a14_c0": {
+    "type": "noul",
+    "noul": 0.76
+   },
+   "a14_c1": {
+    "type": "noul",
+    "noul": 0.16
+   },
+   "a14_c2": {
+    "type": "noul",
+    "noul": 0.22
+   },
+   "a14_c3": {
+    "type": "noul",
+    "noul": 0.11
+   },
+   "a15": {
+    "type": "noul",
+    "noul": 0.16
+   },
+   "a15_c0": {
+    "type": "noul",
+    "noul": 0.72
+   },
+   "a15_c1": {
+    "type": "noul",
+    "noul": 0.18
+   },
+   "a15_c2": {
+    "type": "noul",
+    "noul": 0.22
+   },
+   "a15_c3": {
+    "type": "noul",
+    "noul": 0.15
+   },
+   "a16": {
+    "type": "noul",
+    "noul": 0.1
+   },
+   "a16_c0": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a16_c1": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "a16_c2": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a16_c3": {
+    "type": "noul",
+    "noul": 0.22
+   },
+   "a17": {
+    "type": "noul",
+    "noul": 0.9
+   },
+   "a17_c0": {
+    "type": "noul",
+    "noul": 0.41
+   },
+   "a17_c1": {
+    "type": "noul",
+    "noul": 0.26
+   },
+   "a17_c2": {
+    "type": "noul",
+    "noul": 0.94
+   },
+   "a17_c3": {
+    "type": "noul",
+    "noul": 0.15
+   },
+   "a18": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a18_c0": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a18_c1": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a18_c2": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "a18_c3": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a19": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "a19_c0": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "a19_c1": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a19_c2": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a19_c3": {
+    "type": "noul",
+    "noul": 0.06
+   }
+  },
+  "usage": {
+   "input_tokens": 20315,
+   "output_tokens": 1914,
+   "cost": 0.00085323
+  },
+  "id": "gen-dec-1792152818-65bxb1goMTnCIRjp5C8g",
+  "provider": "TypeSafe"
+ }
+}

@@ -1,0 +1,1093 @@
+{
+ "start": "13:00",
+ "units": {
+  "P-ZIE-I": {
+   "x": 7588.5,
+   "y": 4838.1,
+   "facing_deg": 135.0,
+   "state": "line",
+   "fatigue": 10.0
+  },
+  "P-ZIE-II": {
+   "x": 7764.7,
+   "y": 4580.2,
+   "facing_deg": 135.0,
+   "state": "line",
+   "fatigue": 10.0
+  },
+  "P-WER-I": {
+   "x": 7940.9,
+   "y": 4322.2,
+   "facing_deg": 135.0,
+   "state": "line",
+   "fatigue": 10.0
+  },
+  "P-WER-II": {
+   "x": 8117.1,
+   "y": 4064.2,
+   "facing_deg": 135.0,
+   "state": "line",
+   "fatigue": 10.0
+  },
+  "P-PUT-I": {
+   "x": 8293.3,
+   "y": 3806.2,
+   "facing_deg": 135.0,
+   "state": "line",
+   "fatigue": 10.0
+  },
+  "P-PUT-II": {
+   "x": 7171.3,
+   "y": 4677.2,
+   "facing_deg": 135.0,
+   "state": "line",
+   "fatigue": 10.0
+  },
+  "P-WAR-I": {
+   "x": 7347.4,
+   "y": 4419.2,
+   "facing_deg": 135.0,
+   "state": "line",
+   "fatigue": 10.0
+  },
+  "P-WAR-II": {
+   "x": 7523.6,
+   "y": 4161.2,
+   "facing_deg": 135.0,
+   "state": "line",
+   "fatigue": 10.0
+  },
+  "P-SEY": {
+   "x": 7699.8,
+   "y": 3903.3,
+   "facing_deg": 135.0,
+   "state": "line",
+   "fatigue": 10.0
+  },
+  "P-SZE": {
+   "x": 7876.0,
+   "y": 3645.3,
+   "facing_deg": 135.0,
+   "state": "line",
+   "fatigue": 10.0
+  },
+  "P-NIM": {
+   "x": 7249.4,
+   "y": 4148.7,
+   "facing_deg": 103.2,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-WAL": {
+   "x": 7083.8,
+   "y": 4187.5,
+   "facing_deg": 103.2,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-FIN": {
+   "x": 6918.3,
+   "y": 4226.4,
+   "facing_deg": 103.4,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-ART-HUL": {
+   "x": 6728.7,
+   "y": 4271.6,
+   "facing_deg": 103.4,
+   "state": "limbered",
+   "fatigue": 10.0
+  },
+  "P-SCHU-I": {
+   "x": 6538.7,
+   "y": 4315.5,
+   "facing_deg": 103.2,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-SCHU-II": {
+   "x": 6373.1,
+   "y": 4354.2,
+   "facing_deg": 103.2,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-MUNC-I": {
+   "x": 6207.6,
+   "y": 4392.9,
+   "facing_deg": 103.2,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-MUNC-II": {
+   "x": 6042.1,
+   "y": 4431.7,
+   "facing_deg": 103.4,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-STE": {
+   "x": 5828.1,
+   "y": 4482.6,
+   "facing_deg": 103.4,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-CAR": {
+   "x": 5419.3,
+   "y": 5279.3,
+   "facing_deg": 103.2,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-LRP": {
+   "x": 5156.4,
+   "y": 5340.9,
+   "facing_deg": 103.1,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-KYA": {
+   "x": 4893.4,
+   "y": 5401.6,
+   "facing_deg": 102.9,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-KRC": {
+   "x": 4630.2,
+   "y": 5461.9,
+   "facing_deg": 102.9,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-BORN-I": {
+   "x": 4318.4,
+   "y": 5534.1,
+   "facing_deg": 103.2,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-BORN-II": {
+   "x": 4152.9,
+   "y": 5572.6,
+   "facing_deg": 103.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-ANHD-I": {
+   "x": 3987.2,
+   "y": 5611.0,
+   "facing_deg": 103.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-ANHD-II": {
+   "x": 3821.6,
+   "y": 5649.3,
+   "facing_deg": 103.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-HULS-I": {
+   "x": 3655.4,
+   "y": 5684.7,
+   "facing_deg": 98.1,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-HULS-II": {
+   "x": 3486.5,
+   "y": 5703.6,
+   "facing_deg": 93.5,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-BRBE-I": {
+   "x": 3316.6,
+   "y": 5708.6,
+   "facing_deg": 88.7,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-BRBE-II": {
+   "x": 3147.0,
+   "y": 5698.8,
+   "facing_deg": 84.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-KALC-I": {
+   "x": 2977.9,
+   "y": 5681.2,
+   "facing_deg": 84.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-KALC-II": {
+   "x": 2808.8,
+   "y": 5663.5,
+   "facing_deg": 84.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-PMOR-I": {
+   "x": 2639.8,
+   "y": 5645.8,
+   "facing_deg": 84.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-PMOR-II": {
+   "x": 2470.7,
+   "y": 5628.1,
+   "facing_deg": 84.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-MANT-I": {
+   "x": 2301.6,
+   "y": 5610.5,
+   "facing_deg": 84.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-MANT-II": {
+   "x": 2132.5,
+   "y": 5592.8,
+   "facing_deg": 84.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-GDC": {
+   "x": 1814.2,
+   "y": 5559.6,
+   "facing_deg": 84.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-SCC": {
+   "x": 1545.7,
+   "y": 5531.5,
+   "facing_deg": 84.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-DRI": {
+   "x": 1277.2,
+   "y": 5503.5,
+   "facing_deg": 84.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-BLA": {
+   "x": 6232.1,
+   "y": 5549.3,
+   "facing_deg": 103.2,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-KAT": {
+   "x": 5971.2,
+   "y": 5611.1,
+   "facing_deg": 103.4,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-PHEI-I": {
+   "x": 5658.6,
+   "y": 5685.3,
+   "facing_deg": 103.2,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-PHEI-II": {
+   "x": 5493.1,
+   "y": 5724.2,
+   "facing_deg": 103.2,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-WIED-I": {
+   "x": 5326.8,
+   "y": 5763.2,
+   "facing_deg": 103.1,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-WIED-II": {
+   "x": 5161.2,
+   "y": 5801.8,
+   "facing_deg": 103.1,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-GEM": {
+   "x": 4993.7,
+   "y": 5840.3,
+   "facing_deg": 102.9,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-LGD": {
+   "x": 4828.0,
+   "y": 5878.2,
+   "facing_deg": 102.9,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-KREY-I": {
+   "x": 4662.3,
+   "y": 5916.1,
+   "facing_deg": 102.9,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-KREY-II": {
+   "x": 4498.7,
+   "y": 5954.1,
+   "facing_deg": 103.2,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-MED": {
+   "x": 4186.2,
+   "y": 6026.8,
+   "facing_deg": 103.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-WAN": {
+   "x": 4738.3,
+   "y": 6360.4,
+   "facing_deg": 102.9,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-MOL": {
+   "x": 4576.8,
+   "y": 6397.9,
+   "facing_deg": 103.2,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-KAH": {
+   "x": 4409.5,
+   "y": 6437.0,
+   "facing_deg": 103.0,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-ROC": {
+   "x": 6041.6,
+   "y": 6468.1,
+   "facing_deg": 103.4,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-PVP": {
+   "x": 5775.3,
+   "y": 6531.1,
+   "facing_deg": 103.2,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-NOD": {
+   "x": 5510.0,
+   "y": 6593.3,
+   "facing_deg": 103.1,
+   "state": "column",
+   "fatigue": 10.0
+  },
+  "P-ART-1": {
+   "x": 4310.7,
+   "y": 5720.7,
+   "facing_deg": 103.2,
+   "state": "limbered",
+   "fatigue": 10.0
+  },
+  "P-ART-2": {
+   "x": 4096.0,
+   "y": 5770.5,
+   "facing_deg": 103.0,
+   "state": "limbered",
+   "fatigue": 10.0
+  },
+  "A-SAVO": {
+   "x": 7635.0,
+   "y": 2058.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-KOLO": {
+   "x": 7305.0,
+   "y": 2075.5,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-KALK": {
+   "x": 6975.0,
+   "y": 2056.7,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-ECAR-I": {
+   "x": 6672.5,
+   "y": 2076.6,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-ECAR-II": {
+   "x": 6497.5,
+   "y": 2072.1,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-MOLT-I": {
+   "x": 6322.5,
+   "y": 2159.6,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-MOLT-II": {
+   "x": 6147.5,
+   "y": 2223.1,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-MOLT-III": {
+   "x": 5972.5,
+   "y": 2272.6,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-PUEB-I": {
+   "x": 5797.5,
+   "y": 2336.8,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-PUEB-II": {
+   "x": 5622.5,
+   "y": 2324.4,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-PUEB-III": {
+   "x": 5447.5,
+   "y": 2283.6,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-AREN-I": {
+   "x": 5272.5,
+   "y": 3242.7,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-AREN-II": {
+   "x": 5097.5,
+   "y": 3191.8,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-AREN-III": {
+   "x": 4922.5,
+   "y": 3147.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-TURH-I": {
+   "x": 4747.5,
+   "y": 3112.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-TURH-II": {
+   "x": 4572.5,
+   "y": 3077.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-TURH-III": {
+   "x": 4397.5,
+   "y": 3062.5,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-LDAU-I": {
+   "x": 4222.5,
+   "y": 3062.5,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-LDAU-II": {
+   "x": 4047.5,
+   "y": 3062.5,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-LDAU-III": {
+   "x": 3872.5,
+   "y": 3250.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-HARR-I": {
+   "x": 3697.5,
+   "y": 3250.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-HARR-II": {
+   "x": 3522.5,
+   "y": 3250.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-SERB": {
+   "x": 3220.0,
+   "y": 3250.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-PORP": {
+   "x": 2890.0,
+   "y": 3250.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-HDAR": {
+   "x": 2585.0,
+   "y": 3250.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-LIGD": {
+   "x": 7635.0,
+   "y": 1758.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-PORT": {
+   "x": 7305.0,
+   "y": 1775.5,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-SCHM": {
+   "x": 6975.0,
+   "y": 1756.7,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-NEIP-I": {
+   "x": 6672.5,
+   "y": 1776.6,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-NEIP-II": {
+   "x": 6497.5,
+   "y": 1772.1,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-NEIP-III": {
+   "x": 6322.5,
+   "y": 1859.6,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-GAIS-I": {
+   "x": 6147.5,
+   "y": 1923.1,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-GAIS-II": {
+   "x": 5972.5,
+   "y": 1972.6,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-GAIS-III": {
+   "x": 5797.5,
+   "y": 2036.8,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-HALL-I": {
+   "x": 5622.5,
+   "y": 2024.4,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-HALL-II": {
+   "x": 5447.5,
+   "y": 1983.6,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-DMEI-I": {
+   "x": 5272.5,
+   "y": 2942.7,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-DMEI-II": {
+   "x": 5097.5,
+   "y": 2891.8,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-BADE-I": {
+   "x": 4922.5,
+   "y": 2847.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-BADE-II": {
+   "x": 4747.5,
+   "y": 2812.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-BOTT-I": {
+   "x": 4572.5,
+   "y": 2777.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-BOTT-II": {
+   "x": 4397.5,
+   "y": 2762.5,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-BOTT-III": {
+   "x": 4222.5,
+   "y": 2762.5,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-GELH": {
+   "x": 3920.0,
+   "y": 2950.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-AMOD": {
+   "x": 3590.0,
+   "y": 2950.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-SGOD": {
+   "x": 3260.0,
+   "y": 2950.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-LRIO": {
+   "x": 7612.5,
+   "y": 1258.8,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-PLAT": {
+   "x": 7437.5,
+   "y": 1266.7,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-STAR": {
+   "x": 7262.5,
+   "y": 1278.4,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-SALM-I": {
+   "x": 7087.5,
+   "y": 1262.9,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-SALM-II": {
+   "x": 6912.5,
+   "y": 1262.9,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-ARBE": {
+   "x": 6737.5,
+   "y": 1278.8,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-SAGO": {
+   "x": 6562.5,
+   "y": 1272.9,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-MERC": {
+   "x": 6387.5,
+   "y": 1327.1,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-LIGN": {
+   "x": 6212.5,
+   "y": 1405.8,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-ODOC": {
+   "x": 7735.0,
+   "y": 1854.7,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-BIRK": {
+   "x": 7405.0,
+   "y": 1868.8,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-JMOD": {
+   "x": 7075.0,
+   "y": 1861.7,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-WURT": {
+   "x": 6745.0,
+   "y": 1879.0,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-KARA": {
+   "x": 6415.0,
+   "y": 1913.3,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-GSORO": {
+   "x": 5512.5,
+   "y": 2648.7,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-GFIOR": {
+   "x": 5337.5,
+   "y": 2607.9,
+   "facing_deg": 0.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-ART-1": {
+   "x": 7500,
+   "y": 3212.5,
+   "facing_deg": 0.0,
+   "state": "unlimbered",
+   "fatigue": 0.0
+  },
+  "A-ART-2": {
+   "x": 6650,
+   "y": 3225.8,
+   "facing_deg": 0.0,
+   "state": "unlimbered",
+   "fatigue": 0.0
+  },
+  "A-ART-3": {
+   "x": 5800,
+   "y": 3485.9,
+   "facing_deg": 0.0,
+   "state": "unlimbered",
+   "fatigue": 0.0
+  },
+  "A-ART-4": {
+   "x": 4900,
+   "y": 3292.5,
+   "facing_deg": 0.0,
+   "state": "unlimbered",
+   "fatigue": 0.0
+  },
+  "A-ART-5": {
+   "x": 4000,
+   "y": 3212.5,
+   "facing_deg": 0.0,
+   "state": "unlimbered",
+   "fatigue": 0.0
+  },
+  "A-ART-6": {
+   "x": 3100,
+   "y": 3400.0,
+   "facing_deg": 0.0,
+   "state": "unlimbered",
+   "fatigue": 0.0
+  },
+  "A-BANA-I": {
+   "x": 8022.6,
+   "y": 1623.6,
+   "facing_deg": 0.0,
+   "state": "skirmish",
+   "fatigue": 0.0
+  },
+  "A-BANA-II": {
+   "x": 8142.6,
+   "y": 1623.6,
+   "facing_deg": 0.0,
+   "state": "skirmish",
+   "fatigue": 0.0
+  },
+  "A-SZLU-I": {
+   "x": 5944.8,
+   "y": 2054.1,
+   "facing_deg": 0.0,
+   "state": "skirmish",
+   "fatigue": 0.0
+  },
+  "A-SZLU-II": {
+   "x": 6064.8,
+   "y": 2054.1,
+   "facing_deg": 0.0,
+   "state": "skirmish",
+   "fatigue": 0.0
+  },
+  "A-WARA": {
+   "x": 2524.2,
+   "y": 1472.5,
+   "facing_deg": 0.0,
+   "state": "skirmish",
+   "fatigue": 0.0
+  },
+  "A-GRAD-I": {
+   "x": 1590.0,
+   "y": 3740.0,
+   "facing_deg": 330.0,
+   "state": "skirmish",
+   "fatigue": 0.0
+  },
+  "A-GRAD-II": {
+   "x": 1770.0,
+   "y": 3820.0,
+   "facing_deg": 330.0,
+   "state": "skirmish",
+   "fatigue": 0.0
+  },
+  "A-BROO-I": {
+   "x": 1950.0,
+   "y": 3900.0,
+   "facing_deg": 330.0,
+   "state": "skirmish",
+   "fatigue": 0.0
+  },
+  "A-BROO-II": {
+   "x": 2130.0,
+   "y": 3980.0,
+   "facing_deg": 330.0,
+   "state": "skirmish",
+   "fatigue": 0.0
+  },
+  "A-KOMI": {
+   "x": 2310.0,
+   "y": 4060.0,
+   "facing_deg": 330.0,
+   "state": "skirmish",
+   "fatigue": 0.0
+  },
+  "A-PKAR": {
+   "x": 8600.0,
+   "y": 150.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-PALB": {
+   "x": 8800.0,
+   "y": 150.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-BRUH-I": {
+   "x": 9000.0,
+   "y": 150.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-BRUH-II": {
+   "x": 9200.0,
+   "y": 150.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-KOMC": {
+   "x": 9400.0,
+   "y": 1800.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-FEST": {
+   "x": 9600.0,
+   "y": 183.3,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-MORH": {
+   "x": 9800.0,
+   "y": 316.7,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-KAIS-I": {
+   "x": 10000.0,
+   "y": 450.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-KAIS-II": {
+   "x": 10200.0,
+   "y": 583.3,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-SZGH": {
+   "x": 8859.4,
+   "y": 1025.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-ESTH": {
+   "x": 9078.1,
+   "y": 1175.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-JAZY-I": {
+   "x": 9296.9,
+   "y": 1325.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-JAZY-II": {
+   "x": 9515.6,
+   "y": 1475.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-BARA": {
+   "x": 9734.4,
+   "y": 1625.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-HADH": {
+   "x": 9953.1,
+   "y": 1775.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-KALN": {
+   "x": 10171.9,
+   "y": 1925.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  },
+  "A-NADH": {
+   "x": 10390.6,
+   "y": 2075.0,
+   "facing_deg": 315.0,
+   "state": "line",
+   "fatigue": 0.0
+  }
+ },
+ "hq": {
+  "P": [
+   6641.0,
+   4961.0
+  ],
+  "A": [
+   6770.1,
+   2776.4
+  ]
+ }
+}

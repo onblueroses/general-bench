@@ -1,0 +1,806 @@
+{
+ "sides": [
+  "horse",
+  "foot"
+ ],
+ "formations": [
+  {
+   "id": "H",
+   "name": "White army",
+   "side": "horse",
+   "commander": "General Ashdown",
+   "parent": null,
+   "level": "army",
+   "aliases": [
+    "the army",
+    "the White army",
+    "Ashdown's army"
+   ]
+  },
+  {
+   "id": "H-G",
+   "name": "Grenadier brigade",
+   "side": "horse",
+   "commander": "General Birtwistle",
+   "parent": "H",
+   "level": "brigade",
+   "aliases": [
+    "the grenadiers",
+    "the grenadier brigade",
+    "Birtwistle's brigade"
+   ]
+  },
+  {
+   "id": "H-L1",
+   "name": "First brigade",
+   "side": "horse",
+   "commander": "General Cradock",
+   "parent": "H",
+   "level": "brigade",
+   "aliases": [
+    "the first brigade",
+    "Cradock's brigade"
+   ]
+  },
+  {
+   "id": "H-L2",
+   "name": "Second brigade",
+   "side": "horse",
+   "commander": "General Dimmock",
+   "parent": "H",
+   "level": "brigade",
+   "aliases": [
+    "the second brigade",
+    "Dimmock's brigade"
+   ]
+  },
+  {
+   "id": "H-L3",
+   "name": "Third brigade",
+   "side": "horse",
+   "commander": "General Elphick",
+   "parent": "H",
+   "level": "brigade",
+   "aliases": [
+    "the third brigade",
+    "Elphick's brigade"
+   ]
+  },
+  {
+   "id": "H-N1",
+   "name": "Fourth brigade",
+   "side": "horse",
+   "commander": "General Fothergill",
+   "parent": "H",
+   "level": "brigade",
+   "aliases": [
+    "the fourth brigade",
+    "Fothergill's brigade"
+   ]
+  },
+  {
+   "id": "H-CU",
+   "name": "Cuirassier brigade",
+   "side": "horse",
+   "commander": "General Grimshaw",
+   "parent": "H",
+   "level": "brigade",
+   "aliases": [
+    "the cuirassiers",
+    "the cuirassier brigade",
+    "the heavy horse",
+    "Grimshaw's brigade"
+   ]
+  },
+  {
+   "id": "H-DR1",
+   "name": "First Dragoon brigade",
+   "side": "horse",
+   "commander": "General Hollins",
+   "parent": "H",
+   "level": "brigade",
+   "aliases": [
+    "the first dragoons",
+    "the first dragoon brigade",
+    "Hollins's brigade"
+   ]
+  },
+  {
+   "id": "H-DR2",
+   "name": "Second Dragoon brigade",
+   "side": "horse",
+   "commander": "General Ingleby",
+   "parent": "H",
+   "level": "brigade",
+   "aliases": [
+    "the second dragoons",
+    "the second dragoon brigade",
+    "Ingleby's brigade"
+   ]
+  },
+  {
+   "id": "H-HU1",
+   "name": "First Hussar brigade",
+   "side": "horse",
+   "commander": "General Jowett",
+   "parent": "H",
+   "level": "brigade",
+   "aliases": [
+    "the first hussars",
+    "the first hussar brigade",
+    "Jowett's brigade"
+   ]
+  },
+  {
+   "id": "H-HU2",
+   "name": "Second Hussar brigade",
+   "side": "horse",
+   "commander": "General Kershaw",
+   "parent": "H",
+   "level": "brigade",
+   "aliases": [
+    "the second hussars",
+    "the second hussar brigade",
+    "Kershaw's brigade"
+   ]
+  },
+  {
+   "id": "H-AR",
+   "name": "Horse artillery",
+   "side": "horse",
+   "commander": "General Lumb",
+   "parent": "H",
+   "level": "brigade",
+   "aliases": [
+    "the horse artillery",
+    "the horse guns",
+    "the six-pounders",
+    "Lumb's guns"
+   ]
+  },
+  {
+   "id": "F",
+   "name": "Green army",
+   "side": "foot",
+   "commander": "General Merriman",
+   "parent": null,
+   "level": "army",
+   "aliases": [
+    "the army",
+    "the Green army",
+    "Merriman's army"
+   ]
+  },
+  {
+   "id": "F-G",
+   "name": "Grenadier brigade",
+   "side": "foot",
+   "commander": "General Nettleship",
+   "parent": "F",
+   "level": "brigade",
+   "aliases": [
+    "the grenadiers",
+    "the grenadier brigade",
+    "Nettleship's brigade"
+   ]
+  },
+  {
+   "id": "F-L1",
+   "name": "First brigade",
+   "side": "foot",
+   "commander": "General Oxenham",
+   "parent": "F",
+   "level": "brigade",
+   "aliases": [
+    "the first brigade",
+    "Oxenham's brigade"
+   ]
+  },
+  {
+   "id": "F-L2",
+   "name": "Second brigade",
+   "side": "foot",
+   "commander": "General Pashley",
+   "parent": "F",
+   "level": "brigade",
+   "aliases": [
+    "the second brigade",
+    "Pashley's brigade"
+   ]
+  },
+  {
+   "id": "F-L3",
+   "name": "Third brigade",
+   "side": "foot",
+   "commander": "General Rockliffe",
+   "parent": "F",
+   "level": "brigade",
+   "aliases": [
+    "the third brigade",
+    "Rockliffe's brigade"
+   ]
+  },
+  {
+   "id": "F-L4",
+   "name": "Fourth brigade",
+   "side": "foot",
+   "commander": "General Scattergood",
+   "parent": "F",
+   "level": "brigade",
+   "aliases": [
+    "the fourth brigade",
+    "Scattergood's brigade"
+   ]
+  },
+  {
+   "id": "F-L5",
+   "name": "Fifth brigade",
+   "side": "foot",
+   "commander": "General Tunnicliffe",
+   "parent": "F",
+   "level": "brigade",
+   "aliases": [
+    "the fifth brigade",
+    "Tunnicliffe's brigade"
+   ]
+  },
+  {
+   "id": "F-N1",
+   "name": "Sixth brigade",
+   "side": "foot",
+   "commander": "General Uttley",
+   "parent": "F",
+   "level": "brigade",
+   "aliases": [
+    "the sixth brigade",
+    "Uttley's brigade"
+   ]
+  },
+  {
+   "id": "F-N2",
+   "name": "Seventh brigade",
+   "side": "foot",
+   "commander": "General Vardy",
+   "parent": "F",
+   "level": "brigade",
+   "aliases": [
+    "the seventh brigade",
+    "Vardy's brigade"
+   ]
+  },
+  {
+   "id": "F-DR",
+   "name": "Dragoon brigade",
+   "side": "foot",
+   "commander": "General Wolstenholme",
+   "parent": "F",
+   "level": "brigade",
+   "aliases": [
+    "the dragoons",
+    "the dragoon brigade",
+    "Wolstenholme's brigade"
+   ]
+  },
+  {
+   "id": "F-HU",
+   "name": "Hussar brigade",
+   "side": "foot",
+   "commander": "General Yeadon",
+   "parent": "F",
+   "level": "brigade",
+   "aliases": [
+    "the hussars",
+    "the hussar brigade",
+    "the light horse",
+    "Yeadon's brigade"
+   ]
+  },
+  {
+   "id": "F-AR",
+   "name": "Reserve artillery",
+   "side": "foot",
+   "commander": "General Brocklehurst",
+   "parent": "F",
+   "level": "brigade",
+   "aliases": [
+    "the reserve artillery",
+    "the reserve guns",
+    "the twelve-pounders",
+    "Brocklehurst's guns"
+   ]
+  }
+ ],
+ "units": [
+  {
+   "id": "H-G-1",
+   "name": "White Grenadiers 01",
+   "side": "horse",
+   "parent": "H-G",
+   "kind": "grenadier",
+   "quality": 5,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "H-G-2",
+   "name": "White Grenadiers 02",
+   "side": "horse",
+   "parent": "H-G",
+   "kind": "grenadier",
+   "quality": 5,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "H-L1-1",
+   "name": "White Foot 01",
+   "side": "horse",
+   "parent": "H-L1",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "H-L1-2",
+   "name": "White Foot 02",
+   "side": "horse",
+   "parent": "H-L1",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "H-L2-1",
+   "name": "White Foot 03",
+   "side": "horse",
+   "parent": "H-L2",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "H-L2-2",
+   "name": "White Foot 04",
+   "side": "horse",
+   "parent": "H-L2",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "H-L3-1",
+   "name": "White Foot 05",
+   "side": "horse",
+   "parent": "H-L3",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "H-L3-2",
+   "name": "White Foot 06",
+   "side": "horse",
+   "parent": "H-L3",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "H-N1-1",
+   "name": "White Foot 07",
+   "side": "horse",
+   "parent": "H-N1",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "H-N1-2",
+   "name": "White Foot 08",
+   "side": "horse",
+   "parent": "H-N1",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "H-CU-1",
+   "name": "White Heavy Horse 01",
+   "side": "horse",
+   "parent": "H-CU",
+   "kind": "cuirassier",
+   "quality": 4,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "H-CU-2",
+   "name": "White Heavy Horse 02",
+   "side": "horse",
+   "parent": "H-CU",
+   "kind": "cuirassier",
+   "quality": 4,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "H-DR1-1",
+   "name": "White Dragoons 01",
+   "side": "horse",
+   "parent": "H-DR1",
+   "kind": "dragoon",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "H-DR1-2",
+   "name": "White Dragoons 02",
+   "side": "horse",
+   "parent": "H-DR1",
+   "kind": "dragoon",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "H-DR2-1",
+   "name": "White Dragoons 03",
+   "side": "horse",
+   "parent": "H-DR2",
+   "kind": "dragoon",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "H-DR2-2",
+   "name": "White Dragoons 04",
+   "side": "horse",
+   "parent": "H-DR2",
+   "kind": "dragoon",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "H-HU1-1",
+   "name": "White Light Horse 01",
+   "side": "horse",
+   "parent": "H-HU1",
+   "kind": "hussar",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "H-HU1-2",
+   "name": "White Light Horse 02",
+   "side": "horse",
+   "parent": "H-HU1",
+   "kind": "hussar",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "H-HU2-1",
+   "name": "White Light Horse 03",
+   "side": "horse",
+   "parent": "H-HU2",
+   "kind": "hussar",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "H-HU2-2",
+   "name": "White Light Horse 04",
+   "side": "horse",
+   "parent": "H-HU2",
+   "kind": "hussar",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "H-AR-1",
+   "name": "White Horse Battery 01",
+   "side": "horse",
+   "parent": "H-AR",
+   "kind": "horse_battery",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES); crew EST (15 a gun)",
+   "men": 120,
+   "guns": 8,
+   "crew": 120,
+   "calibre_lb": 6
+  },
+  {
+   "id": "H-AR-2",
+   "name": "White Horse Battery 02",
+   "side": "horse",
+   "parent": "H-AR",
+   "kind": "horse_battery",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES); crew EST (15 a gun)",
+   "men": 120,
+   "guns": 8,
+   "crew": 120,
+   "calibre_lb": 6
+  },
+  {
+   "id": "F-G-1",
+   "name": "Green Grenadiers 01",
+   "side": "foot",
+   "parent": "F-G",
+   "kind": "grenadier",
+   "quality": 5,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-G-2",
+   "name": "Green Grenadiers 02",
+   "side": "foot",
+   "parent": "F-G",
+   "kind": "grenadier",
+   "quality": 5,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-L1-1",
+   "name": "Green Foot 01",
+   "side": "foot",
+   "parent": "F-L1",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-L1-2",
+   "name": "Green Foot 02",
+   "side": "foot",
+   "parent": "F-L1",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-L2-1",
+   "name": "Green Foot 03",
+   "side": "foot",
+   "parent": "F-L2",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-L2-2",
+   "name": "Green Foot 04",
+   "side": "foot",
+   "parent": "F-L2",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-L3-1",
+   "name": "Green Foot 05",
+   "side": "foot",
+   "parent": "F-L3",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-L3-2",
+   "name": "Green Foot 06",
+   "side": "foot",
+   "parent": "F-L3",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-L4-1",
+   "name": "Green Foot 07",
+   "side": "foot",
+   "parent": "F-L4",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-L4-2",
+   "name": "Green Foot 08",
+   "side": "foot",
+   "parent": "F-L4",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-L5-1",
+   "name": "Green Foot 09",
+   "side": "foot",
+   "parent": "F-L5",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-L5-2",
+   "name": "Green Foot 10",
+   "side": "foot",
+   "parent": "F-L5",
+   "kind": "line",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-N1-1",
+   "name": "Green Foot 11",
+   "side": "foot",
+   "parent": "F-N1",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-N1-2",
+   "name": "Green Foot 12",
+   "side": "foot",
+   "parent": "F-N1",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-N2-1",
+   "name": "Green Foot 13",
+   "side": "foot",
+   "parent": "F-N2",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-N2-2",
+   "name": "Green Foot 14",
+   "side": "foot",
+   "parent": "F-N2",
+   "kind": "line",
+   "quality": 2,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 700,
+   "battalion_guns": 2
+  },
+  {
+   "id": "F-DR-1",
+   "name": "Green Dragoons 01",
+   "side": "foot",
+   "parent": "F-DR",
+   "kind": "dragoon",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "F-DR-2",
+   "name": "Green Dragoons 02",
+   "side": "foot",
+   "parent": "F-DR",
+   "kind": "dragoon",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "F-HU-1",
+   "name": "Green Light Horse 01",
+   "side": "foot",
+   "parent": "F-HU",
+   "kind": "hussar",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "F-HU-2",
+   "name": "Green Light Horse 02",
+   "side": "foot",
+   "parent": "F-HU",
+   "kind": "hussar",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES)",
+   "men": 400
+  },
+  {
+   "id": "F-AR-1",
+   "name": "Green Heavy Battery 01",
+   "side": "foot",
+   "parent": "F-AR",
+   "kind": "foot_battery",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES); crew EST (15 a gun)",
+   "men": 120,
+   "guns": 8,
+   "crew": 120,
+   "calibre_lb": 12
+  },
+  {
+   "id": "F-AR-2",
+   "name": "Green Heavy Battery 02",
+   "side": "foot",
+   "parent": "F-AR",
+   "kind": "foot_battery",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES); crew EST (15 a gun)",
+   "men": 120,
+   "guns": 8,
+   "crew": 120,
+   "calibre_lb": 12
+  },
+  {
+   "id": "F-AR-3",
+   "name": "Green Heavy Battery 03",
+   "side": "foot",
+   "parent": "F-AR",
+   "kind": "foot_battery",
+   "quality": 3,
+   "source": "docs/battles/README.md, Arms' armies (DES); crew EST (15 a gun)",
+   "men": 120,
+   "guns": 8,
+   "crew": 120,
+   "calibre_lb": 12
+  }
+ ]
+}

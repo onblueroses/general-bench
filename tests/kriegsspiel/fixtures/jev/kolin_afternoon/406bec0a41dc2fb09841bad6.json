@@ -1,0 +1,53 @@
+{
+ "key": "406bec0a41dc2fb09841bad6272a41a43566fd9132b343945f90f402128be70f",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-23T09:02:47Z",
+ "state": {
+  "document": "An umpire's account of a clash about to be decided.",
+  "situation": "Wartenberg Hussars II (hussar cavalry, fresh, in disorder) charges at the gallop II./Gradiskaner (grenzer infantry in line, fresh, steady) on open ground at Křečhoř heights, striking its front."
+ },
+ "questions": {
+  "situation": {
+   "type": "score",
+   "instructions": "Judge the attacker's prospects in this clash from what the account says about formation, order, terrain, flanks, fatigue, morale and surprise.",
+   "criteria": [
+    "hopeless: the attack cannot succeed; the defender holds every advantage",
+    "poor: the attacker is at a clear disadvantage",
+    "even: neither side has a clear advantage",
+    "favourable: the attacker has a clear advantage",
+    "decisive: the attacker holds every advantage; the defender cannot withstand it"
+   ]
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "situation": {
+    "type": "score",
+    "score": 1.38,
+    "legend": {
+     "0": "hopeless: the attack cannot succeed; the defender holds every advantage",
+     "1": "poor: the attacker is at a clear disadvantage",
+     "2": "even: neither side has a clear advantage",
+     "3": "favourable: the attacker has a clear advantage",
+     "4": "decisive: the attacker holds every advantage; the defender cannot withstand it"
+    },
+    "probabilities": {
+     "0": 0.09,
+     "1": 0.63,
+     "2": 0.1,
+     "3": 0.17,
+     "4": 0.01
+    },
+    "confidence": 0.53
+   }
+  },
+  "usage": {
+   "input_tokens": 464,
+   "output_tokens": 18,
+   "cost": 1.9488e-05
+  },
+  "id": "gen-dec-1792746167-5dpZ4zQjhRQb9YlEaz0m",
+  "provider": "TypeSafe"
+ }
+}

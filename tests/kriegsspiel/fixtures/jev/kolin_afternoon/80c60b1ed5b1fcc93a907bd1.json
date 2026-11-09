@@ -1,0 +1,35 @@
+{
+ "key": "80c60b1ed5b1fcc93a907bd19d32c336aa2a82e8e75e95d2ea6e8cd470f571cf",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:39:07Z",
+ "state": {
+  "order": "The whole army stands fast where it is on the heights;",
+  "task given to Beck's flank guard": "hold Křečhoř heights, carefully, halting when it meets the enemy"
+ },
+ "questions": {
+  "k1": {
+   "type": "noul",
+   "instructions": "Does the task given to Beck's flank guard go against the order: a different action or objective than the order gives Beck's flank guard, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k1": {
+    "type": "noul",
+    "noul": 0.15
+   }
+  },
+  "usage": {
+   "input_tokens": 402,
+   "output_tokens": 21,
+   "cost": 1.6884e-05
+  },
+  "id": "gen-dec-1792161546-gjuY2PQ4lvdTcMEjzMZ4",
+  "provider": "TypeSafe"
+ }
+}

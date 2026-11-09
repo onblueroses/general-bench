@@ -1,0 +1,35 @@
+{
+ "key": "671af09c694cfd3cbf3bc7cb69a10ab9d9ae8593ac6323d6fa516c4712465d78",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:37:21Z",
+ "state": {
+  "order": "It is my pleasure that the cavalry should spread itself as a screen across our left flank.",
+  "task given to Cavalry": "screen our left flank, carefully"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Cavalry go against the order: a different action or objective than the order gives Cavalry, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.03
+   }
+  },
+  "usage": {
+   "input_tokens": 394,
+   "output_tokens": 21,
+   "cost": 1.6548e-05
+  },
+  "id": "gen-dec-1792161441-XoqZDArpAZMx7PNMr9VC",
+  "provider": "TypeSafe"
+ }
+}

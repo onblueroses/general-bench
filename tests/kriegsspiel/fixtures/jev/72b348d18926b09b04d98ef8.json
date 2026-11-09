@@ -1,0 +1,35 @@
+{
+ "key": "72b348d18926b09b04d98ef8cbe9b02a9fb49a548b7f2ffff350c85ee38c6169",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:37:28Z",
+ "state": {
+  "order": "Let Normann lead his dragoons to Bříství and there lend his support to Hülsen.",
+  "task given to Normann's dragoons": "follow Hülsen's corps, by way of Bříství"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Normann's dragoons go against the order: a different action or objective than the order gives Normann's dragoons, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.2
+   }
+  },
+  "usage": {
+   "input_tokens": 418,
+   "output_tokens": 21,
+   "cost": 1.7556e-05
+  },
+  "id": "gen-dec-1792161448-Tv2iCvXcQhhp3SxlX18V",
+  "provider": "TypeSafe"
+ }
+}

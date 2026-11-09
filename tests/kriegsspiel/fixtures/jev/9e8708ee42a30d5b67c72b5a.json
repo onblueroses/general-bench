@@ -1,0 +1,35 @@
+{
+ "key": "9e8708ee42a30d5b67c72b5a1c1596e7741e734481e15c4c9474f130a72e445f",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:36:59Z",
+ "state": {
+  "order": "The artillery will unlimber on the rise north of Chocenice and bombard the Austrian line on the heights.",
+  "task given to Frederick's artillery": "bombard Austrian line on the heights, boldly"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Frederick's artillery go against the order: a different action or objective than the order gives Frederick's artillery, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.04
+   }
+  },
+  "usage": {
+   "input_tokens": 404,
+   "output_tokens": 21,
+   "cost": 1.6968e-05
+  },
+  "id": "gen-dec-1792161418-p4qGr9p4osFsk4CXYJwi",
+  "provider": "TypeSafe"
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "verdict": "ordinal",
+ "objective": "Plover Village",
+ "break_share": 0.4,
+ "break_persist_min": 30,
+ "play_on_min": 120,
+ "break_tie_margin": 0.1,
+ "note": "docs/battles/README.md, the verdict: an army with more than 40% of its men in routed or destroyed bodies for 30 minutes loses (both over: the less broken wins, within 10 points a draw); otherwise the side in possession of the village (within musket range of the crossroads) at 16:00 wins; contested: play on by quarter hours, two hours at most, then a draw. Nothing else scores."
+}

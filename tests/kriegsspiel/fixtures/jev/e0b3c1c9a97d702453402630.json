@@ -1,0 +1,35 @@
+{
+ "key": "e0b3c1c9a97d7024534026303c8a323b0964c5da4ce50c96814a06d14501e3ca",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:00Z",
+ "state": {
+  "order": "Moritz of Anhalt-Dessau, continue the march of all the infantry east along the high road behind Hülsen.",
+  "task given to Infantry": "follow Hülsen's corps, by way of Křečhoř, in column"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Infantry go against the order: a different action or objective than the order gives Infantry, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.15
+   }
+  },
+  "usage": {
+   "input_tokens": 408,
+   "output_tokens": 21,
+   "cost": 1.7136e-05
+  },
+  "id": "gen-dec-1792161480-Hq268Ru9SmnXEYVXxScn",
+  "provider": "TypeSafe"
+ }
+}

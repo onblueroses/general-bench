@@ -1,0 +1,844 @@
+{
+ "key": "b9b8a4a541d6c29246d435db6c27cfdec9c5afad3ef1e8a61d90a14b8a296690",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:39:53Z",
+ "state": {
+  "document": "A written order from the army commander to the generals of his army.",
+  "order": "Colloredo, march the reserve at once to Křečhoř and hold the village and the oak wood.",
+  "formations of this army": [
+   "Imperial Army (General Daun); also called the army, the Imperial army, the Austrian army, the headquarters, my headquarters, the King, the Feldmarschall",
+   "Andlau's division (infantry); also called Andlau",
+   "Angern's brigade (infantry); also called Angern",
+   "Artillery (artillery, General Feuerstein); also called the artillery, the Austrian guns, the heavy batteries, Feuerstein's guns",
+   "Babocsay's hussars (cavalry); also called Babocsay's brigade",
+   "Benedikt Daun's cavalry (cavalry); also called first-line cavalry of the right, Trauttmansdorff's brigade",
+   "Beck's flank guard (infantry); also called Beck's Croats, the left flank guard, Beck's brigade",
+   "Castiglione's brigade (cavalry); also called Castiglione",
+   "Centre infantry (infantry, General Marschall); also called the centre, the Austrian infantry, Marschall's infantry, the main line",
+   "Erdödy's hussars (cavalry); also called Erdödy's brigade",
+   "Esterházy's brigade (infantry, General Esterházy (GM)); also called Esterházy's infantry",
+   "Gemmingen's brigade (infantry); also called Gemmingen",
+   "Grenadier reserve (infantry, General Grenadier reserve commander (unrecorded)); also called the grenadiers, the Austrian grenadiers",
+   "Grenzer in the villages (infantry, General Grenzer post commanders (unrecorded)); also called the Croats, the Grenzer, the village garrisons",
+   "Hadik's division (cavalry); also called Hadik",
+   "Köbel's brigade (cavalry); also called Köbel",
+   "Kolowrat's cavalry (cavalry); also called first-line cavalry of the left",
+   "Krottendorf's brigade (infantry); also called Krottendorf",
+   "Lützow's division (cavalry); also called Lützow, the reserve cavalry",
+   "Left-wing cavalry (cavalry, General Stampach); also called the left-wing cavalry, Stampach's cavalry, the cavalry of the left",
+   "Mayern's brigade (infantry); also called Mayern",
+   "Morocz's division (cavalry); also called Morocz",
+   "Müffling's brigade (infantry); also called Müffling",
+   "Nádasdy's corps; also called the right flank corps, Nadasdy's corps, the light horse, Nádasdy's cavalry",
+   "Saxon chevaux-légers (cavalry, General Nostitz); also called the Saxons, the Saxon cavalry, Nostitz's brigade, Benkendorf",
+   "O'Donell's division (cavalry); also called O'Donell, O'Donell's cavalry",
+   "Pálffy's hussars (cavalry); also called Pálffy's brigade",
+   "Plonquet's brigade (infantry); also called Plonquet",
+   "Puebla's division (infantry); also called Puebla",
+   "Reichlin's brigade (infantry); also called Reichlin",
+   "Reserve (General Colloredo); also called the reserve, Colloredo's reserve",
+   "Right-wing cavalry (cavalry, General Serbelloni); also called the right-wing cavalry, Serbelloni's cavalry, the cuirassiers of the right",
+   "Schröger's hussars (cavalry); also called Schröger's brigade",
+   "Sincère's division (infantry); also called Sincère, Sincere's division",
+   "Starhemberg's division (infantry); also called Starhemberg's infantry, the second line infantry",
+   "Kommandierte cavalry (cavalry, General Starhemberg (GM)); also called the picked horse, the Kommandierten, Starhemberg's picked cavalry",
+   "Széchényi's hussars (cavalry); also called Széchényi's brigade",
+   "Wied's division (infantry); also called Wied, Wied's infantry",
+   "Wöllwarth's division (cavalry); also called Wöllwarth",
+   "Wulffen's brigade (infantry); also called Wulffen"
+  ]
+ },
+ "questions": {
+  "a0": {
+   "type": "noul",
+   "instructions": "Read the order. Is the whole army (Imperial Army (General Daun); also called the army, the Imperial army, the Austrian army, the headquarters, my headquarters, the King, the Feldmarschall) told to do something as one body, for example 'everything forward' or 'the army will retire'? An instruction to particular generals or formations alone does not count.",
+   "criteria": {
+    "true": "yes, an instruction to the whole army at once",
+    "false": "no, only particular formations are instructed, or none"
+   }
+  },
+  "a1": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Andlau's division (infantry); also called Andlau an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a2": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Angern's brigade (infantry); also called Angern an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a3": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Artillery (artillery, General Feuerstein); also called the artillery, the Austrian guns, the heavy batteries, Feuerstein's guns an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a4": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Babocsay's hussars (cavalry); also called Babocsay's brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a5": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Benedikt Daun's cavalry (cavalry); also called first-line cavalry of the right, Trauttmansdorff's brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a6": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Beck's flank guard (infantry); also called Beck's Croats, the left flank guard, Beck's brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a7": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Castiglione's brigade (cavalry); also called Castiglione an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a8": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Centre infantry (infantry, General Marschall); also called the centre, the Austrian infantry, Marschall's infantry, the main line an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a9": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Erdödy's hussars (cavalry); also called Erdödy's brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a10": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Esterházy's brigade (infantry, General Esterházy (GM)); also called Esterházy's infantry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a11": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Gemmingen's brigade (infantry); also called Gemmingen an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a12": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Grenadier reserve (infantry, General Grenadier reserve commander (unrecorded)); also called the grenadiers, the Austrian grenadiers an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a13": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Grenzer in the villages (infantry, General Grenzer post commanders (unrecorded)); also called the Croats, the Grenzer, the village garrisons an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a14": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Hadik's division (cavalry); also called Hadik an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a15": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Köbel's brigade (cavalry); also called Köbel an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a16": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Kolowrat's cavalry (cavalry); also called first-line cavalry of the left an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a17": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Krottendorf's brigade (infantry); also called Krottendorf an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a18": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Lützow's division (cavalry); also called Lützow, the reserve cavalry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a19": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Left-wing cavalry (cavalry, General Stampach); also called the left-wing cavalry, Stampach's cavalry, the cavalry of the left an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a20": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Mayern's brigade (infantry); also called Mayern an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a21": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Morocz's division (cavalry); also called Morocz an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a22": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Müffling's brigade (infantry); also called Müffling an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a23": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Nádasdy's corps; also called the right flank corps, Nadasdy's corps, the light horse, Nádasdy's cavalry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a24": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Saxon chevaux-légers (cavalry, General Nostitz); also called the Saxons, the Saxon cavalry, Nostitz's brigade, Benkendorf an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a25": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give O'Donell's division (cavalry); also called O'Donell, O'Donell's cavalry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a26": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Pálffy's hussars (cavalry); also called Pálffy's brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a27": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Plonquet's brigade (infantry); also called Plonquet an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a28": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Puebla's division (infantry); also called Puebla an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a29": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Reichlin's brigade (infantry); also called Reichlin an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a30": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Reserve (General Colloredo); also called the reserve, Colloredo's reserve an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a31": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Right-wing cavalry (cavalry, General Serbelloni); also called the right-wing cavalry, Serbelloni's cavalry, the cuirassiers of the right an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a32": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Schröger's hussars (cavalry); also called Schröger's brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a33": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Sincère's division (infantry); also called Sincère, Sincere's division an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a34": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Starhemberg's division (infantry); also called Starhemberg's infantry, the second line infantry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a35": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Kommandierte cavalry (cavalry, General Starhemberg (GM)); also called the picked horse, the Kommandierten, Starhemberg's picked cavalry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a36": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Széchényi's hussars (cavalry); also called Széchényi's brigade an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a37": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Wied's division (infantry); also called Wied, Wied's infantry an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a38": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Wöllwarth's division (cavalry); also called Wöllwarth an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "a39": {
+   "type": "noul",
+   "instructions": "Read the order. Does it give Wulffen's brigade (infantry); also called Wulffen an instruction: is this formation or its general named, addressed as 'you', or clearly meant (by arm, e.g. 'the cavalry', 'the artillery', 'the hussars') as one who must do or not do something? Being mentioned only as a place to follow, wait for, or stay behind does not count, and neither does being the 'you' of a condition such as 'once you are engaged'.",
+   "criteria": {
+    "true": "yes, this formation is given an instruction",
+    "false": "no, it is not instructed (perhaps only mentioned)"
+   }
+  },
+  "c0_prohib": {
+   "type": "noul",
+   "instructions": "Read this part of the order: «Colloredo, march the reserve at once to Křečhoř and hold the village and the oak wood.». Is it a prohibition or a limit, telling someone what not to do or how far not to go ('do not charge the line without my order', 'not to be drawn beyond X', 'attack nothing', 'only on my express order'), rather than an instruction to do something?",
+   "criteria": {
+    "true": "yes, it forbids or limits something",
+    "false": "no, it is an instruction to act, or information"
+   }
+  },
+  "c0_forbid": {
+   "type": "choice",
+   "instructions": "Read this part of the order: «Colloredo, march the reserve at once to Křečhoř and hold the village and the oak wood.». If it forbids or limits something, what is forbidden?",
+   "criteria": {
+    "none": "nothing in particular is forbidden, or it is not a prohibition",
+    "charge_formed_infantry": "not to charge the enemy's formed infantry: his line, his battalions, his squares, the troops on the heights",
+    "attack": "not to attack or assault at all, or only on a further order ('attack nothing', 'come into the attack only on my order')",
+    "pursue": "not to pursue or follow up a beaten or fleeing enemy",
+    "advance_beyond": "not to go beyond or farther than a certain place, not to be drawn off",
+    "engage": "not to engage, fight, halt or turn against the enemy, or be drawn into a fight"
+   }
+  },
+  "c0_trig": {
+   "type": "choice",
+   "instructions": "Read this part of the order: «Colloredo, march the reserve at once to Křečhoř and hold the village and the oak wood.». Does it tie what it orders to an event or a time?",
+   "criteria": {
+    "none": "no event or time is named: it is to be done at once, or it is a standing rule",
+    "start": "it is to be done only when or after something happens or a time comes ('as soon as', 'once', 'when', 'after', 'at <time>')",
+    "until": "it is to last only until something happens or a time comes ('until', 'till')"
+   }
+  },
+  "c0_event": {
+   "type": "choice",
+   "instructions": "Read this part of the order: «Colloredo, march the reserve at once to Křečhoř and hold the village and the oak wood.». If it names an event or a time on which what it orders starts or ends, what is that event?",
+   "criteria": {
+    "none": "no particular event",
+    "reached": "a formation reaches, takes, holds or passes a place",
+    "engaged": "a formation is engaged with the enemy or attacks",
+    "time": "a clock time comes",
+    "seen": "the enemy comes into sight or approaches",
+    "routs": "some body breaks, flees or gives way",
+    "order": "a further order from the commander arrives"
+   }
+  },
+  "c0_who": {
+   "type": "choice",
+   "instructions": "Read this part of the order: «Colloredo, march the reserve at once to Křečhoř and hold the village and the oak wood.». If it names such an event, whom does the event concern: which formation must reach or hold the place, be engaged, or break? 'You' is the general this part is given to; 'he' or 'him' is whoever the order last named.",
+   "criteria": {
+    "none": "no particular formation",
+    "self": "the general or formation this part of the order is given to ('you', 'he', 'it')",
+    "w1": "Andlau's division (General Andlau)",
+    "w2": "Angern's brigade (General Angern)",
+    "w3": "Artillery (General Feuerstein)",
+    "w4": "Babocsay's hussars (General Babocsay)",
+    "w5": "Benedikt Daun's cavalry (General Benedikt Daun)",
+    "w6": "Beck's flank guard (General Beck)",
+    "w7": "Castiglione's brigade (General Castiglione)",
+    "w8": "Centre infantry (General Marschall)",
+    "w9": "Erdödy's hussars (General Erdödy)",
+    "w10": "Esterházy's brigade (General Esterházy (GM))",
+    "w11": "Gemmingen's brigade (General Gemmingen)",
+    "w12": "Grenadier reserve (General Grenadier reserve commander (unrecorded))",
+    "w13": "Grenzer in the villages (General Grenzer post commanders (unrecorded))",
+    "w14": "Hadik's division (General Hadik)",
+    "w15": "Köbel's brigade (General Köbel)",
+    "w16": "Kolowrat's cavalry (General Kolowrat)",
+    "w17": "Krottendorf's brigade (General Krottendorf)",
+    "w18": "Lützow's division (General Lützow)",
+    "w19": "Left-wing cavalry (General Stampach)",
+    "w20": "Mayern's brigade (General Mayern)",
+    "w21": "Morocz's division (General Morocz)",
+    "w22": "Müffling's brigade (General Müffling)",
+    "w23": "Nádasdy's corps (General Nádasdy)",
+    "w24": "Saxon chevaux-légers (General Nostitz)",
+    "w25": "O'Donell's division (General O'Donell)",
+    "w26": "Pálffy's hussars (General Pálffy)",
+    "w27": "Plonquet's brigade (General Plonquet)",
+    "w28": "Puebla's division (General Puebla)",
+    "w29": "Reichlin's brigade (General Reichlin)",
+    "w30": "Reserve (General Colloredo)",
+    "w31": "Right-wing cavalry (General Serbelloni)",
+    "w32": "Schröger's hussars (General Schröger)",
+    "w33": "Sincère's division (General Sincère)",
+    "w34": "Starhemberg's division (General Starhemberg)",
+    "w35": "Kommandierte cavalry (General Starhemberg (GM))",
+    "w36": "Széchényi's hussars (General Széchényi)",
+    "w37": "Wied's division (General Wied)",
+    "w38": "Wöllwarth's division (General Wöllwarth)",
+    "w39": "Wulffen's brigade (General Wulffen)"
+   }
+  },
+  "c0_where": {
+   "type": "choice",
+   "instructions": "Read this part of the order: «Colloredo, march the reserve at once to Křečhoř and hold the village and the oak wood.». If the event is reaching, taking, holding or passing a place, which place?",
+   "criteria": {
+    "none": "no particular place",
+    "f0_blinka": "Blinka",
+    "f1_blinka_brook": "Blinka brook",
+    "f2_bosice": "Bošice",
+    "f3_brezany": "Břežany",
+    "f4_bristvi": "Bříství",
+    "f5_chocenice": "Chocenice",
+    "f6_elbe": "Elbe",
+    "f7_friedrichsberg": "Friedrichsberg",
+    "f8_hluboky_brook": "Hluboký brook",
+    "f9_horejsi_rybnik": "Hořejší rybník",
+    "f10_horesak": "Hořešák",
+    "f11_hradenin": "Hradenín",
+    "f12_hradistko": "Hradišťko",
+    "f13_kaiserstrasse": "Kaiserstrasse",
+    "f14_karasak": "Karasák",
+    "f15_kolin": "Kolín",
+    "f16_kolin_church": "Kolín church",
+    "f17_krychnov": "Krychnov",
+    "f18_kutlire": "Kutlíře",
+    "f19_krechor": "Křečhoř",
+    "f20_krechor_church": "Křečhoř church",
+    "f21_krechor_crest": "Křečhoř crest",
+    "f22_krechor_heights": "Křečhoř heights",
+    "f23_krechor_hill": "Křečhoř hill",
+    "f24_libodrice": "Libodřice",
+    "f25_losany": "Lošany",
+    "f26_miletin_brook": "Miletín brook",
+    "f27_nouzov_brook": "Nouzov brook",
+    "f28_nouzov_pond": "Nouzov pond",
+    "f29_nouzacek": "Nouzáček",
+    "f30_nova_ves": "Nová Ves",
+    "f31_nove_mesto": "Nové Město",
+    "f32_oak_wood": "Oak wood",
+    "f33_obecnak": "Obecňák",
+    "f34_peklo_brook": "Peklo brook",
+    "f35_peklo_pond": "Peklo pond",
+    "f36_planany": "Plaňany",
+    "f37_planany_church": "Plaňany church",
+    "f38_pobori": "Poboří",
+    "f39_polepka_brook": "Polepka brook",
+    "f40_przerovsky_height": "Przerovsky height",
+    "f41_radovesnice": "Radovesnice",
+    "f42_rozkos": "Rozkoš",
+    "f43_svojsice": "Svojšice",
+    "f44_svojsicky_rybnik": "Svojšický rybník",
+    "f45_velim": "Velim",
+    "f46_zibohlavy": "Zibohlavy",
+    "f47_zlate_slunce": "Zlaté Slunce",
+    "f48_zabonosy": "Žabonosy",
+    "f49_our_left_flank": "our left flank (a place relative to our own army as it now stands)",
+    "f50_our_right_flank": "our right flank (a place relative to our own army as it now stands)",
+    "f51_our_centre": "our centre (a place relative to our own army as it now stands)",
+    "f52_our_rear": "our rear (a place relative to our own army as it now stands)"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "a0": {
+    "type": "noul",
+    "noul": 0.03
+   },
+   "a1": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a2": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a3": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "a4": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "a5": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a6": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a7": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a8": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a9": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "a10": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a11": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a12": {
+    "type": "noul",
+    "noul": 0.12
+   },
+   "a13": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a14": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a15": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a16": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a17": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a18": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "a19": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a20": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a21": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a22": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a23": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a24": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a25": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a26": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a27": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a28": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a29": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a30": {
+    "type": "noul",
+    "noul": 0.98
+   },
+   "a31": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a32": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a33": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a34": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a35": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a36": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "a37": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a38": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "a39": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "c0_prohib": {
+    "type": "noul",
+    "noul": 0.02
+   },
+   "c0_forbid": {
+    "type": "choice",
+    "choice": "none",
+    "probabilities": {
+     "none": 0.6,
+     "charge_formed_infantry": 0,
+     "attack": 0.01,
+     "pursue": 0,
+     "advance_beyond": 0.39,
+     "engage": 0
+    },
+    "confidence": 0.52
+   },
+   "c0_trig": {
+    "type": "choice",
+    "choice": "none",
+    "probabilities": {
+     "none": 0.99,
+     "start": 0.01,
+     "until": 0
+    },
+    "confidence": 0.98
+   },
+   "c0_event": {
+    "type": "choice",
+    "choice": "none",
+    "probabilities": {
+     "none": 0.73,
+     "reached": 0.26,
+     "engaged": 0,
+     "time": 0,
+     "seen": 0,
+     "routs": 0,
+     "order": 0.01
+    },
+    "confidence": 0.69
+   },
+   "c0_who": {
+    "type": "choice",
+    "choice": "w30",
+    "probabilities": {
+     "none": 0,
+     "self": 0.19,
+     "w1": 0,
+     "w2": 0,
+     "w3": 0,
+     "w4": 0,
+     "w5": 0,
+     "w6": 0,
+     "w7": 0,
+     "w8": 0,
+     "w9": 0,
+     "w10": 0,
+     "w11": 0,
+     "w12": 0,
+     "w13": 0,
+     "w14": 0,
+     "w15": 0,
+     "w16": 0,
+     "w17": 0,
+     "w18": 0,
+     "w19": 0,
+     "w20": 0,
+     "w21": 0,
+     "w22": 0,
+     "w23": 0,
+     "w24": 0,
+     "w25": 0,
+     "w26": 0,
+     "w27": 0,
+     "w28": 0,
+     "w29": 0,
+     "w30": 0.81,
+     "w31": 0,
+     "w32": 0,
+     "w33": 0,
+     "w34": 0,
+     "w35": 0,
+     "w36": 0,
+     "w37": 0,
+     "w38": 0,
+     "w39": 0
+    },
+    "confidence": 0.81
+   },
+   "c0_where": {
+    "type": "choice",
+    "choice": "f19_krechor",
+    "probabilities": {
+     "none": 0,
+     "f0_blinka": 0,
+     "f1_blinka_brook": 0,
+     "f2_bosice": 0,
+     "f3_brezany": 0,
+     "f4_bristvi": 0,
+     "f5_chocenice": 0,
+     "f6_elbe": 0,
+     "f7_friedrichsberg": 0,
+     "f8_hluboky_brook": 0,
+     "f9_horejsi_rybnik": 0,
+     "f10_horesak": 0,
+     "f11_hradenin": 0,
+     "f12_hradistko": 0,
+     "f13_kaiserstrasse": 0,
+     "f14_karasak": 0,
+     "f15_kolin": 0,
+     "f16_kolin_church": 0,
+     "f17_krychnov": 0,
+     "f18_kutlire": 0,
+     "f19_krechor": 0.95,
+     "f20_krechor_church": 0,
+     "f21_krechor_crest": 0,
+     "f22_krechor_heights": 0,
+     "f23_krechor_hill": 0,
+     "f24_libodrice": 0,
+     "f25_losany": 0,
+     "f26_miletin_brook": 0,
+     "f27_nouzov_brook": 0,
+     "f28_nouzov_pond": 0,
+     "f29_nouzacek": 0,
+     "f30_nova_ves": 0,
+     "f31_nove_mesto": 0,
+     "f32_oak_wood": 0.05,
+     "f33_obecnak": 0,
+     "f34_peklo_brook": 0,
+     "f35_peklo_pond": 0,
+     "f36_planany": 0,
+     "f37_planany_church": 0,
+     "f38_pobori": 0,
+     "f39_polepka_brook": 0,
+     "f40_przerovsky_height": 0,
+     "f41_radovesnice": 0,
+     "f42_rozkos": 0,
+     "f43_svojsice": 0,
+     "f44_svojsicky_rybnik": 0,
+     "f45_velim": 0,
+     "f46_zibohlavy": 0,
+     "f47_zlate_slunce": 0,
+     "f48_zabonosy": 0,
+     "f49_our_left_flank": 0,
+     "f50_our_right_flank": 0,
+     "f51_our_centre": 0,
+     "f52_our_rear": 0
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": {
+   "input_tokens": 10726,
+   "output_tokens": 2011,
+   "cost": 0.000450492
+  },
+  "id": "gen-dec-1792161593-CT3xVI3ctsAyPSXaqrEn",
+  "provider": "TypeSafe"
+ }
+}

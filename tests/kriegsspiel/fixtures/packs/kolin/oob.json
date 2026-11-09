@@ -1,0 +1,2445 @@
+{
+ "sides": [
+  "prussia",
+  "austria"
+ ],
+ "formations": [
+  {
+   "id": "P",
+   "name": "Prussian Army",
+   "side": "prussia",
+   "commander": "Frederick II",
+   "parent": null,
+   "level": "army",
+   "aliases": [
+    "the army",
+    "the King's army"
+   ]
+  },
+  {
+   "id": "P-VAN",
+   "name": "Vanguard",
+   "side": "prussia",
+   "commander": "Zieten",
+   "parent": "P",
+   "level": "wing",
+   "aliases": [
+    "the vanguard",
+    "the advance guard",
+    "Zieten's corps"
+   ]
+  },
+  {
+   "id": "P-ZIE",
+   "name": "Zieten's hussars",
+   "side": "prussia",
+   "commander": "Generalmajor von Katte",
+   "parent": "P-VAN",
+   "level": "brigade",
+   "aliases": [
+    "the hussars",
+    "Zieten's hussars",
+    "the Prussian hussars"
+   ]
+  },
+  {
+   "id": "P-HUL",
+   "name": "Hülsen's corps",
+   "side": "prussia",
+   "commander": "Hülsen",
+   "parent": "P-VAN",
+   "level": "brigade",
+   "aliases": [
+    "Hülsen's brigade",
+    "Hulsen's corps",
+    "Hülsen's infantry"
+   ]
+  },
+  {
+   "id": "P-INF",
+   "name": "Infantry",
+   "side": "prussia",
+   "commander": "Moritz of Anhalt-Dessau",
+   "parent": "P",
+   "level": "wing",
+   "aliases": [
+    "the infantry",
+    "the centre",
+    "Prince Moritz's infantry",
+    "Moritz"
+   ]
+  },
+  {
+   "id": "P-TRE",
+   "name": "Left wing infantry",
+   "side": "prussia",
+   "commander": "Tresckow",
+   "parent": "P-INF",
+   "level": "column",
+   "aliases": [
+    "the left wing",
+    "Tresckow's division",
+    "the first column"
+   ]
+  },
+  {
+   "id": "P-PAN",
+   "name": "Pannwitz's brigade",
+   "side": "prussia",
+   "commander": "Pannwitz",
+   "parent": "P-TRE",
+   "level": "brigade",
+   "aliases": [
+    "Pannwitz"
+   ]
+  },
+  {
+   "id": "P-FRA",
+   "name": "Prince Franz's brigade",
+   "side": "prussia",
+   "commander": "Prince Franz of Brunswick",
+   "parent": "P-TRE",
+   "level": "brigade",
+   "aliases": [
+    "Braunschweig's brigade",
+    "Prince Franz"
+   ]
+  },
+  {
+   "id": "P-FLG",
+   "name": "Flank-guard grenadiers",
+   "side": "prussia",
+   "commander": "Major von Kahlden (senior battalion commander, EST)",
+   "parent": "P-TRE",
+   "level": "brigade",
+   "aliases": [
+    "the flank guard",
+    "the three grenadier battalions",
+    "the grenadiers of the flank guard"
+   ]
+  },
+  {
+   "id": "P-BEV",
+   "name": "Right wing infantry",
+   "side": "prussia",
+   "commander": "Bevern",
+   "parent": "P-INF",
+   "level": "column",
+   "aliases": [
+    "the right wing",
+    "Bevern's division",
+    "the second column"
+   ]
+  },
+  {
+   "id": "P-MAN",
+   "name": "Manstein's brigade",
+   "side": "prussia",
+   "commander": "Manstein",
+   "parent": "P-BEV",
+   "level": "brigade",
+   "aliases": [
+    "Manstein"
+   ]
+  },
+  {
+   "id": "P-PUT",
+   "name": "Puttkamer's brigade",
+   "side": "prussia",
+   "commander": "Puttkamer",
+   "parent": "P-BEV",
+   "level": "brigade",
+   "aliases": [
+    "the Guard brigade",
+    "Tauentzien's guard battalion"
+   ]
+  },
+  {
+   "id": "P-ING",
+   "name": "Ingersleben's brigade",
+   "side": "prussia",
+   "commander": "Ingersleben",
+   "parent": "P-BEV",
+   "level": "brigade",
+   "aliases": [
+    "Ingersleben"
+   ]
+  },
+  {
+   "id": "P-CAV",
+   "name": "Cavalry",
+   "side": "prussia",
+   "commander": "Penavaire",
+   "parent": "P",
+   "level": "wing",
+   "aliases": [
+    "the cavalry",
+    "the horse",
+    "Penavaire's cavalry"
+   ]
+  },
+  {
+   "id": "P-KRK",
+   "name": "Penavaire's cuirassiers",
+   "side": "prussia",
+   "commander": "Krockow",
+   "parent": "P-CAV",
+   "level": "brigade",
+   "aliases": [
+    "the cuirassiers",
+    "Krockow's brigade",
+    "the twenty squadrons"
+   ]
+  },
+  {
+   "id": "P-SCH",
+   "name": "Schönaich's brigade",
+   "side": "prussia",
+   "commander": "Schönaich",
+   "parent": "P-CAV",
+   "level": "brigade",
+   "aliases": [
+    "Schönaich",
+    "the right-wing cuirassiers",
+    "the Garde du Corps brigade"
+   ]
+  },
+  {
+   "id": "P-NOR",
+   "name": "Normann's dragoons",
+   "side": "prussia",
+   "commander": "Normann",
+   "parent": "P-CAV",
+   "level": "brigade",
+   "aliases": [
+    "Normann's brigade",
+    "the dragoons"
+   ]
+  },
+  {
+   "id": "P-MEI",
+   "name": "Meinicke's dragoons",
+   "side": "prussia",
+   "commander": "Meinicke",
+   "parent": "P-CAV",
+   "level": "brigade",
+   "aliases": [
+    "Meinicke's brigade"
+   ]
+  },
+  {
+   "id": "P-KRO",
+   "name": "Krosigk's cavalry reserve",
+   "side": "prussia",
+   "commander": "Krosigk",
+   "parent": "P-CAV",
+   "level": "brigade",
+   "aliases": [
+    "the cavalry reserve",
+    "Krosigk's brigade",
+    "Krosigk's reserve",
+    "the third column"
+   ]
+  },
+  {
+   "id": "P-ART",
+   "name": "Heavy artillery",
+   "side": "prussia",
+   "commander": "Prussian artillery commander (unrecorded)",
+   "parent": "P",
+   "level": "brigade",
+   "aliases": [
+    "the artillery",
+    "the heavy guns",
+    "the batteries",
+    "the Prussian guns"
+   ]
+  },
+  {
+   "id": "A",
+   "name": "Imperial Army",
+   "side": "austria",
+   "commander": "Daun",
+   "parent": null,
+   "level": "army",
+   "aliases": [
+    "the army",
+    "the Imperial army",
+    "the Austrian army"
+   ]
+  },
+  {
+   "id": "A-NAD",
+   "name": "Nádasdy's corps",
+   "side": "austria",
+   "commander": "Nádasdy",
+   "parent": "A",
+   "level": "wing",
+   "aliases": [
+    "the right flank corps",
+    "Nadasdy's corps",
+    "the light horse",
+    "Nádasdy's cavalry"
+   ]
+  },
+  {
+   "id": "A-MOR",
+   "name": "Morocz's division",
+   "side": "austria",
+   "commander": "Morocz",
+   "parent": "A-NAD",
+   "level": "column",
+   "aliases": [
+    "Morocz"
+   ]
+  },
+  {
+   "id": "A-SCH",
+   "name": "Schröger's hussars",
+   "side": "austria",
+   "commander": "Schröger",
+   "parent": "A-MOR",
+   "level": "brigade",
+   "aliases": [
+    "Schröger's brigade"
+   ]
+  },
+  {
+   "id": "A-ERD",
+   "name": "Erdödy's hussars",
+   "side": "austria",
+   "commander": "Erdödy",
+   "parent": "A-MOR",
+   "level": "brigade",
+   "aliases": [
+    "Erdödy's brigade"
+   ]
+  },
+  {
+   "id": "A-NOS",
+   "name": "Saxon chevaux-légers",
+   "side": "austria",
+   "commander": "Nostitz",
+   "parent": "A-MOR",
+   "level": "brigade",
+   "aliases": [
+    "the Saxons",
+    "the Saxon cavalry",
+    "Nostitz's brigade",
+    "Benkendorf"
+   ]
+  },
+  {
+   "id": "A-HAD",
+   "name": "Hadik's division",
+   "side": "austria",
+   "commander": "Hadik",
+   "parent": "A-NAD",
+   "level": "column",
+   "aliases": [
+    "Hadik"
+   ]
+  },
+  {
+   "id": "A-SZE",
+   "name": "Széchényi's hussars",
+   "side": "austria",
+   "commander": "Széchényi",
+   "parent": "A-HAD",
+   "level": "brigade",
+   "aliases": [
+    "Széchényi's brigade"
+   ]
+  },
+  {
+   "id": "A-PAL",
+   "name": "Pálffy's hussars",
+   "side": "austria",
+   "commander": "Pálffy",
+   "parent": "A-HAD",
+   "level": "brigade",
+   "aliases": [
+    "Pálffy's brigade"
+   ]
+  },
+  {
+   "id": "A-BAB",
+   "name": "Babocsay's hussars",
+   "side": "austria",
+   "commander": "Babocsay",
+   "parent": "A-HAD",
+   "level": "brigade",
+   "aliases": [
+    "Babocsay's brigade"
+   ]
+  },
+  {
+   "id": "A-STK",
+   "name": "Kommandierte cavalry",
+   "side": "austria",
+   "commander": "Starhemberg (GM)",
+   "parent": "A-NAD",
+   "level": "brigade",
+   "aliases": [
+    "the picked horse",
+    "the Kommandierten",
+    "Starhemberg's picked cavalry"
+   ]
+  },
+  {
+   "id": "A-GRZ",
+   "name": "Grenzer in the villages",
+   "side": "austria",
+   "commander": "Grenzer post commanders (unrecorded)",
+   "parent": "A-NAD",
+   "level": "brigade",
+   "aliases": [
+    "the Croats",
+    "the Grenzer",
+    "the village garrisons"
+   ]
+  },
+  {
+   "id": "A-RWC",
+   "name": "Right-wing cavalry",
+   "side": "austria",
+   "commander": "Serbelloni",
+   "parent": "A",
+   "level": "wing",
+   "aliases": [
+    "the right-wing cavalry",
+    "Serbelloni's cavalry",
+    "the cuirassiers of the right"
+   ]
+  },
+  {
+   "id": "A-BDA",
+   "name": "Benedikt Daun's cavalry",
+   "side": "austria",
+   "commander": "Benedikt Daun",
+   "parent": "A-RWC",
+   "level": "brigade",
+   "aliases": [
+    "first-line cavalry of the right",
+    "Trauttmansdorff's brigade"
+   ]
+  },
+  {
+   "id": "A-ODO",
+   "name": "O'Donell's division",
+   "side": "austria",
+   "commander": "O'Donell",
+   "parent": "A-RWC",
+   "level": "brigade",
+   "aliases": [
+    "O'Donell",
+    "O'Donell's cavalry"
+   ]
+  },
+  {
+   "id": "A-CEN",
+   "name": "Centre infantry",
+   "side": "austria",
+   "commander": "Marschall",
+   "parent": "A",
+   "level": "wing",
+   "aliases": [
+    "the centre",
+    "the Austrian infantry",
+    "Marschall's infantry",
+    "the main line"
+   ]
+  },
+  {
+   "id": "A-AND",
+   "name": "Andlau's division",
+   "side": "austria",
+   "commander": "Andlau",
+   "parent": "A-CEN",
+   "level": "column",
+   "aliases": [
+    "Andlau"
+   ]
+  },
+  {
+   "id": "A-EST",
+   "name": "Esterházy's brigade",
+   "side": "austria",
+   "commander": "Esterházy (GM)",
+   "parent": "A-AND",
+   "level": "brigade",
+   "aliases": [
+    "Esterházy's infantry"
+   ]
+  },
+  {
+   "id": "A-MAY",
+   "name": "Mayern's brigade",
+   "side": "austria",
+   "commander": "Mayern",
+   "parent": "A-AND",
+   "level": "brigade",
+   "aliases": [
+    "Mayern"
+   ]
+  },
+  {
+   "id": "A-PUE",
+   "name": "Puebla's division",
+   "side": "austria",
+   "commander": "Puebla",
+   "parent": "A-CEN",
+   "level": "column",
+   "aliases": [
+    "Puebla"
+   ]
+  },
+  {
+   "id": "A-GEM",
+   "name": "Gemmingen's brigade",
+   "side": "austria",
+   "commander": "Gemmingen",
+   "parent": "A-PUE",
+   "level": "brigade",
+   "aliases": [
+    "Gemmingen"
+   ]
+  },
+  {
+   "id": "A-ANG",
+   "name": "Angern's brigade",
+   "side": "austria",
+   "commander": "Angern",
+   "parent": "A-PUE",
+   "level": "brigade",
+   "aliases": [
+    "Angern"
+   ]
+  },
+  {
+   "id": "A-STA",
+   "name": "Starhemberg's division",
+   "side": "austria",
+   "commander": "Starhemberg",
+   "parent": "A-CEN",
+   "level": "column",
+   "aliases": [
+    "Starhemberg's infantry",
+    "the second line infantry"
+   ]
+  },
+  {
+   "id": "A-KTD",
+   "name": "Krottendorf's brigade",
+   "side": "austria",
+   "commander": "Krottendorf",
+   "parent": "A-STA",
+   "level": "brigade",
+   "aliases": [
+    "Krottendorf"
+   ]
+  },
+  {
+   "id": "A-WUL",
+   "name": "Wulffen's brigade",
+   "side": "austria",
+   "commander": "Wulffen",
+   "parent": "A-STA",
+   "level": "brigade",
+   "aliases": [
+    "Wulffen"
+   ]
+  },
+  {
+   "id": "A-SIN",
+   "name": "Sincère's division",
+   "side": "austria",
+   "commander": "Sincère",
+   "parent": "A-CEN",
+   "level": "column",
+   "aliases": [
+    "Sincère",
+    "Sincere's division"
+   ]
+  },
+  {
+   "id": "A-PLO",
+   "name": "Plonquet's brigade",
+   "side": "austria",
+   "commander": "Plonquet",
+   "parent": "A-SIN",
+   "level": "brigade",
+   "aliases": [
+    "Plonquet"
+   ]
+  },
+  {
+   "id": "A-GRE",
+   "name": "Grenadier reserve",
+   "side": "austria",
+   "commander": "Grenadier reserve commander (unrecorded)",
+   "parent": "A-CEN",
+   "level": "brigade",
+   "aliases": [
+    "the grenadiers",
+    "the Austrian grenadiers"
+   ]
+  },
+  {
+   "id": "A-RES",
+   "name": "Reserve",
+   "side": "austria",
+   "commander": "Colloredo",
+   "parent": "A",
+   "level": "wing",
+   "aliases": [
+    "the reserve",
+    "Colloredo's reserve"
+   ]
+  },
+  {
+   "id": "A-WIE",
+   "name": "Wied's division",
+   "side": "austria",
+   "commander": "Wied",
+   "parent": "A-RES",
+   "level": "column",
+   "aliases": [
+    "Wied",
+    "Wied's infantry"
+   ]
+  },
+  {
+   "id": "A-REI",
+   "name": "Reichlin's brigade",
+   "side": "austria",
+   "commander": "Reichlin",
+   "parent": "A-WIE",
+   "level": "brigade",
+   "aliases": [
+    "Reichlin"
+   ]
+  },
+  {
+   "id": "A-MUF",
+   "name": "Müffling's brigade",
+   "side": "austria",
+   "commander": "Müffling",
+   "parent": "A-WIE",
+   "level": "brigade",
+   "aliases": [
+    "Müffling"
+   ]
+  },
+  {
+   "id": "A-LUT",
+   "name": "Lützow's division",
+   "side": "austria",
+   "commander": "Lützow",
+   "parent": "A-RES",
+   "level": "column",
+   "aliases": [
+    "Lützow",
+    "the reserve cavalry"
+   ]
+  },
+  {
+   "id": "A-CAS",
+   "name": "Castiglione's brigade",
+   "side": "austria",
+   "commander": "Castiglione",
+   "parent": "A-LUT",
+   "level": "brigade",
+   "aliases": [
+    "Castiglione"
+   ]
+  },
+  {
+   "id": "A-KOB",
+   "name": "Köbel's brigade",
+   "side": "austria",
+   "commander": "Köbel",
+   "parent": "A-LUT",
+   "level": "brigade",
+   "aliases": [
+    "Köbel"
+   ]
+  },
+  {
+   "id": "A-LWC",
+   "name": "Left-wing cavalry",
+   "side": "austria",
+   "commander": "Stampach",
+   "parent": "A",
+   "level": "wing",
+   "aliases": [
+    "the left-wing cavalry",
+    "Stampach's cavalry",
+    "the cavalry of the left"
+   ]
+  },
+  {
+   "id": "A-KOL",
+   "name": "Kolowrat's cavalry",
+   "side": "austria",
+   "commander": "Kolowrat",
+   "parent": "A-LWC",
+   "level": "brigade",
+   "aliases": [
+    "first-line cavalry of the left"
+   ]
+  },
+  {
+   "id": "A-WOL",
+   "name": "Wöllwarth's division",
+   "side": "austria",
+   "commander": "Wöllwarth",
+   "parent": "A-LWC",
+   "level": "brigade",
+   "aliases": [
+    "Wöllwarth"
+   ]
+  },
+  {
+   "id": "A-BEC",
+   "name": "Beck's flank guard",
+   "side": "austria",
+   "commander": "Beck",
+   "parent": "A",
+   "level": "brigade",
+   "aliases": [
+    "Beck's Croats",
+    "the left flank guard",
+    "Beck's brigade"
+   ]
+  },
+  {
+   "id": "A-ART",
+   "name": "Artillery",
+   "side": "austria",
+   "commander": "Feuerstein",
+   "parent": "A",
+   "level": "brigade",
+   "aliases": [
+    "the artillery",
+    "the Austrian guns",
+    "the heavy batteries",
+    "Feuerstein's guns"
+   ]
+  }
+ ],
+ "units": [
+  {
+   "id": "P-ZIE-I",
+   "name": "Zieten Hussars I",
+   "side": "prussia",
+   "parent": "P-ZIE",
+   "kind": "hussar",
+   "men": 550,
+   "quality": 4,
+   "source": "KRO sqns; EST 110/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-ZIE-II",
+   "name": "Zieten Hussars II",
+   "side": "prussia",
+   "parent": "P-ZIE",
+   "kind": "hussar",
+   "men": 550,
+   "quality": 4,
+   "source": "KRO sqns; EST 110/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-WER-I",
+   "name": "Werner Hussars I",
+   "side": "prussia",
+   "parent": "P-ZIE",
+   "kind": "hussar",
+   "men": 550,
+   "quality": 4,
+   "source": "KRO sqns; EST 110/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-WER-II",
+   "name": "Werner Hussars II",
+   "side": "prussia",
+   "parent": "P-ZIE",
+   "kind": "hussar",
+   "men": 550,
+   "quality": 4,
+   "source": "KRO sqns; EST 110/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-PUT-I",
+   "name": "Puttkamer Hussars I",
+   "side": "prussia",
+   "parent": "P-ZIE",
+   "kind": "hussar",
+   "men": 550,
+   "quality": 4,
+   "source": "KRO sqns; EST 110/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-PUT-II",
+   "name": "Puttkamer Hussars II",
+   "side": "prussia",
+   "parent": "P-ZIE",
+   "kind": "hussar",
+   "men": 550,
+   "quality": 4,
+   "source": "KRO sqns; EST 110/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-WAR-I",
+   "name": "Wartenberg Hussars I",
+   "side": "prussia",
+   "parent": "P-ZIE",
+   "kind": "hussar",
+   "men": 550,
+   "quality": 4,
+   "source": "KRO sqns; EST 110/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-WAR-II",
+   "name": "Wartenberg Hussars II",
+   "side": "prussia",
+   "parent": "P-ZIE",
+   "kind": "hussar",
+   "men": 550,
+   "quality": 4,
+   "source": "KRO sqns; EST 110/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-SEY",
+   "name": "Seydlitz Hussars",
+   "side": "prussia",
+   "parent": "P-ZIE",
+   "kind": "hussar",
+   "men": 550,
+   "quality": 4,
+   "source": "KRO sqns; EST 110/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-SZE",
+   "name": "Szekely Hussars",
+   "side": "prussia",
+   "parent": "P-ZIE",
+   "kind": "hussar",
+   "men": 550,
+   "quality": 4,
+   "source": "KRO sqns; EST 110/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-NIM",
+   "name": "Grenadier Battalion Nimschöfsky",
+   "side": "prussia",
+   "parent": "P-HUL",
+   "kind": "grenadier",
+   "men": 500,
+   "quality": 5,
+   "source": "KRO; EST 500/grenadier bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-WAL",
+   "name": "Grenadier Battalion Waldow",
+   "side": "prussia",
+   "parent": "P-HUL",
+   "kind": "grenadier",
+   "men": 500,
+   "quality": 5,
+   "source": "KRO; EST 500/grenadier bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-FIN",
+   "name": "Grenadier Battalion Finck",
+   "side": "prussia",
+   "parent": "P-HUL",
+   "kind": "grenadier",
+   "men": 500,
+   "quality": 5,
+   "source": "KRO; EST 500/grenadier bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-SCHU-I",
+   "name": "I./Schultze",
+   "side": "prussia",
+   "parent": "P-HUL",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-SCHU-II",
+   "name": "II./Schultze",
+   "side": "prussia",
+   "parent": "P-HUL",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-MUNC-I",
+   "name": "I./Münchow Fusiliers",
+   "side": "prussia",
+   "parent": "P-HUL",
+   "kind": "fusilier",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-MUNC-II",
+   "name": "II./Münchow Fusiliers",
+   "side": "prussia",
+   "parent": "P-HUL",
+   "kind": "fusilier",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-STE",
+   "name": "Stechow Dragoons",
+   "side": "prussia",
+   "parent": "P-HUL",
+   "kind": "dragoon",
+   "men": 650,
+   "quality": 4,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-ART-HUL",
+   "name": "Hülsen's heavy battery",
+   "side": "prussia",
+   "parent": "P-HUL",
+   "kind": "foot_battery",
+   "men": 90,
+   "quality": 3,
+   "source": "KRO 6 heavy guns; EST crew",
+   "guns": 6,
+   "crew": 90,
+   "calibre_lb": 12
+  },
+  {
+   "id": "P-BORN-I",
+   "name": "I./Bornstedt",
+   "side": "prussia",
+   "parent": "P-PAN",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-BORN-II",
+   "name": "II./Bornstedt",
+   "side": "prussia",
+   "parent": "P-PAN",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-ANHD-I",
+   "name": "I./Anhalt-Dessau",
+   "side": "prussia",
+   "parent": "P-PAN",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-ANHD-II",
+   "name": "II./Anhalt-Dessau",
+   "side": "prussia",
+   "parent": "P-PAN",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-HULS-I",
+   "name": "I./Hülsen",
+   "side": "prussia",
+   "parent": "P-FRA",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-HULS-II",
+   "name": "II./Hülsen",
+   "side": "prussia",
+   "parent": "P-FRA",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-BRBE-I",
+   "name": "I./Braunschweig-Bevern",
+   "side": "prussia",
+   "parent": "P-FRA",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-BRBE-II",
+   "name": "II./Braunschweig-Bevern",
+   "side": "prussia",
+   "parent": "P-FRA",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-WAN",
+   "name": "Grenadier Battalion Wangenheim",
+   "side": "prussia",
+   "parent": "P-FLG",
+   "kind": "grenadier",
+   "men": 500,
+   "quality": 5,
+   "source": "KRO; EST 500/grenadier bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-MOL",
+   "name": "Grenadier Battalion Möllendorff",
+   "side": "prussia",
+   "parent": "P-FLG",
+   "kind": "grenadier",
+   "men": 500,
+   "quality": 5,
+   "source": "KRO; EST 500/grenadier bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-KAH",
+   "name": "Grenadier Battalion Kahlden",
+   "side": "prussia",
+   "parent": "P-FLG",
+   "kind": "grenadier",
+   "men": 500,
+   "quality": 5,
+   "source": "KRO; EST 500/grenadier bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-KALC-I",
+   "name": "I./Kalckstein",
+   "side": "prussia",
+   "parent": "P-MAN",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-KALC-II",
+   "name": "II./Kalckstein",
+   "side": "prussia",
+   "parent": "P-MAN",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-PMOR-I",
+   "name": "I./Prinz Moritz von Anhalt",
+   "side": "prussia",
+   "parent": "P-MAN",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-PMOR-II",
+   "name": "II./Prinz Moritz von Anhalt",
+   "side": "prussia",
+   "parent": "P-MAN",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-MANT-I",
+   "name": "I./Manteuffel",
+   "side": "prussia",
+   "parent": "P-MAN",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-MANT-II",
+   "name": "II./Manteuffel",
+   "side": "prussia",
+   "parent": "P-MAN",
+   "kind": "line",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-GEM",
+   "name": "Grenadier Battalion Gemmingen",
+   "side": "prussia",
+   "parent": "P-PUT",
+   "kind": "grenadier",
+   "men": 500,
+   "quality": 5,
+   "source": "KRO; EST 500/grenadier bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-LGD",
+   "name": "I./Leibgarde (Tauentzien)",
+   "side": "prussia",
+   "parent": "P-PUT",
+   "kind": "line",
+   "men": 560,
+   "quality": 5,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-KREY-I",
+   "name": "I./Kreytzen Fusiliers",
+   "side": "prussia",
+   "parent": "P-PUT",
+   "kind": "fusilier",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-KREY-II",
+   "name": "II./Kreytzen Fusiliers",
+   "side": "prussia",
+   "parent": "P-PUT",
+   "kind": "fusilier",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-PHEI-I",
+   "name": "I./Prinz Heinrich Fusiliers",
+   "side": "prussia",
+   "parent": "P-ING",
+   "kind": "fusilier",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-PHEI-II",
+   "name": "II./Prinz Heinrich Fusiliers",
+   "side": "prussia",
+   "parent": "P-ING",
+   "kind": "fusilier",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-WIED-I",
+   "name": "I./Wied Fusiliers",
+   "side": "prussia",
+   "parent": "P-ING",
+   "kind": "fusilier",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-WIED-II",
+   "name": "II./Wied Fusiliers",
+   "side": "prussia",
+   "parent": "P-ING",
+   "kind": "fusilier",
+   "men": 560,
+   "quality": 4,
+   "source": "KRO; EST line bn",
+   "battalion_guns": 2
+  },
+  {
+   "id": "P-CAR",
+   "name": "Leib-Carabiniers",
+   "side": "prussia",
+   "parent": "P-KRK",
+   "kind": "cuirassier",
+   "men": 650,
+   "quality": 4,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-LRP",
+   "name": "Leibregiment zu Pferde",
+   "side": "prussia",
+   "parent": "P-KRK",
+   "kind": "cuirassier",
+   "men": 650,
+   "quality": 4,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-KYA",
+   "name": "Kyau Cuirassiers",
+   "side": "prussia",
+   "parent": "P-KRK",
+   "kind": "cuirassier",
+   "men": 650,
+   "quality": 4,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-KRC",
+   "name": "Krockow Cuirassiers",
+   "side": "prussia",
+   "parent": "P-KRK",
+   "kind": "cuirassier",
+   "men": 650,
+   "quality": 4,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-GDC",
+   "name": "Garde du Corps",
+   "side": "prussia",
+   "parent": "P-SCH",
+   "kind": "cuirassier",
+   "men": 130,
+   "quality": 5,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 1
+  },
+  {
+   "id": "P-SCC",
+   "name": "Schönaich Cuirassiers",
+   "side": "prussia",
+   "parent": "P-SCH",
+   "kind": "cuirassier",
+   "men": 650,
+   "quality": 4,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-DRI",
+   "name": "Driesen Cuirassiers",
+   "side": "prussia",
+   "parent": "P-SCH",
+   "kind": "cuirassier",
+   "men": 650,
+   "quality": 4,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-BLA",
+   "name": "Blanckensee Dragoons",
+   "side": "prussia",
+   "parent": "P-NOR",
+   "kind": "dragoon",
+   "men": 650,
+   "quality": 4,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-KAT",
+   "name": "Katte Dragoons",
+   "side": "prussia",
+   "parent": "P-NOR",
+   "kind": "dragoon",
+   "men": 650,
+   "quality": 4,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-MED",
+   "name": "Meinicke Dragoons",
+   "side": "prussia",
+   "parent": "P-MEI",
+   "kind": "dragoon",
+   "men": 650,
+   "quality": 4,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-ROC",
+   "name": "Rochow Cuirassiers",
+   "side": "prussia",
+   "parent": "P-KRO",
+   "kind": "cuirassier",
+   "men": 650,
+   "quality": 4,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-PVP",
+   "name": "Prinz von Preußen Cuirassiers",
+   "side": "prussia",
+   "parent": "P-KRO",
+   "kind": "cuirassier",
+   "men": 650,
+   "quality": 4,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-NOD",
+   "name": "Normann Dragoons",
+   "side": "prussia",
+   "parent": "P-KRO",
+   "kind": "dragoon",
+   "men": 650,
+   "quality": 4,
+   "source": "KRO sqns; EST 130/sqn",
+   "sqns": 5
+  },
+  {
+   "id": "P-ART-1",
+   "name": "Heavy battery (first)",
+   "side": "prussia",
+   "parent": "P-ART",
+   "kind": "foot_battery",
+   "men": 150,
+   "quality": 3,
+   "source": "KRO: 8 x 12-pdr + 2 howitzers (split EST)",
+   "guns": 10,
+   "crew": 150,
+   "calibre_lb": 12
+  },
+  {
+   "id": "P-ART-2",
+   "name": "Heavy battery (second)",
+   "side": "prussia",
+   "parent": "P-ART",
+   "kind": "foot_battery",
+   "men": 180,
+   "quality": 3,
+   "source": "KRO: 7 x 12-pdr + 2 howitzers + 3 mortars (split EST)",
+   "guns": 12,
+   "crew": 180,
+   "calibre_lb": 12
+  },
+  {
+   "id": "A-ECAR-I",
+   "name": "I./Erzherzog Carl",
+   "side": "austria",
+   "parent": "A-EST",
+   "kind": "line",
+   "men": 473,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-ECAR-II",
+   "name": "II./Erzherzog Carl",
+   "side": "austria",
+   "parent": "A-EST",
+   "kind": "line",
+   "men": 473,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-MOLT-I",
+   "name": "I./Moltke",
+   "side": "austria",
+   "parent": "A-EST",
+   "kind": "line",
+   "men": 530,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-MOLT-II",
+   "name": "II./Moltke",
+   "side": "austria",
+   "parent": "A-EST",
+   "kind": "line",
+   "men": 530,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-MOLT-III",
+   "name": "III./Moltke",
+   "side": "austria",
+   "parent": "A-EST",
+   "kind": "line",
+   "men": 530,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-PUEB-I",
+   "name": "I./Puebla",
+   "side": "austria",
+   "parent": "A-MAY",
+   "kind": "line",
+   "men": 554,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-PUEB-II",
+   "name": "II./Puebla",
+   "side": "austria",
+   "parent": "A-MAY",
+   "kind": "line",
+   "men": 554,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-PUEB-III",
+   "name": "III./Puebla",
+   "side": "austria",
+   "parent": "A-MAY",
+   "kind": "line",
+   "men": 554,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-AREN-I",
+   "name": "I./Arenberg",
+   "side": "austria",
+   "parent": "A-GEM",
+   "kind": "line",
+   "men": 560,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-AREN-II",
+   "name": "II./Arenberg",
+   "side": "austria",
+   "parent": "A-GEM",
+   "kind": "line",
+   "men": 560,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-AREN-III",
+   "name": "III./Arenberg",
+   "side": "austria",
+   "parent": "A-GEM",
+   "kind": "line",
+   "men": 560,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-TURH-I",
+   "name": "I./Türheim",
+   "side": "austria",
+   "parent": "A-GEM",
+   "kind": "line",
+   "men": 516,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-TURH-II",
+   "name": "II./Türheim",
+   "side": "austria",
+   "parent": "A-GEM",
+   "kind": "line",
+   "men": 516,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-TURH-III",
+   "name": "III./Türheim",
+   "side": "austria",
+   "parent": "A-GEM",
+   "kind": "line",
+   "men": 516,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-LDAU-I",
+   "name": "I./Leopold Daun",
+   "side": "austria",
+   "parent": "A-ANG",
+   "kind": "line",
+   "men": 593,
+   "quality": 3,
+   "source": "NAF residual (EST); KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-LDAU-II",
+   "name": "II./Leopold Daun",
+   "side": "austria",
+   "parent": "A-ANG",
+   "kind": "line",
+   "men": 593,
+   "quality": 3,
+   "source": "NAF residual (EST); KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-LDAU-III",
+   "name": "III./Leopold Daun",
+   "side": "austria",
+   "parent": "A-ANG",
+   "kind": "line",
+   "men": 593,
+   "quality": 3,
+   "source": "NAF residual (EST); KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-HARR-I",
+   "name": "I./Harrach",
+   "side": "austria",
+   "parent": "A-ANG",
+   "kind": "line",
+   "men": 593,
+   "quality": 3,
+   "source": "NAF residual (EST); KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-HARR-II",
+   "name": "II./Harrach",
+   "side": "austria",
+   "parent": "A-ANG",
+   "kind": "line",
+   "men": 593,
+   "quality": 3,
+   "source": "NAF residual (EST); KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-NEIP-I",
+   "name": "I./Neipperg",
+   "side": "austria",
+   "parent": "A-KTD",
+   "kind": "line",
+   "men": 458,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-NEIP-II",
+   "name": "II./Neipperg",
+   "side": "austria",
+   "parent": "A-KTD",
+   "kind": "line",
+   "men": 458,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-NEIP-III",
+   "name": "III./Neipperg",
+   "side": "austria",
+   "parent": "A-KTD",
+   "kind": "line",
+   "men": 458,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-GAIS-I",
+   "name": "I./Gaisruck",
+   "side": "austria",
+   "parent": "A-KTD",
+   "kind": "line",
+   "men": 321,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-GAIS-II",
+   "name": "II./Gaisruck",
+   "side": "austria",
+   "parent": "A-KTD",
+   "kind": "line",
+   "men": 321,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-GAIS-III",
+   "name": "III./Gaisruck",
+   "side": "austria",
+   "parent": "A-KTD",
+   "kind": "line",
+   "men": 321,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-HALL-I",
+   "name": "I./Haller",
+   "side": "austria",
+   "parent": "A-WUL",
+   "kind": "line",
+   "men": 528,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-HALL-II",
+   "name": "II./Haller",
+   "side": "austria",
+   "parent": "A-WUL",
+   "kind": "line",
+   "men": 528,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-DMEI-I",
+   "name": "I./Deutschmeister",
+   "side": "austria",
+   "parent": "A-PLO",
+   "kind": "line",
+   "men": 564,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-DMEI-II",
+   "name": "II./Deutschmeister",
+   "side": "austria",
+   "parent": "A-PLO",
+   "kind": "line",
+   "men": 564,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-BADE-I",
+   "name": "I./Baden-Baden",
+   "side": "austria",
+   "parent": "A-PLO",
+   "kind": "line",
+   "men": 456,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-BADE-II",
+   "name": "II./Baden-Baden",
+   "side": "austria",
+   "parent": "A-PLO",
+   "kind": "line",
+   "men": 456,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-BOTT-I",
+   "name": "I./Botta",
+   "side": "austria",
+   "parent": "A-PLO",
+   "kind": "line",
+   "men": 511,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-BOTT-II",
+   "name": "II./Botta",
+   "side": "austria",
+   "parent": "A-PLO",
+   "kind": "line",
+   "men": 511,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-BOTT-III",
+   "name": "III./Botta",
+   "side": "austria",
+   "parent": "A-PLO",
+   "kind": "line",
+   "men": 511,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-LRIO",
+   "name": "Los Rios",
+   "side": "austria",
+   "parent": "A-REI",
+   "kind": "line",
+   "men": 447,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-PLAT",
+   "name": "Platz",
+   "side": "austria",
+   "parent": "A-REI",
+   "kind": "line",
+   "men": 621,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-STAR",
+   "name": "Starhemberg",
+   "side": "austria",
+   "parent": "A-REI",
+   "kind": "line",
+   "men": 651,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-SALM-I",
+   "name": "I./Salm",
+   "side": "austria",
+   "parent": "A-REI",
+   "kind": "line",
+   "men": 430,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-SALM-II",
+   "name": "II./Salm",
+   "side": "austria",
+   "parent": "A-REI",
+   "kind": "line",
+   "men": 430,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-ARBE",
+   "name": "d'Arberg",
+   "side": "austria",
+   "parent": "A-MUF",
+   "kind": "line",
+   "men": 304,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-SAGO",
+   "name": "Sachsen-Gotha",
+   "side": "austria",
+   "parent": "A-MUF",
+   "kind": "line",
+   "men": 398,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-MERC",
+   "name": "Mercy-Argenteau",
+   "side": "austria",
+   "parent": "A-MUF",
+   "kind": "line",
+   "men": 484,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-LIGN",
+   "name": "de Ligne",
+   "side": "austria",
+   "parent": "A-MUF",
+   "kind": "line",
+   "men": 398,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 2
+  },
+  {
+   "id": "A-GSORO",
+   "name": "Grenadier Battalion Soro",
+   "side": "austria",
+   "parent": "A-GRE",
+   "kind": "grenadier",
+   "men": 308,
+   "quality": 4,
+   "source": "KRO 4 coys; EST 100/coy",
+   "battalion_guns": 0
+  },
+  {
+   "id": "A-GFIOR",
+   "name": "Grenadier Battalion Fiorenza",
+   "side": "austria",
+   "parent": "A-GRE",
+   "kind": "grenadier",
+   "men": 462,
+   "quality": 4,
+   "source": "KRO 6 coys; EST 100/coy",
+   "battalion_guns": 4
+  },
+  {
+   "id": "A-BANA-I",
+   "name": "I./Banal",
+   "side": "austria",
+   "parent": "A-GRZ",
+   "kind": "grenzer",
+   "men": 358,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 1
+  },
+  {
+   "id": "A-BANA-II",
+   "name": "II./Banal",
+   "side": "austria",
+   "parent": "A-GRZ",
+   "kind": "grenzer",
+   "men": 358,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 1
+  },
+  {
+   "id": "A-SZLU-I",
+   "name": "I./Karlstädter-Szluiner",
+   "side": "austria",
+   "parent": "A-GRZ",
+   "kind": "grenzer",
+   "men": 508,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 1
+  },
+  {
+   "id": "A-SZLU-II",
+   "name": "II./Karlstädter-Szluiner",
+   "side": "austria",
+   "parent": "A-GRZ",
+   "kind": "grenzer",
+   "men": 508,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 1
+  },
+  {
+   "id": "A-WARA",
+   "name": "Warasdiner-Creutzer",
+   "side": "austria",
+   "parent": "A-GRZ",
+   "kind": "grenzer",
+   "men": 539,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 1
+  },
+  {
+   "id": "A-GRAD-I",
+   "name": "I./Gradiskaner",
+   "side": "austria",
+   "parent": "A-BEC",
+   "kind": "grenzer",
+   "men": 496,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 1
+  },
+  {
+   "id": "A-GRAD-II",
+   "name": "II./Gradiskaner",
+   "side": "austria",
+   "parent": "A-BEC",
+   "kind": "grenzer",
+   "men": 496,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 1
+  },
+  {
+   "id": "A-BROO-I",
+   "name": "I./Brooder",
+   "side": "austria",
+   "parent": "A-BEC",
+   "kind": "grenzer",
+   "men": 446,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 1
+  },
+  {
+   "id": "A-BROO-II",
+   "name": "II./Brooder",
+   "side": "austria",
+   "parent": "A-BEC",
+   "kind": "grenzer",
+   "men": 446,
+   "quality": 3,
+   "source": "NAF strength; KRO bns",
+   "battalion_guns": 1
+  },
+  {
+   "id": "A-KOMI",
+   "name": "Kommandierte infantry",
+   "side": "austria",
+   "parent": "A-BEC",
+   "kind": "line",
+   "men": 616,
+   "quality": 4,
+   "source": "KRO ~800",
+   "battalion_guns": 0
+  },
+  {
+   "id": "A-FEST",
+   "name": "Festetics Hussars (with Dessewffy sqn)",
+   "side": "austria",
+   "parent": "A-SCH",
+   "kind": "hussar",
+   "men": 508,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 7
+  },
+  {
+   "id": "A-MORH",
+   "name": "Morocz Hussars",
+   "side": "austria",
+   "parent": "A-SCH",
+   "kind": "hussar",
+   "men": 561,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-KAIS-I",
+   "name": "Kaiser Hussars (with Karlstädter sqns) I",
+   "side": "austria",
+   "parent": "A-ERD",
+   "kind": "hussar",
+   "men": 558,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 4.0
+  },
+  {
+   "id": "A-KAIS-II",
+   "name": "Kaiser Hussars (with Karlstädter sqns) II",
+   "side": "austria",
+   "parent": "A-ERD",
+   "kind": "hussar",
+   "men": 558,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 4.0
+  },
+  {
+   "id": "A-PKAR",
+   "name": "Prinz Karl Chevaux-légers",
+   "side": "austria",
+   "parent": "A-NOS",
+   "kind": "dragoon",
+   "men": 469,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 4
+  },
+  {
+   "id": "A-PALB",
+   "name": "Prinz Albrecht Chevaux-légers",
+   "side": "austria",
+   "parent": "A-NOS",
+   "kind": "dragoon",
+   "men": 308,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 3
+  },
+  {
+   "id": "A-BRUH-I",
+   "name": "Graf Brühl Chevaux-légers I",
+   "side": "austria",
+   "parent": "A-NOS",
+   "kind": "dragoon",
+   "men": 385,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 2.0
+  },
+  {
+   "id": "A-BRUH-II",
+   "name": "Graf Brühl Chevaux-légers II",
+   "side": "austria",
+   "parent": "A-NOS",
+   "kind": "dragoon",
+   "men": 385,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 2.0
+  },
+  {
+   "id": "A-SZGH",
+   "name": "Grenz-hussars (Banal, Warasdin) with Splényi",
+   "side": "austria",
+   "parent": "A-SZE",
+   "kind": "hussar",
+   "men": 362,
+   "quality": 2,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-ESTH",
+   "name": "Esterházy Hussars",
+   "side": "austria",
+   "parent": "A-PAL",
+   "kind": "hussar",
+   "men": 184,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 2
+  },
+  {
+   "id": "A-JAZY-I",
+   "name": "Jazygier-Kumanier Hussars I",
+   "side": "austria",
+   "parent": "A-PAL",
+   "kind": "hussar",
+   "men": 331,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 2.5
+  },
+  {
+   "id": "A-JAZY-II",
+   "name": "Jazygier-Kumanier Hussars II",
+   "side": "austria",
+   "parent": "A-PAL",
+   "kind": "hussar",
+   "men": 331,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 2.5
+  },
+  {
+   "id": "A-BARA",
+   "name": "Baranyay Hussars",
+   "side": "austria",
+   "parent": "A-PAL",
+   "kind": "hussar",
+   "men": 184,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 2
+  },
+  {
+   "id": "A-HADH",
+   "name": "Hadik Hussars",
+   "side": "austria",
+   "parent": "A-BAB",
+   "kind": "hussar",
+   "men": 154,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 2
+  },
+  {
+   "id": "A-KALN",
+   "name": "Kálnoky Hussars",
+   "side": "austria",
+   "parent": "A-BAB",
+   "kind": "hussar",
+   "men": 539,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-NADH",
+   "name": "Nádasdy Hussars",
+   "side": "austria",
+   "parent": "A-BAB",
+   "kind": "hussar",
+   "men": 308,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 5
+  },
+  {
+   "id": "A-KOMC",
+   "name": "Kommandierte cavalry",
+   "side": "austria",
+   "parent": "A-STK",
+   "kind": "cuirassier",
+   "men": 770,
+   "quality": 4,
+   "source": "KRO ~1,000",
+   "sqns": 0
+  },
+  {
+   "id": "A-SAVO",
+   "name": "Savoyen Dragoons",
+   "side": "austria",
+   "parent": "A-BDA",
+   "kind": "dragoon",
+   "men": 451,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-KOLO",
+   "name": "Kolowrat Dragoons",
+   "side": "austria",
+   "parent": "A-BDA",
+   "kind": "dragoon",
+   "men": 396,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-KALK",
+   "name": "Kalkreuth Cuirassiers",
+   "side": "austria",
+   "parent": "A-BDA",
+   "kind": "cuirassier",
+   "men": 493,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-LIGD",
+   "name": "de Ligne Dragoons",
+   "side": "austria",
+   "parent": "A-ODO",
+   "kind": "dragoon",
+   "men": 362,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-PORT",
+   "name": "Infant von Portugal Cuirassiers",
+   "side": "austria",
+   "parent": "A-ODO",
+   "kind": "cuirassier",
+   "men": 369,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-SCHM",
+   "name": "Schmerzing Cuirassiers",
+   "side": "austria",
+   "parent": "A-ODO",
+   "kind": "cuirassier",
+   "men": 403,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-ODOC",
+   "name": "O'Donell Cuirassiers",
+   "side": "austria",
+   "parent": "A-CAS",
+   "kind": "cuirassier",
+   "men": 424,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-BIRK",
+   "name": "Birkenfeld Cuirassiers",
+   "side": "austria",
+   "parent": "A-CAS",
+   "kind": "cuirassier",
+   "men": 778,
+   "quality": 3,
+   "source": "NAF residual (EST); KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-JMOD",
+   "name": "Jung-Modena Dragoons",
+   "side": "austria",
+   "parent": "A-KOB",
+   "kind": "dragoon",
+   "men": 292,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 5
+  },
+  {
+   "id": "A-WURT",
+   "name": "Württemberg Dragoons",
+   "side": "austria",
+   "parent": "A-KOB",
+   "kind": "dragoon",
+   "men": 778,
+   "quality": 3,
+   "source": "NAF residual (EST); KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-SERB",
+   "name": "Serbelloni Cuirassiers",
+   "side": "austria",
+   "parent": "A-KOL",
+   "kind": "cuirassier",
+   "men": 451,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-PORP",
+   "name": "Porporati Dragoons",
+   "side": "austria",
+   "parent": "A-KOL",
+   "kind": "dragoon",
+   "men": 347,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-HDAR",
+   "name": "Hessen-Darmstadt Dragoons",
+   "side": "austria",
+   "parent": "A-KOL",
+   "kind": "dragoon",
+   "men": 390,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 5
+  },
+  {
+   "id": "A-GELH",
+   "name": "Gelhay Cuirassiers",
+   "side": "austria",
+   "parent": "A-WOL",
+   "kind": "cuirassier",
+   "men": 375,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-AMOD",
+   "name": "Alt-Modena Cuirassiers",
+   "side": "austria",
+   "parent": "A-WOL",
+   "kind": "cuirassier",
+   "men": 396,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-SGOD",
+   "name": "Sachsen-Gotha Dragoons",
+   "side": "austria",
+   "parent": "A-WOL",
+   "kind": "dragoon",
+   "men": 451,
+   "quality": 3,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 6
+  },
+  {
+   "id": "A-KARA",
+   "name": "Saxon Karabiniergarde",
+   "side": "austria",
+   "parent": "A-KOB",
+   "kind": "cuirassier",
+   "men": 285,
+   "quality": 4,
+   "source": "NAF strength; KRO sqns",
+   "sqns": 4
+  },
+  {
+   "id": "A-ART-1",
+   "name": "Heavy battery 1 (12-pdr)",
+   "side": "austria",
+   "parent": "A-ART",
+   "kind": "foot_battery",
+   "men": 92,
+   "quality": 4,
+   "source": "KRO 60 heavy guns in 3 batteries; split into 10-gun bodies and calibres EST",
+   "guns": 10,
+   "crew": 92,
+   "calibre_lb": 12
+  },
+  {
+   "id": "A-ART-2",
+   "name": "Heavy battery 2 (12-pdr)",
+   "side": "austria",
+   "parent": "A-ART",
+   "kind": "foot_battery",
+   "men": 92,
+   "quality": 4,
+   "source": "KRO 60 heavy guns in 3 batteries; split into 10-gun bodies and calibres EST",
+   "guns": 10,
+   "crew": 92,
+   "calibre_lb": 12
+  },
+  {
+   "id": "A-ART-3",
+   "name": "Heavy battery 3 (6-pdr)",
+   "side": "austria",
+   "parent": "A-ART",
+   "kind": "foot_battery",
+   "men": 92,
+   "quality": 4,
+   "source": "KRO 60 heavy guns in 3 batteries; split into 10-gun bodies and calibres EST",
+   "guns": 10,
+   "crew": 92,
+   "calibre_lb": 6
+  },
+  {
+   "id": "A-ART-4",
+   "name": "Heavy battery 4 (6-pdr)",
+   "side": "austria",
+   "parent": "A-ART",
+   "kind": "foot_battery",
+   "men": 92,
+   "quality": 4,
+   "source": "KRO 60 heavy guns in 3 batteries; split into 10-gun bodies and calibres EST",
+   "guns": 10,
+   "crew": 92,
+   "calibre_lb": 6
+  },
+  {
+   "id": "A-ART-5",
+   "name": "Heavy battery 5 (6-pdr)",
+   "side": "austria",
+   "parent": "A-ART",
+   "kind": "foot_battery",
+   "men": 92,
+   "quality": 4,
+   "source": "KRO 60 heavy guns in 3 batteries; split into 10-gun bodies and calibres EST",
+   "guns": 10,
+   "crew": 92,
+   "calibre_lb": 6
+  },
+  {
+   "id": "A-ART-6",
+   "name": "Heavy battery 6 (6-pdr)",
+   "side": "austria",
+   "parent": "A-ART",
+   "kind": "foot_battery",
+   "men": 92,
+   "quality": 4,
+   "source": "KRO 60 heavy guns in 3 batteries; split into 10-gun bodies and calibres EST",
+   "guns": 10,
+   "crew": 92,
+   "calibre_lb": 6
+  }
+ ]
+}

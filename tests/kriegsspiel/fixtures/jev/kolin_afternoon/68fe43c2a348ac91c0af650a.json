@@ -1,0 +1,35 @@
+{
+ "key": "68fe43c2a348ac91c0af650a8c35e653838e85954a4d4ba4b1266efc422922a3",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:58Z",
+ "state": {
+  "order": "Bevern, keep the right wing in column on the Kaiserstrasse behind Tresckow and do not engage the Austrian front.",
+  "task given to Right wing infantry": "follow Left wing infantry (Tresckow), by way of Kaiserstrasse, in column, carefully, halting when it meets the enemy, never engaging"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Right wing infantry go against the order: a different action or objective than the order gives Right wing infantry, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.1
+   }
+  },
+  "usage": {
+   "input_tokens": 430,
+   "output_tokens": 21,
+   "cost": 1.806e-05
+  },
+  "id": "gen-dec-1792161537-Z5mNLvWGnUvIS17jtqxO",
+  "provider": "TypeSafe"
+ }
+}

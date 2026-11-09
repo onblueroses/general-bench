@@ -1,0 +1,35 @@
+{
+ "key": "13e4e92f2fedd66f7b1cf80e00d468b903196755dbfdb2b185c6175a196f63cf",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:37:53Z",
+ "state": {
+  "order": "Manstein, move up to Nove Mesto.",
+  "task given to Manstein's brigade": "advance on Nové Město"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Manstein's brigade go against the order: a different action or objective than the order gives Manstein's brigade, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.02
+   }
+  },
+  "usage": {
+   "input_tokens": 395,
+   "output_tokens": 21,
+   "cost": 1.659e-05
+  },
+  "id": "gen-dec-1792161473-xoNq21S4ZFPiHtCnssGD",
+  "provider": "TypeSafe"
+ }
+}

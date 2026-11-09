@@ -1,0 +1,793 @@
+{
+ "side": "austria",
+ "formations": [
+  {
+   "id": "A",
+   "name": "Imperial Army",
+   "commander": "Daun",
+   "aliases": [
+    "the army",
+    "the Imperial army",
+    "the Austrian army"
+   ],
+   "level": "army",
+   "parent": null,
+   "arm": null
+  },
+  {
+   "id": "A-AND",
+   "name": "Andlau's division",
+   "commander": "Andlau",
+   "aliases": [
+    "Andlau"
+   ],
+   "level": "column",
+   "parent": "A-CEN",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-ANG",
+   "name": "Angern's brigade",
+   "commander": "Angern",
+   "aliases": [
+    "Angern"
+   ],
+   "level": "brigade",
+   "parent": "A-PUE",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-ART",
+   "name": "Artillery",
+   "commander": "Feuerstein",
+   "aliases": [
+    "the artillery",
+    "the Austrian guns",
+    "the heavy batteries",
+    "Feuerstein's guns"
+   ],
+   "level": "brigade",
+   "parent": "A",
+   "arm": "artillery"
+  },
+  {
+   "id": "A-BAB",
+   "name": "Babocsay's hussars",
+   "commander": "Babocsay",
+   "aliases": [
+    "Babocsay's brigade"
+   ],
+   "level": "brigade",
+   "parent": "A-HAD",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-BDA",
+   "name": "Benedikt Daun's cavalry",
+   "commander": "Benedikt Daun",
+   "aliases": [
+    "first-line cavalry of the right",
+    "Trauttmansdorff's brigade"
+   ],
+   "level": "brigade",
+   "parent": "A-RWC",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-BEC",
+   "name": "Beck's flank guard",
+   "commander": "Beck",
+   "aliases": [
+    "Beck's Croats",
+    "the left flank guard",
+    "Beck's brigade"
+   ],
+   "level": "brigade",
+   "parent": "A",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-CAS",
+   "name": "Castiglione's brigade",
+   "commander": "Castiglione",
+   "aliases": [
+    "Castiglione"
+   ],
+   "level": "brigade",
+   "parent": "A-LUT",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-CEN",
+   "name": "Centre infantry",
+   "commander": "Marschall",
+   "aliases": [
+    "the centre",
+    "the Austrian infantry",
+    "Marschall's infantry",
+    "the main line"
+   ],
+   "level": "wing",
+   "parent": "A",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-ERD",
+   "name": "Erdödy's hussars",
+   "commander": "Erdödy",
+   "aliases": [
+    "Erdödy's brigade"
+   ],
+   "level": "brigade",
+   "parent": "A-MOR",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-EST",
+   "name": "Esterházy's brigade",
+   "commander": "Esterházy (GM)",
+   "aliases": [
+    "Esterházy's infantry"
+   ],
+   "level": "brigade",
+   "parent": "A-AND",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-GEM",
+   "name": "Gemmingen's brigade",
+   "commander": "Gemmingen",
+   "aliases": [
+    "Gemmingen"
+   ],
+   "level": "brigade",
+   "parent": "A-PUE",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-GRE",
+   "name": "Grenadier reserve",
+   "commander": "Grenadier reserve commander (unrecorded)",
+   "aliases": [
+    "the grenadiers",
+    "the Austrian grenadiers"
+   ],
+   "level": "brigade",
+   "parent": "A-CEN",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-GRZ",
+   "name": "Grenzer in the villages",
+   "commander": "Grenzer post commanders (unrecorded)",
+   "aliases": [
+    "the Croats",
+    "the Grenzer",
+    "the village garrisons"
+   ],
+   "level": "brigade",
+   "parent": "A-NAD",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-HAD",
+   "name": "Hadik's division",
+   "commander": "Hadik",
+   "aliases": [
+    "Hadik"
+   ],
+   "level": "column",
+   "parent": "A-NAD",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-KOB",
+   "name": "Köbel's brigade",
+   "commander": "Köbel",
+   "aliases": [
+    "Köbel"
+   ],
+   "level": "brigade",
+   "parent": "A-LUT",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-KOL",
+   "name": "Kolowrat's cavalry",
+   "commander": "Kolowrat",
+   "aliases": [
+    "first-line cavalry of the left"
+   ],
+   "level": "brigade",
+   "parent": "A-LWC",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-KTD",
+   "name": "Krottendorf's brigade",
+   "commander": "Krottendorf",
+   "aliases": [
+    "Krottendorf"
+   ],
+   "level": "brigade",
+   "parent": "A-STA",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-LUT",
+   "name": "Lützow's division",
+   "commander": "Lützow",
+   "aliases": [
+    "Lützow",
+    "the reserve cavalry"
+   ],
+   "level": "column",
+   "parent": "A-RES",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-LWC",
+   "name": "Left-wing cavalry",
+   "commander": "Stampach",
+   "aliases": [
+    "the left-wing cavalry",
+    "Stampach's cavalry",
+    "the cavalry of the left"
+   ],
+   "level": "wing",
+   "parent": "A",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-MAY",
+   "name": "Mayern's brigade",
+   "commander": "Mayern",
+   "aliases": [
+    "Mayern"
+   ],
+   "level": "brigade",
+   "parent": "A-AND",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-MOR",
+   "name": "Morocz's division",
+   "commander": "Morocz",
+   "aliases": [
+    "Morocz"
+   ],
+   "level": "column",
+   "parent": "A-NAD",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-MUF",
+   "name": "Müffling's brigade",
+   "commander": "Müffling",
+   "aliases": [
+    "Müffling"
+   ],
+   "level": "brigade",
+   "parent": "A-WIE",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-NAD",
+   "name": "Nádasdy's corps",
+   "commander": "Nádasdy",
+   "aliases": [
+    "the right flank corps",
+    "Nadasdy's corps",
+    "the light horse",
+    "Nádasdy's cavalry"
+   ],
+   "level": "wing",
+   "parent": "A",
+   "arm": null
+  },
+  {
+   "id": "A-NOS",
+   "name": "Saxon chevaux-légers",
+   "commander": "Nostitz",
+   "aliases": [
+    "the Saxons",
+    "the Saxon cavalry",
+    "Nostitz's brigade",
+    "Benkendorf"
+   ],
+   "level": "brigade",
+   "parent": "A-MOR",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-ODO",
+   "name": "O'Donell's division",
+   "commander": "O'Donell",
+   "aliases": [
+    "O'Donell",
+    "O'Donell's cavalry"
+   ],
+   "level": "brigade",
+   "parent": "A-RWC",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-PAL",
+   "name": "Pálffy's hussars",
+   "commander": "Pálffy",
+   "aliases": [
+    "Pálffy's brigade"
+   ],
+   "level": "brigade",
+   "parent": "A-HAD",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-PLO",
+   "name": "Plonquet's brigade",
+   "commander": "Plonquet",
+   "aliases": [
+    "Plonquet"
+   ],
+   "level": "brigade",
+   "parent": "A-SIN",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-PUE",
+   "name": "Puebla's division",
+   "commander": "Puebla",
+   "aliases": [
+    "Puebla"
+   ],
+   "level": "column",
+   "parent": "A-CEN",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-REI",
+   "name": "Reichlin's brigade",
+   "commander": "Reichlin",
+   "aliases": [
+    "Reichlin"
+   ],
+   "level": "brigade",
+   "parent": "A-WIE",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-RES",
+   "name": "Reserve",
+   "commander": "Colloredo",
+   "aliases": [
+    "the reserve",
+    "Colloredo's reserve"
+   ],
+   "level": "wing",
+   "parent": "A",
+   "arm": null
+  },
+  {
+   "id": "A-RWC",
+   "name": "Right-wing cavalry",
+   "commander": "Serbelloni",
+   "aliases": [
+    "the right-wing cavalry",
+    "Serbelloni's cavalry",
+    "the cuirassiers of the right"
+   ],
+   "level": "wing",
+   "parent": "A",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-SCH",
+   "name": "Schröger's hussars",
+   "commander": "Schröger",
+   "aliases": [
+    "Schröger's brigade"
+   ],
+   "level": "brigade",
+   "parent": "A-MOR",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-SIN",
+   "name": "Sincère's division",
+   "commander": "Sincère",
+   "aliases": [
+    "Sincère",
+    "Sincere's division"
+   ],
+   "level": "column",
+   "parent": "A-CEN",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-STA",
+   "name": "Starhemberg's division",
+   "commander": "Starhemberg",
+   "aliases": [
+    "Starhemberg's infantry",
+    "the second line infantry"
+   ],
+   "level": "column",
+   "parent": "A-CEN",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-STK",
+   "name": "Kommandierte cavalry",
+   "commander": "Starhemberg (GM)",
+   "aliases": [
+    "the picked horse",
+    "the Kommandierten",
+    "Starhemberg's picked cavalry"
+   ],
+   "level": "brigade",
+   "parent": "A-NAD",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-SZE",
+   "name": "Széchényi's hussars",
+   "commander": "Széchényi",
+   "aliases": [
+    "Széchényi's brigade"
+   ],
+   "level": "brigade",
+   "parent": "A-HAD",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-WIE",
+   "name": "Wied's division",
+   "commander": "Wied",
+   "aliases": [
+    "Wied",
+    "Wied's infantry"
+   ],
+   "level": "column",
+   "parent": "A-RES",
+   "arm": "infantry"
+  },
+  {
+   "id": "A-WOL",
+   "name": "Wöllwarth's division",
+   "commander": "Wöllwarth",
+   "aliases": [
+    "Wöllwarth"
+   ],
+   "level": "brigade",
+   "parent": "A-LWC",
+   "arm": "cavalry"
+  },
+  {
+   "id": "A-WUL",
+   "name": "Wulffen's brigade",
+   "commander": "Wulffen",
+   "aliases": [
+    "Wulffen"
+   ],
+   "level": "brigade",
+   "parent": "A-STA",
+   "arm": "infantry"
+  }
+ ],
+ "feature_names": [
+  "Blinka",
+  "Blinka brook",
+  "Bošice",
+  "Břežany",
+  "Bříství",
+  "Chocenice",
+  "Elbe",
+  "Friedrichsberg",
+  "Hluboký brook",
+  "Hořejší rybník",
+  "Hořešák",
+  "Hradenín",
+  "Hradišťko",
+  "Kaiserstrasse",
+  "Karasák",
+  "Kolín",
+  "Kolín church",
+  "Krychnov",
+  "Kutlíře",
+  "Křečhoř",
+  "Křečhoř church",
+  "Křečhoř crest",
+  "Křečhoř heights",
+  "Křečhoř hill",
+  "Libodřice",
+  "Lošany",
+  "Miletín brook",
+  "Nouzov brook",
+  "Nouzov pond",
+  "Nouzáček",
+  "Nová Ves",
+  "Nové Město",
+  "Oak wood",
+  "Obecňák",
+  "Peklo brook",
+  "Peklo pond",
+  "Plaňany",
+  "Plaňany church",
+  "Poboří",
+  "Polepka brook",
+  "Przerovsky height",
+  "Radovesnice",
+  "Rozkoš",
+  "Svojšice",
+  "Svojšický rybník",
+  "Velim",
+  "Zibohlavy",
+  "Zlaté Slunce",
+  "Žabonosy",
+  "our left flank",
+  "our right flank",
+  "our centre",
+  "our rear"
+ ],
+ "enemies": [],
+ "now": 0.0,
+ "feature_aliases": {
+  "Blinka": [
+   "Blinka village"
+  ],
+  "Blinka brook": [
+   "Blinka stream",
+   "Blinka-Bach"
+  ],
+  "Bošice": [
+   "Boschitz",
+   "Bosice"
+  ],
+  "Břežany": [
+   "Brzezan",
+   "Brezany"
+  ],
+  "Bříství": [
+   "Brzistwi",
+   "Bristvi"
+  ],
+  "Chocenice": [
+   "Chotzemitz",
+   "Chozenitz",
+   "Chotzenitz",
+   "Cotzemitz"
+  ],
+  "Elbe": [
+   "Labe",
+   "the Elbe",
+   "Elbe river"
+  ],
+  "Friedrichsberg": [
+   "Bedřichov",
+   "Bedrichov",
+   "Frederick's hill",
+   "the King's hill"
+  ],
+  "Hluboký brook": [
+   "Hluboký potok"
+  ],
+  "Hořejší rybník": [
+   "Horejsi rybnik"
+  ],
+  "Hořešák": [
+   "Horesak"
+  ],
+  "Hradenín": [
+   "Hradenin"
+  ],
+  "Hradišťko": [
+   "Hradistko pond"
+  ],
+  "Kaiserstrasse": [
+   "the Kaiserstrasse",
+   "the high road",
+   "the highway",
+   "the road",
+   "the road to Kolín",
+   "the road to Kolin",
+   "Císařská silnice",
+   "Prague road"
+  ],
+  "Karasák": [
+   "Karasak"
+  ],
+  "Kolín": [
+   "Kolin",
+   "Collin",
+   "Kolin town"
+  ],
+  "Kolín church": [
+   "St. Bartholomew",
+   "Kostel svatého Bartoloměje",
+   "Kolin church"
+  ],
+  "Krychnov": [
+   "Krichnow"
+  ],
+  "Kutlíře": [
+   "Kutlirz",
+   "Kutlire"
+  ],
+  "Křečhoř": [
+   "Krzeczhorz",
+   "Krzeczor",
+   "Kretschor",
+   "Krechor"
+  ],
+  "Křečhoř church": [
+   "Krzeczhorz church",
+   "Krechor church"
+  ],
+  "Křečhoř crest": [
+   "the crest",
+   "the ridge",
+   "Krechor crest",
+   "crest of the heights"
+  ],
+  "Křečhoř heights": [
+   "Krzeczhorzer Höhen",
+   "Krechor heights",
+   "the heights",
+   "Kamhajek-Berg",
+   "Kamhajek Berg",
+   "the Austrian heights"
+  ],
+  "Křečhoř hill": [
+   "Krzeczhorzer Berg",
+   "Krzeczhorz hill",
+   "Krechor hill",
+   "Height of Krzeczhorz"
+  ],
+  "Libodřice": [
+   "Libodritz",
+   "Libodrice"
+  ],
+  "Lošany": [
+   "Gross Loschan",
+   "Losany"
+  ],
+  "Miletín brook": [
+   "Miletínský potok"
+  ],
+  "Nouzov brook": [
+   "Nouzovský potok"
+  ],
+  "Nouzáček": [
+   "Nouzacek"
+  ],
+  "Nová Ves": [
+   "Neudorf",
+   "Nova Ves"
+  ],
+  "Nové Město": [
+   "Novomiesto",
+   "Nove Mesto"
+  ],
+  "Oak wood": [
+   "Eichbusch",
+   "Eichwald",
+   "the oak-wood",
+   "Dubina",
+   "Dubový háj"
+  ],
+  "Obecňák": [
+   "Obecnak"
+  ],
+  "Peklo brook": [
+   "Pekelský potok",
+   "Peklo",
+   "Peklo-Bach",
+   "Peklo stream"
+  ],
+  "Peklo pond": [
+   "Peklo rybník"
+  ],
+  "Plaňany": [
+   "Planian",
+   "Planjan",
+   "Planany"
+  ],
+  "Plaňany church": [
+   "Planian church",
+   "Planjan church tower",
+   "Planany church"
+  ],
+  "Poboří": [
+   "Pobor",
+   "Pobori"
+  ],
+  "Polepka brook": [
+   "Polepka",
+   "Polepka stream"
+  ],
+  "Przerovsky height": [
+   "Przerovsky",
+   "Przerovsky Hill",
+   "Height of Przerovsky",
+   "Přerovský vrch"
+  ],
+  "Radovesnice": [
+   "Radowesnitz"
+  ],
+  "Rozkoš": [
+   "Rozkos"
+  ],
+  "Svojšice": [
+   "Swojschitz",
+   "Svojsice"
+  ],
+  "Svojšický rybník": [
+   "Svojsicky rybnik"
+  ],
+  "Velim": [
+   "Welim"
+  ],
+  "Zibohlavy": [
+   "Zibohlaw"
+  ],
+  "Zlaté Slunce": [
+   "Slatislunz",
+   "Zur goldenen Sonne",
+   "Goldene Sonne",
+   "the Golden Sun inn",
+   "Zlate Slunce"
+  ],
+  "Žabonosy": [
+   "Zabonos",
+   "Zabanos",
+   "Zabonosy"
+  ]
+ },
+ "places": {
+  "our left flank": [
+   1815.9,
+   2350.2
+  ],
+  "our right flank": [
+   10403.5,
+   3745.8
+  ],
+  "our centre": [
+   6150.5,
+   3054.6
+  ],
+  "our rear": [
+   6461.4,
+   1141.2
+  ]
+ },
+ "march_order": [
+  "A-BEC",
+  "A-KOL",
+  "A-ANG",
+  "A-GRZ",
+  "A-ART",
+  "A-MAY",
+  "A-ERD",
+  "A-WOL",
+  "A-GEM",
+  "A-SCH",
+  "A-EST",
+  "A-WUL",
+  "A-PLO",
+  "A-STK",
+  "A-BAB",
+  "A-KTD",
+  "A-BDA",
+  "A-NOS",
+  "A-GRE",
+  "A-PAL",
+  "A-ODO",
+  "A-SZE",
+  "A-MUF",
+  "A-REI",
+  "A-KOB",
+  "A-CAS"
+ ],
+ "clock_start": "13:00"
+}

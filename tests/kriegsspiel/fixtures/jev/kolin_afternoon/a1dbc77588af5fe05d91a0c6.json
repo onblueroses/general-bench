@@ -1,0 +1,53 @@
+{
+ "key": "a1dbc77588af5fe05d91a0c607e39ec0e06d4e48ebd5a202e9034dc5c2daa50e",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-23T09:02:34Z",
+ "state": {
+  "document": "An umpire's account of a clash about to be decided.",
+  "situation": "Wartenberg Hussars II (hussar cavalry, fresh, steady) charges at the gallop Saxon Karabiniergarde (cuirassier cavalry in column, fresh, shaken) on open ground at Bříství, striking its flank."
+ },
+ "questions": {
+  "situation": {
+   "type": "score",
+   "instructions": "Judge the attacker's prospects in this clash from what the account says about formation, order, terrain, flanks, fatigue, morale and surprise.",
+   "criteria": [
+    "hopeless: the attack cannot succeed; the defender holds every advantage",
+    "poor: the attacker is at a clear disadvantage",
+    "even: neither side has a clear advantage",
+    "favourable: the attacker has a clear advantage",
+    "decisive: the attacker holds every advantage; the defender cannot withstand it"
+   ]
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "situation": {
+    "type": "score",
+    "score": 3.44,
+    "legend": {
+     "0": "hopeless: the attack cannot succeed; the defender holds every advantage",
+     "1": "poor: the attacker is at a clear disadvantage",
+     "2": "even: neither side has a clear advantage",
+     "3": "favourable: the attacker has a clear advantage",
+     "4": "decisive: the attacker holds every advantage; the defender cannot withstand it"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0,
+     "2": 0.01,
+     "3": 0.54,
+     "4": 0.45
+    },
+    "confidence": 0.62
+   }
+  },
+  "usage": {
+   "input_tokens": 466,
+   "output_tokens": 18,
+   "cost": 1.9572e-05
+  },
+  "id": "gen-dec-1792746154-GVfVwMnNWHGB34y8Ne7s",
+  "provider": "TypeSafe"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "key": "7f32bca568f0417f28e45d41b712814349ad12c6b8ed97c7399a9825b7faf6d5",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:39:15Z",
+ "state": {
+  "order": "The whole army stands fast where it is on the heights;",
+  "task given to Krottendorf's brigade": "hold Křečhoř heights, carefully, halting when it meets the enemy"
+ },
+ "questions": {
+  "k11": {
+   "type": "noul",
+   "instructions": "Does the task given to Krottendorf's brigade go against the order: a different action or objective than the order gives Krottendorf's brigade, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k11": {
+    "type": "noul",
+    "noul": 0.14
+   }
+  },
+  "usage": {
+   "input_tokens": 408,
+   "output_tokens": 22,
+   "cost": 1.7136e-05
+  },
+  "id": "gen-dec-1792161554-x0K7SJQ13lsvmLs7Xl8q",
+  "provider": "TypeSafe"
+ }
+}

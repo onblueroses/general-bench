@@ -1,0 +1,35 @@
+{
+ "key": "28bedda3f044e3fbebc8c2be5b5d69c1c28e2116eea7f3973ac039e2c65e4f1b",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:24Z",
+ "state": {
+  "order": "Krockow, march the cuirassiers to Bříství and support Hülsen.",
+  "task given to Penavaire's cuirassiers": "follow Hülsen's corps, by way of Bříství"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Penavaire's cuirassiers go against the order: a different action or objective than the order gives Penavaire's cuirassiers, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.15
+   }
+  },
+  "usage": {
+   "input_tokens": 422,
+   "output_tokens": 21,
+   "cost": 1.7724e-05
+  },
+  "id": "gen-dec-1792161504-1of1e1DINdOh59dvkSlK",
+  "provider": "TypeSafe"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "key": "e72976bb04c0a2e8dcd41e9b1b205ce635ce090e00603a0ae675d718f9ca4fef",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:39:12Z",
+ "state": {
+  "order": "The whole army stands fast where it is on the heights;",
+  "task given to Wied's division": "hold Křečhoř heights, carefully, halting when it meets the enemy"
+ },
+ "questions": {
+  "k7": {
+   "type": "noul",
+   "instructions": "Does the task given to Wied's division go against the order: a different action or objective than the order gives Wied's division, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k7": {
+    "type": "noul",
+    "noul": 0.12
+   }
+  },
+  "usage": {
+   "input_tokens": 399,
+   "output_tokens": 21,
+   "cost": 1.6758e-05
+  },
+  "id": "gen-dec-1792161552-MaXVg2N9tZPVn2oocCJG",
+  "provider": "TypeSafe"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "key": "865535378f6b96b199760530cd1cc8333d3deebac89b7304be9a7a15518b7da2",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:15Z",
+ "state": {
+  "order": "Normann, march your dragoons to Bříství and support Hülsen's corps.",
+  "task given to Normann's dragoons": "follow Hülsen's corps, by way of Bříství"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Normann's dragoons go against the order: a different action or objective than the order gives Normann's dragoons, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.18
+   }
+  },
+  "usage": {
+   "input_tokens": 416,
+   "output_tokens": 21,
+   "cost": 1.7472e-05
+  },
+  "id": "gen-dec-1792161494-17DdrshjsPoQ5BbnbRXb",
+  "provider": "TypeSafe"
+ }
+}

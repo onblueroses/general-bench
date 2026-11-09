@@ -1,0 +1,37 @@
+{
+ "key": "906144b6d6852cc4ef8f98952587598a968c6936b3233358d60a1976cc2ea778",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T09:28:22Z",
+ "state": {
+  "document": "An umpire's account of the state of a battle.",
+  "sides": "Prussia and Austria; the attacker is Prussia.",
+  "account": "Evening, near sunset. The Austrian army still holds the Křečhoř heights, the village of Křečhoř and the Kaiserstrasse. The Prussian infantry of Hülsen, Tresckow and Manstein has been broken on the slopes and is falling back west towards Planian; the Prussian cavalry was routed by a counter-charge of Austrian and Saxon horse. Prussian losses are very heavy, Austrian losses moderate. Daun's army is intact and in good order on its position; the Prussians are no longer attacking anywhere.",
+  "objectives": "Frederick (Prussia): dislodge Daun from the Křečhoř heights and reopen the Kaiserstrasse to Kolín before nightfall. Daun (Austria): hold the heights and the road, preserve the army."
+ },
+ "questions": {
+  "over": {
+   "type": "noul",
+   "instructions": "Is the battle over: has one side been driven from the field or given up its attack, or has the fighting died away so that the day is settled?",
+   "criteria": {
+    "true": "yes, the battle is over",
+    "false": "no, the fighting goes on and the result is still open"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "over": {
+    "type": "noul",
+    "noul": 0.96
+   }
+  },
+  "usage": {
+   "input_tokens": 558,
+   "output_tokens": 20,
+   "cost": 2.3436e-05
+  },
+  "id": "gen-dec-1792142901-mTPFfMfsCOFD4B4YHtix",
+  "provider": "TypeSafe"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "battle": "Medlar Village",
+ "designed": true,
+ "rules_sheet": true,
+ "season": "high summer",
+ "daylight_date": "07-05",
+ "start": "09:00",
+ "end": "16:00",
+ "time_basis": "local apparent solar time",
+ "sunrise": "03:53",
+ "sunset": "20:07",
+ "civil_dusk": "20:50",
+ "weather": "dry, clear and warm; the ground firm",
+ "sides": {
+  "horse": {
+   "commander": "General Ashdown",
+   "army": "H",
+   "role": "meeting engagement"
+  },
+  "foot": {
+   "commander": "General Merriman",
+   "army": "F",
+   "role": "meeting engagement"
+  }
+ },
+ "strength_documented": {
+  "horse": 11240,
+  "foot": 13160
+ },
+ "bodies": {
+  "horse": 22,
+  "foot": 23
+ },
+ "par": {
+  "source": "none: designed battle; the baseline is self-play (docs/battles/README.md, calibration)"
+ },
+ "doc": "docs/battles/arms.md"
+}

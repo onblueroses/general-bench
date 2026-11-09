@@ -1,0 +1,35 @@
+{
+ "key": "b776d00fd8c0c7ce67d76094705624606f5d3bec066261b08310ba4f565c9a0c",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:41Z",
+ "state": {
+  "order": "Everything forward! Bevern and Tresckow storm the heights at Křečhoř, cavalry to cover the left.",
+  "task given to the Prussian army": "attack the Křečhoř heights, boldly"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to the Prussian army go against the order: a different action or objective than the order gives the Prussian army, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.05
+   }
+  },
+  "usage": {
+   "input_tokens": 408,
+   "output_tokens": 21,
+   "cost": 1.7136e-05
+  },
+  "id": "gen-dec-1792161521-XJBSRxzVLTo4dtmvBXha",
+  "provider": "TypeSafe"
+ }
+}

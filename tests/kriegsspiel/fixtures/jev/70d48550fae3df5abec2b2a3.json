@@ -1,0 +1,35 @@
+{
+ "key": "70d48550fae3df5abec2b2a30b8ed4ffce004773679802c60b7d9bbaea8150e2",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:36:56Z",
+ "state": {
+  "order": "Hülsen, advance along the road to Chocenice and clear the Croats out of it, then wait for Tresckow.",
+  "task given to Hülsen's advance guard": "attack Croats in Chocenice, by way of Chocenice, boldly; then hold where it stands, boldly"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Hülsen's advance guard go against the order: a different action or objective than the order gives Hülsen's advance guard, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.21
+   }
+  },
+  "usage": {
+   "input_tokens": 434,
+   "output_tokens": 21,
+   "cost": 1.8228e-05
+  },
+  "id": "gen-dec-1792161416-cwgHj196YTE7KAWu06Ux",
+  "provider": "TypeSafe"
+ }
+}

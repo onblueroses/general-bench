@@ -1,0 +1,53 @@
+{
+ "key": "9c54ab4b4e5b409106c2982a6eca951a485bd42ea8a80a97e15ccc71dcdacf43",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-23T09:02:21Z",
+ "state": {
+  "document": "An umpire's account of a clash about to be decided.",
+  "situation": "Puttkamer Hussars I (hussar cavalry, fresh, steady) charges at the trot Mercy-Argenteau (line infantry in column, fresh, steady) on open ground at Křečhoř heights, striking its flank."
+ },
+ "questions": {
+  "situation": {
+   "type": "score",
+   "instructions": "Judge the attacker's prospects in this clash from what the account says about formation, order, terrain, flanks, fatigue, morale and surprise.",
+   "criteria": [
+    "hopeless: the attack cannot succeed; the defender holds every advantage",
+    "poor: the attacker is at a clear disadvantage",
+    "even: neither side has a clear advantage",
+    "favourable: the attacker has a clear advantage",
+    "decisive: the attacker holds every advantage; the defender cannot withstand it"
+   ]
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "situation": {
+    "type": "score",
+    "score": 3.07,
+    "legend": {
+     "0": "hopeless: the attack cannot succeed; the defender holds every advantage",
+     "1": "poor: the attacker is at a clear disadvantage",
+     "2": "even: neither side has a clear advantage",
+     "3": "favourable: the attacker has a clear advantage",
+     "4": "decisive: the attacker holds every advantage; the defender cannot withstand it"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.04,
+     "2": 0.06,
+     "3": 0.68,
+     "4": 0.22
+    },
+    "confidence": 0.7
+   }
+  },
+  "usage": {
+   "input_tokens": 461,
+   "output_tokens": 18,
+   "cost": 1.9362e-05
+  },
+  "id": "gen-dec-1792746141-ytqIjHLawBgqtsqwRb9x",
+  "provider": "TypeSafe"
+ }
+}

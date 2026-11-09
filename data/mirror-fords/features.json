@@ -1,0 +1,568 @@
+[
+ {
+  "name": "Plover Village",
+  "kind": "village",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     4000.0,
+     3000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the village",
+   "the crossroads",
+   "Plovere Village",
+   "Plover crossroads"
+  ],
+  "radius_m": 200.0,
+  "note": "a point at the crossroads of the High road and the two bank roads: possession is judged within musket range of it (docs/battles/README.md, the verdict); the houses are the VILLAGE disc of terrain.npz, on the dry saddle between the heads of the two brooks"
+ },
+ {
+  "name": "High road",
+  "kind": "road",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     0.0,
+     3000.0
+    ],
+    [
+     4000.0,
+     3000.0
+    ],
+    [
+     8000.0,
+     3000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the high road",
+   "the main road"
+  ]
+ },
+ {
+  "name": "Curlew lane",
+  "kind": "road",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     1000.0,
+     3000.0
+    ],
+    [
+     1440.0,
+     3920.0
+    ],
+    [
+     2400.0,
+     4200.0
+    ],
+    [
+     3480.0,
+     5640.0
+    ],
+    [
+     7000.0,
+     3000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the curlew lane",
+   "the north lane"
+  ]
+ },
+ {
+  "name": "Godwit lane",
+  "kind": "road",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     7000.0,
+     3000.0
+    ],
+    [
+     6560.0,
+     2080.0
+    ],
+    [
+     5600.0,
+     1800.0
+    ],
+    [
+     4520.0,
+     360.0
+    ],
+    [
+     1000.0,
+     3000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the godwit lane",
+   "the south lane"
+  ]
+ },
+ {
+  "name": "Curlew Brook",
+  "kind": "stream",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     3600.0,
+     3300.0
+    ],
+    [
+     2400.0,
+     4200.0
+    ],
+    [
+     0.0,
+     6000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Curlewe Brook",
+   "the curlew brook",
+   "the north brook"
+  ],
+  "note": "water, a band of cells from 500 m off the village to the corner: impassable but at its ford"
+ },
+ {
+  "name": "Godwit Brook",
+  "kind": "stream",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     4400.0,
+     2700.0
+    ],
+    [
+     5600.0,
+     1800.0
+    ],
+    [
+     8000.0,
+     0.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Godwite Brook",
+   "the godwit brook",
+   "the south brook"
+  ],
+  "note": "water, a band of cells from 500 m off the village to the corner: impassable but at its ford"
+ },
+ {
+  "name": "Curlew Ford",
+  "kind": "ford",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     2400.0,
+     4200.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Curlewe Ford",
+   "the curlew ford",
+   "the north ford"
+  ],
+  "radius_m": 40.0,
+  "passable": [
+   "infantry",
+   "cavalry",
+   "artillery",
+   "train"
+  ],
+  "speed": {
+   "infantry": 0.5,
+   "cavalry": 0.5,
+   "artillery": 0.25,
+   "train": 0.25
+  }
+ },
+ {
+  "name": "Godwit Ford",
+  "kind": "ford",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     5600.0,
+     1800.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Godwite Ford",
+   "the godwit ford",
+   "the south ford"
+  ],
+  "radius_m": 40.0,
+  "passable": [
+   "infantry",
+   "cavalry",
+   "artillery",
+   "train"
+  ],
+  "speed": {
+   "infantry": 0.5,
+   "cavalry": 0.5,
+   "artillery": 0.25,
+   "train": 0.25
+  }
+ },
+ {
+  "name": "Withy road",
+  "kind": "road",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     2400.0,
+     4200.0
+    ],
+    [
+     2420.0,
+     4060.0
+    ],
+    [
+     3540.0,
+     3220.0
+    ],
+    [
+     4000.0,
+     3000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the withy road"
+  ]
+ },
+ {
+  "name": "Osier road",
+  "kind": "road",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     5600.0,
+     1800.0
+    ],
+    [
+     5580.0,
+     1940.0
+    ],
+    [
+     4460.0,
+     2780.0
+    ],
+    [
+     4000.0,
+     3000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the osier road"
+  ]
+ },
+ {
+  "name": "Curlew Mill",
+  "kind": "mill",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     2316.0,
+     4188.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Curlewe Mill",
+   "the curlew mill"
+  ]
+ },
+ {
+  "name": "Godwit Mill",
+  "kind": "mill",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     5684.0,
+     1812.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Godwite Mill",
+   "the godwit mill"
+  ]
+ },
+ {
+  "name": "Heron Ridge",
+  "kind": "ridge",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     2960.0,
+     3030.0
+    ],
+    [
+     2560.0,
+     3330.0
+    ],
+    [
+     2160.0,
+     3630.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Herone Ridge",
+   "the heron ridge"
+  ],
+  "note": "a crest 25 m over the fields, falling off over 500 m"
+ },
+ {
+  "name": "Bittern Ridge",
+  "kind": "ridge",
+  "geometry": {
+   "type": "polyline",
+   "coords": [
+    [
+     5040.0,
+     2970.0
+    ],
+    [
+     5440.0,
+     2670.0
+    ],
+    [
+     5840.0,
+     2370.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Bitterne Ridge",
+   "the bittern ridge"
+  ],
+  "note": "a crest 25 m over the fields, falling off over 500 m"
+ },
+ {
+  "name": "Siskin Wood",
+  "kind": "wood",
+  "geometry": {
+   "type": "polygon",
+   "coords": [
+    [
+     5410.0,
+     130.0
+    ],
+    [
+     5760.0,
+     680.0
+    ],
+    [
+     5940.0,
+     1170.0
+    ],
+    [
+     4900.0,
+     1950.0
+    ],
+    [
+     4500.0,
+     1750.0
+    ],
+    [
+     4120.0,
+     1160.0
+    ],
+    [
+     4240.0,
+     820.0
+    ],
+    [
+     5120.0,
+     160.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Siskine Wood",
+   "the siskin wood"
+  ]
+ },
+ {
+  "name": "Linnet Wood",
+  "kind": "wood",
+  "geometry": {
+   "type": "polygon",
+   "coords": [
+    [
+     2590.0,
+     5870.0
+    ],
+    [
+     2240.0,
+     5320.0
+    ],
+    [
+     2060.0,
+     4830.0
+    ],
+    [
+     3100.0,
+     4050.0
+    ],
+    [
+     3500.0,
+     4250.0
+    ],
+    [
+     3880.0,
+     4840.0
+    ],
+    [
+     3760.0,
+     5180.0
+    ],
+    [
+     2880.0,
+     5840.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Linnete Wood",
+   "the linnet wood"
+  ]
+ },
+ {
+  "name": "Wren Farm",
+  "kind": "farm",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     1440.0,
+     3920.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Wrene Farm",
+   "the wren farm"
+  ]
+ },
+ {
+  "name": "Thrush Farm",
+  "kind": "farm",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     6560.0,
+     2080.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Thrushe Farm",
+   "the thrush farm"
+  ]
+ },
+ {
+  "name": "Finch Farm",
+  "kind": "farm",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     4520.0,
+     360.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Finche Farm",
+   "the finch farm"
+  ]
+ },
+ {
+  "name": "Starling Farm",
+  "kind": "farm",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     3480.0,
+     5640.0
+    ]
+   ]
+  },
+  "aliases": [
+   "Starlinge Farm",
+   "the starling farm"
+  ]
+ },
+ {
+  "name": "West exit",
+  "kind": "exit",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     10.0,
+     3000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the west exit",
+   "the high road west exit"
+  ],
+  "radius_m": 100.0,
+  "road": "High road"
+ },
+ {
+  "name": "East exit",
+  "kind": "exit",
+  "geometry": {
+   "type": "point",
+   "coords": [
+    [
+     7990.0,
+     3000.0
+    ]
+   ]
+  },
+  "aliases": [
+   "the east exit",
+   "the high road east exit"
+  ],
+  "radius_m": 100.0,
+  "road": "High road"
+ }
+]

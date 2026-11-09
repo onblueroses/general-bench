@@ -1,0 +1,135 @@
+{
+ "note": "Plain's plan on this ground, one for both sides, names swapped (tools/build_pack.py SCRIPT): the centre brigade advances on the village by the high road and holds it, the brigades either side and the second line follow it up, the horse covers the flanks, the grenadiers and the reserve guns stay behind; at noon the grenadiers go up to the village. It uses neither ford nor ridge: a baseline, not a plan for this field. For `script` players, whose orders Jev translates: stub-mode Jev reads every order as its first option, so a stub game of scripts checks plumbing only; stub self-play uses the doctrine bot (design-notes.md).",
+ "orders": [
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Mawhood, advance by the high road to Plover Village, then hold it."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Ackroyd, advance to Plover Village on the left of the second brigade, then hold."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Treloar, advance to Plover Village on the right of the second brigade, then hold."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Bunce, follow the second brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Pinnock, follow the first brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Snelling, follow the third brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Lorimer, cover our left flank."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Cundall, cover our right flank."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Hebditch, stand behind Cundall's brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Pettifer, stay in reserve behind the fourth brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "red",
+   "text": "Venables, support the second brigade."
+  },
+  {
+   "at": "12:00",
+   "side": "red",
+   "text": "Pettifer, advance to Plover Village and support the second brigade."
+  },
+  {
+   "at": "12:00",
+   "side": "red",
+   "text": "Mawhood, hold Plover Village to the last."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Quayle, advance by the high road to Plover Village, then hold it."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Tasker, advance to Plover Village on the left of the second brigade, then hold."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Pargeter, advance to Plover Village on the right of the second brigade, then hold."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Kemble, follow the second brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Gubbins, follow the first brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Shillito, follow the third brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Mallinson, cover our left flank."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Hammick, cover our right flank."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Etheridge, stand behind Hammick's brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Royle, stay in reserve behind the fourth brigade."
+  },
+  {
+   "at": "09:00",
+   "side": "blue",
+   "text": "Jupe, support the second brigade."
+  },
+  {
+   "at": "12:00",
+   "side": "blue",
+   "text": "Royle, advance to Plover Village and support the second brigade."
+  },
+  {
+   "at": "12:00",
+   "side": "blue",
+   "text": "Quayle, hold Plover Village to the last."
+  }
+ ]
+}

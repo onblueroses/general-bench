@@ -1,0 +1,35 @@
+{
+ "key": "4d263f3f8a302ecec60f1300e5302d668b825f2e1873717b8f99536a9d77411f",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:39:08Z",
+ "state": {
+  "order": "The whole army stands fast where it is on the heights;",
+  "task given to Grenadier reserve": "hold Křečhoř heights, carefully, halting when it meets the enemy"
+ },
+ "questions": {
+  "k3": {
+   "type": "noul",
+   "instructions": "Does the task given to Grenadier reserve go against the order: a different action or objective than the order gives Grenadier reserve, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k3": {
+    "type": "noul",
+    "noul": 0.16
+   }
+  },
+  "usage": {
+   "input_tokens": 399,
+   "output_tokens": 21,
+   "cost": 1.6758e-05
+  },
+  "id": "gen-dec-1792161547-Hd2eyo1bZSUldHouGRmX",
+  "provider": "TypeSafe"
+ }
+}

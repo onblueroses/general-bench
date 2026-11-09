@@ -1,0 +1,53 @@
+{
+ "key": "7fd19dd9397f07877878ecc42e131bacc034f9fe2c036b3d018672ea5a69f202",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-23T09:02:42Z",
+ "state": {
+  "document": "An umpire's account of a clash about to be decided.",
+  "situation": "Wartenberg Hussars I (hussar cavalry, fresh, in disorder) charges at the gallop II./Leopold Daun (line infantry in line, fresh, steady) on open ground at Křečhoř heights, striking its front."
+ },
+ "questions": {
+  "situation": {
+   "type": "score",
+   "instructions": "Judge the attacker's prospects in this clash from what the account says about formation, order, terrain, flanks, fatigue, morale and surprise.",
+   "criteria": [
+    "hopeless: the attack cannot succeed; the defender holds every advantage",
+    "poor: the attacker is at a clear disadvantage",
+    "even: neither side has a clear advantage",
+    "favourable: the attacker has a clear advantage",
+    "decisive: the attacker holds every advantage; the defender cannot withstand it"
+   ]
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "situation": {
+    "type": "score",
+    "score": 1.11,
+    "legend": {
+     "0": "hopeless: the attack cannot succeed; the defender holds every advantage",
+     "1": "poor: the attacker is at a clear disadvantage",
+     "2": "even: neither side has a clear advantage",
+     "3": "favourable: the attacker has a clear advantage",
+     "4": "decisive: the attacker holds every advantage; the defender cannot withstand it"
+    },
+    "probabilities": {
+     "0": 0.14,
+     "1": 0.7,
+     "2": 0.07,
+     "3": 0.08,
+     "4": 0.01
+    },
+    "confidence": 0.67
+   }
+  },
+  "usage": {
+   "input_tokens": 465,
+   "output_tokens": 18,
+   "cost": 1.953e-05
+  },
+  "id": "gen-dec-1792746161-2SH3xg1h5vyfd143QOsv",
+  "provider": "TypeSafe"
+ }
+}

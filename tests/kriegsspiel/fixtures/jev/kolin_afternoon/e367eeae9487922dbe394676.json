@@ -1,0 +1,173 @@
+{
+ "key": "e367eeae9487922dbe3946766f23a98d74f60dbd0e99d7de75f731f072aaeac1",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T12:23:55Z",
+ "state": {
+  "document": "A written order from the army commander to the generals of his army.",
+  "order": "The whole army stands fast where it is on the heights; nobody is to descend to pursue.",
+  "formations of this army": [
+   "Imperial Army (General Daun); also called the army, the Imperial army, the Austrian army, the headquarters, my headquarters, the King, the Feldmarschall",
+   "Andlau's division (infantry); also called Andlau",
+   "Angern's brigade (infantry); also called Angern",
+   "Artillery (artillery, General Feuerstein); also called the artillery, the Austrian guns, the heavy batteries, Feuerstein's guns",
+   "Babocsay's hussars (cavalry); also called Babocsay's brigade",
+   "Benedikt Daun's cavalry (cavalry); also called first-line cavalry of the right, Trauttmansdorff's brigade",
+   "Beck's flank guard (infantry); also called Beck's Croats, the left flank guard, Beck's brigade",
+   "Castiglione's brigade (cavalry); also called Castiglione",
+   "Centre infantry (infantry, General Marschall); also called the centre, the Austrian infantry, Marschall's infantry, the main line",
+   "Erdödy's hussars (cavalry); also called Erdödy's brigade",
+   "Esterházy's brigade (infantry, General Esterházy (GM)); also called Esterházy's infantry",
+   "Gemmingen's brigade (infantry); also called Gemmingen",
+   "Grenadier reserve (infantry, General Grenadier reserve commander (unrecorded)); also called the grenadiers, the Austrian grenadiers",
+   "Grenzer in the villages (infantry, General Grenzer post commanders (unrecorded)); also called the Croats, the Grenzer, the village garrisons",
+   "Hadik's division (cavalry); also called Hadik",
+   "Köbel's brigade (cavalry); also called Köbel",
+   "Kolowrat's cavalry (cavalry); also called first-line cavalry of the left",
+   "Krottendorf's brigade (infantry); also called Krottendorf",
+   "Lützow's division (cavalry); also called Lützow, the reserve cavalry",
+   "Left-wing cavalry (cavalry, General Stampach); also called the left-wing cavalry, Stampach's cavalry, the cavalry of the left",
+   "Mayern's brigade (infantry); also called Mayern",
+   "Morocz's division (cavalry); also called Morocz",
+   "Müffling's brigade (infantry); also called Müffling",
+   "Nádasdy's corps; also called the right flank corps, Nadasdy's corps, the light horse, Nádasdy's cavalry",
+   "Saxon chevaux-légers (cavalry, General Nostitz); also called the Saxons, the Saxon cavalry, Nostitz's brigade, Benkendorf",
+   "O'Donell's division (cavalry); also called O'Donell, O'Donell's cavalry",
+   "Pálffy's hussars (cavalry); also called Pálffy's brigade",
+   "Plonquet's brigade (infantry); also called Plonquet",
+   "Puebla's division (infantry); also called Puebla",
+   "Reichlin's brigade (infantry); also called Reichlin",
+   "Reserve (General Colloredo); also called the reserve, Colloredo's reserve",
+   "Right-wing cavalry (cavalry, General Serbelloni); also called the right-wing cavalry, Serbelloni's cavalry, the cuirassiers of the right",
+   "Schröger's hussars (cavalry); also called Schröger's brigade",
+   "Sincère's division (infantry); also called Sincère, Sincere's division",
+   "Starhemberg's division (infantry); also called Starhemberg's infantry, the second line infantry",
+   "Kommandierte cavalry (cavalry, General Starhemberg (GM)); also called the picked horse, the Kommandierten, Starhemberg's picked cavalry",
+   "Széchényi's hussars (cavalry); also called Széchényi's brigade",
+   "Wied's division (infantry); also called Wied, Wied's infantry",
+   "Wöllwarth's division (cavalry); also called Wöllwarth",
+   "Wulffen's brigade (infantry); also called Wulffen"
+  ]
+ },
+ "questions": {
+  "o0": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Artillery (artillery, General Feuerstein); also called the artillery, the Austrian guns, the heavy batteries, Feuerstein's guns an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  },
+  "o1": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Babocsay's hussars (cavalry); also called Babocsay's brigade an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  },
+  "o2": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Centre infantry (infantry, General Marschall); also called the centre, the Austrian infantry, Marschall's infantry, the main line an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  },
+  "o3": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Erdödy's hussars (cavalry); also called Erdödy's brigade an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  },
+  "o4": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Kolowrat's cavalry (cavalry); also called first-line cavalry of the left an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  },
+  "o5": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Lützow's division (cavalry); also called Lützow, the reserve cavalry an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  },
+  "o6": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Pálffy's hussars (cavalry); also called Pálffy's brigade an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  },
+  "o7": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Right-wing cavalry (cavalry, General Serbelloni); also called the right-wing cavalry, Serbelloni's cavalry, the cuirassiers of the right an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  },
+  "o8": {
+   "type": "noul",
+   "instructions": "Read the order. Apart from what the whole army is told to do, does it give Schröger's hussars (cavalry); also called Schröger's brigade an instruction of its own: is this formation or its general named, or meant by its arm ('the cavalry', 'the guns'), and given something particular to do?",
+   "criteria": {
+    "true": "yes, it has an instruction of its own",
+    "false": "no, it is only part of the whole army's instruction"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "o0": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "o1": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "o2": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "o3": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "o4": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "o5": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "o6": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "o7": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "o8": {
+    "type": "noul",
+    "noul": 0.04
+   }
+  },
+  "usage": {
+   "input_tokens": 2382,
+   "output_tokens": 157,
+   "cost": 0.000100044
+  },
+  "id": "gen-dec-1792153435-ZJzHHP5NkUclVo3APJfR",
+  "provider": "TypeSafe"
+ }
+}

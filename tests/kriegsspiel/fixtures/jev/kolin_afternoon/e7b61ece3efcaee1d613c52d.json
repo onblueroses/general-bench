@@ -1,0 +1,35 @@
+{
+ "key": "e7b61ece3efcaee1d613c52d745591c88e86bad15249e0c5fe982770e6938df7",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:59Z",
+ "state": {
+  "order": "The heavy artillery will unlimber by the Zlaté Slunce inn and bombard the Křečhoř heights.",
+  "task given to Heavy artillery": "bombard Křečhoř heights, by way of Zlaté Slunce, boldly"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Heavy artillery go against the order: a different action or objective than the order gives Heavy artillery, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.05
+   }
+  },
+  "usage": {
+   "input_tokens": 412,
+   "output_tokens": 21,
+   "cost": 1.7304e-05
+  },
+  "id": "gen-dec-1792161539-GGn8g55wQjxJrxFWJoNh",
+  "provider": "TypeSafe"
+ }
+}

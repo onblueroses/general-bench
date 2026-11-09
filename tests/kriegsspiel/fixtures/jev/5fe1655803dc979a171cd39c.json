@@ -1,0 +1,35 @@
+{
+ "key": "5fe1655803dc979a171cd39cb38f99f2d21ea7251f2c8cdc2242e2fc87ccbfb8",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:26Z",
+ "state": {
+  "order": "Ingersleben, march your brigade up Křečhoř heights and support Hülsen.",
+  "task given to Ingersleben's brigade": "follow Hülsen's corps, by way of Křečhoř heights"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Ingersleben's brigade go against the order: a different action or objective than the order gives Ingersleben's brigade, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.19
+   }
+  },
+  "usage": {
+   "input_tokens": 416,
+   "output_tokens": 21,
+   "cost": 1.7472e-05
+  },
+  "id": "gen-dec-1792161506-gYwytZVweLBYmVuSk567",
+  "provider": "TypeSafe"
+ }
+}

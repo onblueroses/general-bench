@@ -1,0 +1,98 @@
+{
+ "battle": "Kolín",
+ "date": "1757-06-18",
+ "start": "13:00",
+ "time_basis": "local apparent solar time, as in the period accounts",
+ "sunset": "20:11",
+ "civil_dusk": "20:56",
+ "historical_end": "about 20:00-21:00 (KRO: issue uncertain until 19:00-20:00; CDB active period ends 21:00)",
+ "weather": "dry, sunny, warm; morning fog lifted before the march (CDB wx D/S/T; KRO)",
+ "sides": {
+  "prussia": {
+   "commander": "Frederick II",
+   "army": "P",
+   "role": "attacker"
+  },
+  "austria": {
+   "commander": "Daun",
+   "army": "A",
+   "role": "defender"
+  }
+ },
+ "strength_documented": {
+  "prussia": 32000,
+  "austria": 54512
+ },
+ "bodies": {
+  "prussia": 59,
+  "austria": 95
+ },
+ "strength_sources": {
+  "prussia": "CDB90 32,000 (KRO ~33,000); allocated to KRO's 32 bns, 116 sqns, 28 heavy pieces",
+  "austria": "NAF 35,160 inf + 18,630 cav = 53,790, plus heavy-gun crews (KRO ~54,000); CDB90 44,000"
+ },
+ "par": {
+  "source": "CDB90 isqno 67",
+  "prussia": {
+   "str": 32000,
+   "cas": 13768
+  },
+  "austria": {
+   "str": 44000,
+   "cas": 9000
+  },
+  "winner": "austria",
+  "duration_min": 420
+ },
+ "projection": {
+  "crs": "UTM zone 33N (EPSG:32633), WGS84",
+  "origin_utm": [
+   501000.0,
+   5538100.0
+  ],
+  "note": "local x = easting - 501000, y = northing - 5538100; SW corner of the grid",
+  "cell_m": 25.0,
+  "shape": [
+   328,
+   576
+  ]
+ },
+ "sources": [
+  "https://copernicus-dem-30m.s3.amazonaws.com/ (Copernicus GLO-30 DSM, tiles N49/N50 E015)",
+  "https://overpass-api.de/api/interpreter (OpenStreetMap, fetched 2026-10-16, ODbL)",
+  "https://www.generalstaff.org/NAF/Pt_I_1600-1783/757fas.pdf",
+  "https://www.generalstaff.org/NAF/Pt_I_1600-1783/757far.pdf",
+  "https://www.kronoskaf.com/syw/index.php?title=1757-06-18_-_Battle_of_Kolin",
+  "https://github.com/jrnold/CDB90 (isqno 67)"
+ ],
+ "doc": "docs/kolin-test-pack.md",
+ "tuning": {
+  "date": "2026-10-17",
+  "changes": [
+   {
+    "what": "Austrian strength x 0.81 x 0.95 = 0.77 (every body)",
+    "from": 54512,
+    "to": 41949,
+    "why": "toward CDB90's 44,000"
+   },
+   {
+    "what": "Křečhoř garrison and right flank (A-NAD Nádasdy's foot, A-MOR his horse) start 1.75 km south (four dragoon bodies of A-NOS stopped at the map's south edge)",
+    "from": "about Křečhoř and the oak wood",
+    "to": "well back behind the village",
+    "why": "the village and the oak wood become a race the Prussian vanguard can win by moving first"
+   },
+   {
+    "what": "Austrian centre and right (A-WIE, A-RWC, A-STA, A-AND) start 1 km south",
+    "from": "on the crest of the Křečhoř heights",
+    "to": "behind the crest",
+    "why": "every objective was held at the start, so the attack had nothing to decide"
+   },
+   {
+    "what": "Prussian vanguard (P-VAN: Hülsen, Zieten's hussars) starts 700 m south",
+    "from": "on the Kaiserstrasse",
+    "to": "south of the road toward the heights",
+    "why": "brings the first wave within reach of Křečhoř; measured with Austria at 0.81 in a variant whose four south-edge dragoon bodies stood off the map: 40% without it, 50% with it (25% once those bodies were put on the map)"
+   }
+  ]
+ }
+}

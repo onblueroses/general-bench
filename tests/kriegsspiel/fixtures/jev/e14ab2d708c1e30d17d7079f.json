@@ -1,0 +1,35 @@
+{
+ "key": "e14ab2d708c1e30d17d7079f5be1f041e2cbb38107f87a310378a2ea1ad500d6",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:06Z",
+ "state": {
+  "order": "Penavaire, march the cavalry of the army east behind the infantry, north of the high road. Keep it ready to support the attack of the left, and keep it well out of the enemy's cannon shot until it is called upon.",
+  "task given to Cavalry": "follow Infantry (Moritz of Anhalt-Dessau), by way of Kaiserstrasse, carefully, never attacking; then follow Left wing infantry (Tresckow), carefully, never attacking"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Cavalry go against the order: a different action or objective than the order gives Cavalry, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.35
+   }
+  },
+  "usage": {
+   "input_tokens": 458,
+   "output_tokens": 21,
+   "cost": 1.9236e-05
+  },
+  "id": "gen-dec-1792161486-3l69Z7OWJiSXe9qC2qdg",
+  "provider": "TypeSafe"
+ }
+}

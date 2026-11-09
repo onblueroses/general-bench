@@ -1,0 +1,35 @@
+{
+ "key": "8c3ff433b80223bfb883cb481d1d794de24254179479781692af0d7277e66388",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:17Z",
+ "state": {
+  "order": "Manstein, hold the Kaiserstrasse at Nové Město with your brigade to cover the rear of the army while Schönaich withdraws, then follow him to Zlaté Slunce; do not attack Břežany or the heights.",
+  "task given to Manstein's brigade": "hold Nové Město, carefully, never attacking; then follow Schönaich's brigade, carefully, never attacking"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Manstein's brigade go against the order: a different action or objective than the order gives Manstein's brigade, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.08
+   }
+  },
+  "usage": {
+   "input_tokens": 457,
+   "output_tokens": 21,
+   "cost": 1.9194e-05
+  },
+  "id": "gen-dec-1792161496-Tlk5fTQDTvhfF9hyms49",
+  "provider": "TypeSafe"
+ }
+}

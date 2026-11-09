@@ -1,0 +1,35 @@
+{
+ "key": "cb1a8b7430931e1c51152e2120b4bacc89cf1a24dbec0e16f23d5a5b5e994dd4",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:38:42Z",
+ "state": {
+  "order": "Everything forward! Bevern and Tresckow storm the heights at Křečhoř, cavalry to cover the left.",
+  "task given to Tresckow's brigade": "attack the Křečhoř heights, at all costs"
+ },
+ "questions": {
+  "k1": {
+   "type": "noul",
+   "instructions": "Does the task given to Tresckow's brigade go against the order: a different action or objective than the order gives Tresckow's brigade, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k1": {
+    "type": "noul",
+    "noul": 0.05
+   }
+  },
+  "usage": {
+   "input_tokens": 413,
+   "output_tokens": 21,
+   "cost": 1.7346e-05
+  },
+  "id": "gen-dec-1792161521-uy8XDgVaMVEPmtbt2zN8",
+  "provider": "TypeSafe"
+ }
+}

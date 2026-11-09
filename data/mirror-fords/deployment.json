@@ -1,0 +1,279 @@
+{
+ "start": "09:00",
+ "units": {
+  "R-G-1": {
+   "x": 100.0,
+   "y": 3085.0,
+   "facing_deg": 90.0,
+   "state": "column"
+  },
+  "R-G-2": {
+   "x": 100.0,
+   "y": 2915.0,
+   "facing_deg": 90.0,
+   "state": "column"
+  },
+  "R-L1-1": {
+   "x": 500.0,
+   "y": 3435.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-L1-2": {
+   "x": 500.0,
+   "y": 3265.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-L2-1": {
+   "x": 500.0,
+   "y": 3085.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-L2-2": {
+   "x": 500.0,
+   "y": 2915.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-L3-1": {
+   "x": 500.0,
+   "y": 2735.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-L3-2": {
+   "x": 500.0,
+   "y": 2565.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-L4-1": {
+   "x": 250.0,
+   "y": 3085.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-L4-2": {
+   "x": 250.0,
+   "y": 2915.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-N1-1": {
+   "x": 250.0,
+   "y": 3435.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-N1-2": {
+   "x": 250.0,
+   "y": 3265.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-N2-1": {
+   "x": 250.0,
+   "y": 2735.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-N2-2": {
+   "x": 250.0,
+   "y": 2565.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-CU-1": {
+   "x": 250.0,
+   "y": 2335.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-CU-2": {
+   "x": 250.0,
+   "y": 2125.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-DR-1": {
+   "x": 500.0,
+   "y": 2335.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-DR-2": {
+   "x": 500.0,
+   "y": 2125.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-HU-1": {
+   "x": 500.0,
+   "y": 3875.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-HU-2": {
+   "x": 500.0,
+   "y": 3665.0,
+   "facing_deg": 90.0,
+   "state": "line"
+  },
+  "R-AR-1": {
+   "x": 100.0,
+   "y": 3250.0,
+   "facing_deg": 90.0,
+   "state": "limbered"
+  },
+  "R-AR-2": {
+   "x": 100.0,
+   "y": 2750.0,
+   "facing_deg": 90.0,
+   "state": "limbered"
+  },
+  "B-G-1": {
+   "x": 7900.0,
+   "y": 2915.0,
+   "facing_deg": 270.0,
+   "state": "column"
+  },
+  "B-G-2": {
+   "x": 7900.0,
+   "y": 3085.0,
+   "facing_deg": 270.0,
+   "state": "column"
+  },
+  "B-L1-1": {
+   "x": 7500.0,
+   "y": 2565.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-L1-2": {
+   "x": 7500.0,
+   "y": 2735.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-L2-1": {
+   "x": 7500.0,
+   "y": 2915.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-L2-2": {
+   "x": 7500.0,
+   "y": 3085.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-L3-1": {
+   "x": 7500.0,
+   "y": 3265.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-L3-2": {
+   "x": 7500.0,
+   "y": 3435.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-L4-1": {
+   "x": 7750.0,
+   "y": 2915.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-L4-2": {
+   "x": 7750.0,
+   "y": 3085.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-N1-1": {
+   "x": 7750.0,
+   "y": 2565.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-N1-2": {
+   "x": 7750.0,
+   "y": 2735.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-N2-1": {
+   "x": 7750.0,
+   "y": 3265.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-N2-2": {
+   "x": 7750.0,
+   "y": 3435.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-CU-1": {
+   "x": 7750.0,
+   "y": 3665.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-CU-2": {
+   "x": 7750.0,
+   "y": 3875.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-DR-1": {
+   "x": 7500.0,
+   "y": 3665.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-DR-2": {
+   "x": 7500.0,
+   "y": 3875.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-HU-1": {
+   "x": 7500.0,
+   "y": 2125.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-HU-2": {
+   "x": 7500.0,
+   "y": 2335.0,
+   "facing_deg": 270.0,
+   "state": "line"
+  },
+  "B-AR-1": {
+   "x": 7900.0,
+   "y": 2750.0,
+   "facing_deg": 270.0,
+   "state": "limbered"
+  },
+  "B-AR-2": {
+   "x": 7900.0,
+   "y": 3250.0,
+   "facing_deg": 270.0,
+   "state": "limbered"
+  }
+ },
+ "hq": {
+  "R": [
+   175.0,
+   3000.0
+  ],
+  "B": [
+   7825.0,
+   3000.0
+  ]
+ }
+}

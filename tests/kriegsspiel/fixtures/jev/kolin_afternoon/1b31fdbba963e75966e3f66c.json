@@ -1,0 +1,35 @@
+{
+ "key": "1b31fdbba963e75966e3f66c9ba941836c5338e9903f149cfbd7015f525c9344",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T18:29:34Z",
+ "state": {
+  "order": "Colloredo, march the reserve at once to Křečhoř and hold the village and the oak wood.",
+  "task given to Reserve": "hold Křečhoř, boldly; then hold Oak wood, boldly"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Reserve go against the order: a different action or objective than the order gives Reserve, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.13
+   }
+  },
+  "usage": {
+   "input_tokens": 403,
+   "output_tokens": 21,
+   "cost": 1.6926e-05
+  },
+  "id": "gen-dec-1792175374-o9AkHIqCsgBioIpg6XMl",
+  "provider": "TypeSafe"
+ }
+}

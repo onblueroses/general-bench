@@ -1,0 +1,35 @@
+{
+ "key": "057bb9f5b5d3938be3402b45761169429242e9af76ba9ed352726e335735c181",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:37:42Z",
+ "state": {
+  "order": "Generalmajor von Katte will keep Zieten's hussars on Hülsen's left while Hülsen attacks Křečhoř.",
+  "task given to Zieten's hussars": "follow Hülsen's corps"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Zieten's hussars go against the order: a different action or objective than the order gives Zieten's hussars, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.14
+   }
+  },
+  "usage": {
+   "input_tokens": 416,
+   "output_tokens": 21,
+   "cost": 1.7472e-05
+  },
+  "id": "gen-dec-1792161462-ogcDB3AeYTuVQpOC1ndK",
+  "provider": "TypeSafe"
+ }
+}

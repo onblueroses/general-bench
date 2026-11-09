@@ -1,0 +1,35 @@
+{
+ "key": "22c3b1d98f7bf0a020f6994e60e39a3435764f52631ce2be80fd6576630df1bd",
+ "model": "typesafe/jev-1.14",
+ "recorded": "2026-10-16T14:39:06Z",
+ "state": {
+  "order": "The whole army stands fast where it is on the heights; nobody is to descend to pursue.",
+  "task given to Imperial Army": "hold Křečhoř heights, carefully, halting when it meets the enemy, never pursuing"
+ },
+ "questions": {
+  "k0": {
+   "type": "noul",
+   "instructions": "Does the task given to Imperial Army go against the order: a different action or objective than the order gives Imperial Army, acting before the order allows, or doing what it forbids? Leaving out details is not going against it.",
+   "criteria": {
+    "true": "yes, the task goes against the order",
+    "false": "no, the task carries out the order, perhaps with details left out"
+   }
+  }
+ },
+ "response": {
+  "model": "typesafe/jev-1.14-20261014",
+  "answers": {
+   "k0": {
+    "type": "noul",
+    "noul": 0.07
+   }
+  },
+  "usage": {
+   "input_tokens": 406,
+   "output_tokens": 21,
+   "cost": 1.7052e-05
+  },
+  "id": "gen-dec-1792161546-xNg1OiqkOGQBD7iu8hDK",
+  "provider": "TypeSafe"
+ }
+}
