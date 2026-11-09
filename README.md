@@ -35,20 +35,15 @@ Every brief, every order, every reading of an order and every verdict is in [`ga
 scale. Intervals and ranks come from resampling the games. Reproduce with
 `uv run python scripts/standings.py`.
 
-**Read it as three tiers, not seven places.** Astra is first in 99% of the resamples. Fable,
-Sol, Opus and Luna form a middle group whose order is not settled. DeepSeek and Sonnet are
-below it and cannot be told apart. The battles agree on the tiers but not on the order inside
-them: Fable takes 62% on Plain and 46% on Arms, where the armies differ; DeepSeek takes 45% on
-Plain and 26% on Mirror's broken ground.
+**Three tiers.** Astra is first in 99% of the resamples. Fable, Sol, Opus and Luna form the
+middle; DeepSeek and Sonnet the bottom.
 
 Head to head, rounds, replays, the noise floor and the seat balance: [`docs/results.md`](docs/results.md).
 
 ## Each model commands in its own way
 
-The same brief, 144 games, and each model keeps a recognisable style. Measured from the reports
-in each general's briefs, the staff's reading of every order and the orders' own words
-(`scripts/generals.py`, `scripts/styles.py`); the orders below are quoted from the games. Each
-model in depth, with a game told for each: [`docs/generals.md`](docs/generals.md).
+The same brief, 144 games, and each model keeps a recognisable style. In depth, with one game
+told for each: [`docs/generals.md`](docs/generals.md).
 
 - **Astra rallies at once and gets its men back.** Its bodies break as often as anyone's, but 85%
   of its breaks get a rally order within a quarter hour (the others 38 to 72%), and it recovers
@@ -118,33 +113,16 @@ The day runs from 09:00 to 16:00, with up to two hours of play-on. Design and nu
 
 The engine, the staff, the brief and the play loop: [`docs/engine.md`](docs/engine.md).
 
-## What to keep in mind
+## Notes
 
-- **A single game is close to a coin flip.** Replaying the same pairings with identical settings
-  gave the same winner in 15 of 30 games. The standings rest on many games, which is what their
-  intervals measure.
-- **The staff is part of the instrument.** Every order is read by a model, and a different
-  reading moves results. Jev 1.14 read 450 of the games; GPT-6 Luna, also a player, read 54.
-  Their agreement is measured in the [staff study](docs/staff-study.md).
-- **The harnesses differ.** The Claude models play through Claude Code, the GPT-6 models through
-  the Codex CLI, DeepSeek through its API. Our prompt bytes are identical; each harness wraps
-  them in its own system prompt ([`docs/players.md`](docs/players.md)).
-- **Two rules changed after the first games.** The tie-break for two broken armies was added
-  after 60 games and applied back to them (it changes ten results). After round 1 the staff
-  learned to place a point given as "400 m east of the village", and the generals' brief, which
-  had said such a point cannot be found, was changed to allow it; DeepSeek's round-1 games,
-  replayed with both, moved from 37% to 32%. Round 2 was played with both.
-- **Luna's round 2.** Luna scored 36% in round 1 and 57% in round 2. Controlled replays put it
-  back at 29 to 42%, so we pool the rounds and read the jump as chance.
-- **The horse army on Arms wins 55%.** Plain and Mirror are even. Every pair plays both sides,
-  so the seat cancels in the standings.
-- **Built with a contestant.** The engine and the harness were written with the help of Claude
-  Fable 5.1 and Codex models. Fable also plays.
-- **Three faults were fixed after the matrix.** An order sent again restarted the task (which
-  favoured a general who repeats himself), an order to the army hid the brigades' tasks in the
-  brief, and a rally ignored the place it named. The games were played with them and replay on
-  the tag `matrix` ([`docs/engine.md`](docs/engine.md#changes-since-the-matrix)).
-- **One engine, one era.** The results describe command in this game.
+- **One game is close to a coin flip**: replaying the same pairings gave the same winner in 15
+  of 30. The standings rest on 144 games a model.
+- **The staff and the harnesses are part of the instrument.** Every order is read by a model
+  (Jev 1.14 in 450 games, GPT-6 Luna in 54), and each player runs in its own vendor's harness
+  ([`docs/players.md`](docs/players.md)).
+- **Fable helped build the engine**, and also plays.
+- Rule changes between rounds, the seat balance and the engine fixes made after the matrix:
+  [`docs/results.md`](docs/results.md), [`docs/engine.md`](docs/engine.md#changes-since-the-matrix).
 
 ## Running it
 
@@ -152,22 +130,17 @@ The engine, the staff, the brief and the play loop: [`docs/engine.md`](docs/engi
 uv sync --group dev
 uv run pytest                     # the test suite, about two minutes
 
-# a scripted game: both sides play the pack's script, a stub staff, no model and no network
+# a scripted game: no model, no network
 uv run python -m kriegsspiel.run --scenario data/plain-crossroads --mode stub
 
-# a game between two models; the staff is Jev through the Vercel AI Gateway (AI_GATEWAY_API_KEY)
-# or OpenRouter (OPENROUTER_API_KEY), either key in .local/.env; or a Codex model standing in
-# for Jev with JEV_MODEL=codex/gpt-6-luna
+# a game between two models (the staff is Jev: AI_GATEWAY_API_KEY or OPENROUTER_API_KEY in .local/.env)
 uv run python -m kriegsspiel.run --scenario data/plain-crossroads \
   --players red=opus,blue=sol --mode record
 
-# replay a game from its full run log and the staff's recorded answers beside it, bit for bit,
-# with no model or network call, on the code it was played with (the matrix's round 2: the tag
-# `matrix`); the records in games/ are slimmed and do not replay
+# replay a game bit for bit from its full run log
 uv run python -m kriegsspiel.run replay runs/<game>/run.jsonl
 
-# a round robin on one battle (the matrix ran this on all three, seeds 1 to 4),
-# then the standings over its records
+# a round robin, then its standings
 uv run python -m kriegsspiel.grid --scenario data/plain-crossroads \
   --round-robin opus,sol,luna --seeds 1 --out runs/my-grid
 uv run python scripts/slim_games.py --out games/mine runs/my-grid
@@ -186,13 +159,9 @@ staff read it, every melee the umpire weighed, and the verdict. The format is de
 [`scripts/slim_games.py`](scripts/slim_games.py). `games/extra/` holds the noise-floor replays,
 the DeepSeek rerun and the GPT-6 replays.
 
-The full run logs (every minute of the engine, every staff request and answer) are attached to
-the release [`matrix`](https://github.com/onblueroses/general-bench/releases/tag/matrix) as three
-archives laid out as `games/` is (`tar --zstd -xf general-bench-logs-round-2.tar.zst`).
-`MANIFEST.tsv` names the development commit each game was played on and whether it replays bit
-for bit on the tag `matrix`: round 2, the DeepSeek rerun, the noise floor and the GPT-6 replays on
-current code do (456 games); round 1 and the replays on its code were played before the staff
-fix and the brief change, on code that is not published.
+The full run logs are in the release
+[`matrix`](https://github.com/onblueroses/general-bench/releases/tag/matrix); round 2 replays bit for
+bit on that tag.
 
 | script | what it prints |
 |---|---|
