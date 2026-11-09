@@ -38,7 +38,8 @@ scale. Intervals and ranks come from resampling the games. Reproduce with
 **Three tiers.** Astra is first in 99% of the resamples. Fable, Sol, Opus and Luna form the
 middle; DeepSeek and Sonnet the bottom.
 
-Head to head, rounds, replays, the noise floor and the seat balance: [`docs/results.md`](docs/results.md).
+Head to head, rounds, replays, the noise floor, the seat balance and the rule changes:
+[`docs/results.md`](docs/results.md); the engine fixes since: [`docs/engine.md`](docs/engine.md#changes-since-the-matrix).
 
 ## Each model commands in its own way
 
@@ -112,17 +113,6 @@ The day runs from 09:00 to 16:00, with up to two hours of play-on. Design and nu
    decided by a break.
 
 The engine, the staff, the brief and the play loop: [`docs/engine.md`](docs/engine.md).
-
-## Notes
-
-- **One game is close to a coin flip**: replaying the same pairings gave the same winner in 15
-  of 30. The standings rest on 144 games a model.
-- **The staff and the harnesses are part of the instrument.** Every order is read by a model
-  (Jev 1.14 in 450 games, GPT-6 Luna in 54), and each player runs in its own vendor's harness
-  ([`docs/players.md`](docs/players.md)).
-- **Fable helped build the engine**, and also plays.
-- Rule changes between rounds, the seat balance and the engine fixes made after the matrix:
-  [`docs/results.md`](docs/results.md), [`docs/engine.md`](docs/engine.md#changes-since-the-matrix).
 
 ## Running it
 
